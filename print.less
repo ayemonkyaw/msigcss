@@ -1,0 +1,171 @@
+@import "styleguide.less";
+
+
+body {
+    font-family: Ubuntu-Regular;
+}
+.print-logo-wrapper {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 7px solid @blue;
+}
+.print-logo {
+    display: inline-block;
+    max-width: 100%;
+}
+
+input[type='checkbox'] {
+	visibility: hidden; 
+	position: absolute;
+	width: auto !important;
+}
+
+.ticked {
+    display: inline-block;
+    border-bottom: 2px solid @blue;
+    border-right: 2px solid @blue;
+    .rotate(45deg);
+    width: 6px;
+    height: 14px;
+}
+
+.scroll-table {
+    width: 100%;
+    margin: 0 30px;
+    overflow-x: auto;
+    .checklist-table {
+        tr {
+            th {
+                padding: 10px;
+                border-right: 1px solid @light-grey;
+                border-bottom: 1px solid @light-grey;
+                background: @grey1;
+                text-align: center;
+                p {
+                    color: @blue;
+                }
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+            td {
+                text-align: center;
+                border-right: 1px solid @light-grey;
+                border-bottom: 1px solid @light-grey;
+                padding: 10px;
+                font-size: 13px;
+                &:first-child {
+                    font-size: 16px;
+                    text-align: left;
+                }
+                &:last-child {
+                    border-right: 0;
+                }
+                &.disabled{
+                    background: @grey1;
+                    color: @dark-grey;
+                    opacity: 0.5;
+                }
+                p {
+                    margin-top: 10px;
+                }
+                ul, ol {
+                    margin: 10px 0 0;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+input[type='checkbox']+label {
+	padding: 0 0 0 35px !important;
+	position: relative;
+	display: inline-block;
+	line-height: 16px;
+	cursor: pointer;
+	&::before {
+		content: '';
+		width: 15px;
+		height: 15px;
+		left: 0;
+		position: absolute;
+		border: 2px solid @blue;
+		.border-radius(3px);
+	}
+	&:after {
+		content: '';
+		width: 0px;
+        height: 0px;
+        border: 5.5px solid @blue; 
+		opacity: 0;
+		background: @blue;
+		position: absolute;
+		left: 4px;
+		top: 4px;
+		.border-radius(2px);
+		.transition(0.3s all);
+	}
+}
+
+input[type='checkbox']:checked+label {
+	&:after {
+		opacity: 1;
+	}
+}
+
+.accordion-question-title {
+    position: relative;
+    color: @blue;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 15px;
+}
+.accordion-answer { 
+    padding: 10px 0;
+    .answer-group {
+        display: inline-block;
+        width: calc(~"50% - 30px");
+        vertical-align: top;
+        &:nth-child(1) {
+            margin-right: 15px;
+        }
+        &:nth-child(2) {
+            margin-left: 15px;
+        }
+    }
+    .answer-item {
+        position: relative;
+        margin: 10px 0 10px 0;
+        vertical-align: top;
+        padding-right: 35px;
+        label {
+            position: static;
+            width: 100%;
+            padding-left: 20px!important;
+            white-space: unset;
+            line-height: 25px;
+            span {
+                left: 0;
+                position: absolute;
+                padding-right: 5px;
+            }
+            &::before {
+                top: 3px;
+                right: 0; 
+                left: auto;
+             }
+             &::after {
+                right: 4px;
+                top: 7px;
+                left: auto;
+             }
+        }
+        .ticked {
+            position: absolute;
+            right: 7px;
+            top: 4px;
+        }
+    }
+}

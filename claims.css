@@ -1,0 +1,1143 @@
+.sprite {
+  background: url(images/sprite.png) no-repeat;
+}
+/* Keyframes */
+/* Common Media */
+.pr-footer {
+  color: #808080;
+}
+ul.tick,
+ol.tick {
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+ul.tick li,
+ol.tick li {
+  list-style-type: none !important;
+  background: url(images/icon_tick.png) 0 8px no-repeat !important;
+  padding-left: 32px !important;
+  margin-bottom: 12px !important;
+}
+ul.no-tick {
+  list-style-type: disc !important;
+  margin-left: 32px !important;
+}
+ul.no-tick li {
+  list-style-type: disc !important;
+  margin-left: 0 !important;
+}
+ol.no-tick {
+  list-style-type: decimal !important;
+  margin-left: 32px !important;
+}
+ol.no-tick li {
+  list-style-type: decimal !important;
+  margin-left: 0 !important;
+}
+.claim-footer__custom-block {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+@media only screen and (max-width: 1637px) {
+  .claim-footer__custom-block {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .claim-footer__custom-block {
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .claim-footer__custom-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .claim-footer__custom-block {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .claim-footer__custom-block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .claim-footer__custom-block {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.mt0 {
+  margin-top: 0 !important;
+}
+/* page-node-type--claims Start */
+.page-node-type--claims .ticked {
+  display: inline-block;
+  border-bottom: 2px solid #1c0761;
+  border-right: 2px solid #1c0761;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 6px;
+  height: 14px;
+}
+.page-node-type--claims a:link,
+.page-node-type--claims a:visited {
+  color: #808080;
+}
+.page-node-type--claims .page-main-title {
+  color: #ec0c19;
+  margin: 50px 0 15px;
+}
+.page-node-type--claims .page-title {
+  margin-top: 0;
+}
+.page-node-type--claims .other-claims-title {
+  margin-bottom: 20px;
+  margin-top: 105px;
+}
+.page-node-type--claims .field-counrty {
+  margin-bottom: 18px;
+}
+.page-node-type--claims .field-counrty a:link,
+.page-node-type--claims .field-counrty a:visited {
+  color: #1c0761;
+  font-size: 24px;
+}
+.page-node-type--claims .page-title {
+  margin-bottom: 20px;
+}
+.page-node-type--claims .title-img {
+  max-width: 230px;
+}
+.page-node-type--claims .field-subtitle {
+  margin-bottom: 48px;
+  font-size: 24px;
+  width: 490px;
+  max-width: 100%;
+}
+.page-node-type--claims .field-subtitle p {
+  margin-bottom: 16px;
+}
+.page-node-type--claims .normal-text {
+  padding: 20px 0 40px;
+}
+.page-node-type--claims .scroll-table {
+  width: calc(100% + 60px);
+  margin: 0 -30px;
+  overflow-x: auto;
+}
+.page-node-type--claims .scroll-table .checklist-table tr th {
+  padding: 10px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background: #f7f7f7;
+  text-align: center;
+  min-width: 100px;
+}
+.page-node-type--claims .scroll-table .checklist-table tr th p {
+  color: #1c0761;
+}
+.page-node-type--claims .scroll-table .checklist-table tr th:last-child {
+  border-right: 0;
+}
+.page-node-type--claims .scroll-table .checklist-table tr td {
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px;
+  font-size: 13px;
+  min-width: 100px;
+}
+.page-node-type--claims .scroll-table .checklist-table tr td:first-child {
+  font-size: 16px;
+  text-align: left;
+}
+.page-node-type--claims .scroll-table .checklist-table tr td:last-child {
+  border-right: 0;
+}
+.page-node-type--claims .scroll-table .checklist-table tr td.disabled {
+  background: #f7f7f7;
+  color: #707070;
+  opacity: 0.5;
+}
+.page-node-type--claims .scroll-table .checklist-table tr td p {
+  margin-top: 10px;
+}
+.page-node-type--claims .scroll-table .checklist-table tr td ul,
+.page-node-type--claims .scroll-table .checklist-table tr td ol {
+  margin: 10px 0 0;
+  text-align: left;
+}
+.page-node-type--claims .claim-procedure-wrapper {
+  margin: 0 -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure {
+  border-right: 1px solid #e6e6e6;
+  width: 33.33333333%;
+  padding: 0px 15px 0;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .mainaccordion .accordion_content .field__items .field__item .accordion_section_content h5 {
+  margin-bottom: 20px;
+  color: #ec0c19;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-heading {
+  border: 1px solid #ec0c19;
+  padding: 50px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  min-height: 200px;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-heading span {
+  font-size: 40px;
+  color: #1c0761;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-heading p {
+  font-size: 24px;
+  color: #ec0c19;
+  line-height: 32px;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content {
+  padding: 30px 20px 0;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content p {
+  margin-bottom: 16px;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ul,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ol {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ul li ul,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ol li ul,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ul li ol,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ol li ol {
+  margin-bottom: 0;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content ul {
+  list-style-type: disc;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content a:link,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content a:visited {
+  text-decoration: underline;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure:nth-child(3) {
+  border-right: 0 none;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure.claim-procedure-4,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure.claim-procedure-5,
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure.claim-procedure-6 {
+  margin-top: 30px;
+}
+.page-node-type--claims .claim-procedure-wrapper .claim-procedure:last-child {
+  border-right: 0 none;
+}
+.page-node-type--claims .claim-procedure-wrapper.claim-procedure-boxes-2 .claim-procedure {
+  width: 50%;
+}
+.page-node-type--claims .claim-procedure-form-sumit#claim-proceture-not-sticky {
+  margin-bottom: 70px;
+}
+.page-node-type--claims .claim-procedure-form-sumit .claim-procudure-submit-link {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.page-node-type--claims .claim-procedure-form-sumit .claim-procudure-submit-link li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+.page-node-type--claims .claim-procedure-form-sumit .claim-procudure-submit-link li .msig-btn {
+  height: auto;
+  min-height: 40px;
+}
+.page-node-type--claims .claim-procedure-form-sumit .claim-procudure-submit-link ul {
+  text-align: left;
+}
+.page-node-type--claims .claim-procedure-form-sumit .claim-procudure-submit-link ul li {
+  display: block;
+  margin: 0;
+}
+.page-node-type--claims .desktop-claim-sticky,
+.page-node-type--claims .mobile-claim-sticky {
+  position: fixed;
+  height: 60px;
+  top: -60px;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+.page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+@media only screen and (max-width: 1637px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper,
+.page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procedure-type .claim-label,
+.page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procedure-type .claim-label {
+  display: inline-block;
+  color: #ec0c19;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procedure-type .claim-title,
+.page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procedure-type .claim-title {
+  display: inline-block;
+  color: #1c0761;
+  font-size: 20px;
+}
+@media only screen and (max-width: 1137px) {
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link {
+    position: absolute;
+    top: 60px;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    padding: 30px;
+    text-align: left;
+  }
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link li,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link li {
+    margin: 0 0 20px 0;
+    float: left;
+    display: block;
+    clear: both;
+  }
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link li ul li,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link li ul li {
+    margin: 0;
+  }
+  .page-node-type--claims .desktop-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link li:last-child,
+  .page-node-type--claims .mobile-claim-sticky .claim-proceture-sticky-inner-wrapper .claim-procudure-submit-link li:last-child {
+    margin-bottom: 0;
+  }
+}
+.page-node-type--claims .desktop-claim-sticky .claim-procedure-type-mobile,
+.page-node-type--claims .mobile-claim-sticky .claim-procedure-type-mobile {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-procedure-type-mobile .claim-label,
+.page-node-type--claims .mobile-claim-sticky .claim-procedure-type-mobile .claim-label {
+  display: inline-block;
+  color: #ec0c19;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-procedure-type-mobile .claim-title,
+.page-node-type--claims .mobile-claim-sticky .claim-procedure-type-mobile .claim-title {
+  display: inline-block;
+  color: #1c0761;
+  font-size: 20px;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-procedure-type-mobile::after,
+.page-node-type--claims .mobile-claim-sticky .claim-procedure-type-mobile::after {
+  content: "";
+  background: #FFF url(images/up_arrow.png) no-repeat 50%;
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 10px;
+  margin-top: -5px;
+  right: 30px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.page-node-type--claims .desktop-claim-sticky .claim-procedure-type-mobile.open-dropdown::after,
+.page-node-type--claims .mobile-claim-sticky .claim-procedure-type-mobile.open-dropdown::after {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+.page-node-type--claims .desktop-claim-sticky.animate-sticky,
+.page-node-type--claims .mobile-claim-sticky.animate-sticky {
+  top: 0;
+}
+@media only screen and (max-width: 480px) {
+  .page-node-type--claims .mobile-claim-sticky {
+    padding: 0 15px;
+  }
+}
+.page-node-type--claims .mobile-claim-sticky .claim-procudure-submit-link {
+  display: none;
+}
+.page-node-type--claims .mobile-claim-sticky .claim-procudure-submit-link.isOpen {
+  display: block !important;
+  box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+}
+.page-node-type--claims .claim-procedure-details {
+  font-size: 0;
+  height: 0;
+}
+.page-node-type--claims .claim-procedure a:link,
+.page-node-type--claims .claim-procedure a:visited {
+  text-decoration: underline;
+}
+.page-node-type--claims .claim-procedure .mainaccordion {
+  margin-bottom: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion ul,
+.page-node-type--claims .claim-procedure .mainaccordion ol {
+  margin-bottom: 16px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion p {
+  margin-bottom: 16px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion p.nomargin-top {
+  margin-top: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion p.nomargin-bottom {
+  margin-bottom: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion p:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .q-a-header {
+  position: relative;
+  background: #e6e6e6;
+  color: #1c0761;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 15px 25px 15px 30px;
+  margin: 30px -30px 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .q-a-header .q-a-text {
+  display: inline-block;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .q-a-header .q-a-print {
+  display: inline-block;
+  float: right;
+  background: url(images/print-icon.png) no-repeat;
+  text-indent: -9999px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .q-a-body {
+  margin-bottom: -30px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .q-a-body .print-logo-wrapper {
+  display: none;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-question-title {
+  position: relative;
+  background: #1c0761;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 15px 56px 15px 30px;
+  margin: 0 -30px 1px;
+  border: none;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-question-title::after {
+  content: "";
+  position: absolute;
+  right: 30px;
+  border-top: 1px solid #FFF;
+  width: 25px;
+  top: 35px;
+  transform-origin: center;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-question-title::before {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 41px;
+  border-left: 1px solid #FFF;
+  height: 23px;
+  top: 35px;
+  margin-top: -11px;
+  transform-origin: center;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-question-title.ui-state-active::before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-question-title.ui-state-active::after {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer {
+  padding: 25px 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-group {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-group:nth-child(1) .answer-item:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item {
+  position: relative;
+  margin: 10px 0 10px 0;
+  vertical-align: top;
+  padding-right: 20px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item label {
+  position: static;
+  width: 100%;
+  padding-left: 27px!important;
+  white-space: unset;
+  line-height: 25px;
+  font-weight: normal;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item label span {
+  left: 0;
+  position: absolute;
+  padding-right: 5px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item label::before {
+  top: 3px;
+  right: 0;
+  left: auto;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item label::after {
+  right: 4px;
+  top: 7px;
+  left: auto;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item .ticked {
+  position: absolute;
+  right: 7px;
+  top: 4px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion #faq + .accordion_section_content,
+.page-node-type--claims .claim-procedure .mainaccordion #faqs + .accordion_section_content {
+  padding: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion #faq + .accordion_section_content .accordion_section_title,
+.page-node-type--claims .claim-procedure .mainaccordion #faqs + .accordion_section_content .accordion_section_title {
+  background: #1c0761;
+  color: #FFF;
+}
+.page-node-type--claims .claim-procedure .mainaccordion #faq + .accordion_section_content .accordion_section_title::after,
+.page-node-type--claims .claim-procedure .mainaccordion #faqs + .accordion_section_content .accordion_section_title::after,
+.page-node-type--claims .claim-procedure .mainaccordion #faq + .accordion_section_content .accordion_section_title::before,
+.page-node-type--claims .claim-procedure .mainaccordion #faqs + .accordion_section_content .accordion_section_title::before {
+  border-color: #FFF;
+}
+.page-node-type--claims .claim-procedure .mainaccordion #faq + .accordion_section_content .section-rich-text.heading,
+.page-node-type--claims .claim-procedure .mainaccordion #faqs + .accordion_section_content .section-rich-text.heading {
+  padding: 20px 25px;
+  font-size: 18px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion #workshop-and-idac-locator + .accordion_section_content {
+  overflow: hidden;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter,
+.page-node-type--claims .claim-procedure .mainaccordion .locations-result-section,
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing {
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter {
+  padding: 0 30px 30px;
+  width: 35%;
+  margin-right: 40px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form {
+  margin-bottom: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .list-unstyled {
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 -30px 25px;
+  padding: 15px 30px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .list-unstyled li {
+  position: relative;
+  list-style: none;
+  display: none;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .list-unstyled li:first-child {
+  display: block;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .list-unstyled li:first-child:after {
+  content: " ";
+  background: url(images/down_arrow.png) no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 15px;
+  height: 10px;
+  z-index: 2;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form h4 {
+  margin: 20px 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list,
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list {
+  padding: 0 60px;
+  margin: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li,
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  margin-right: 45px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li label,
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li label {
+  position: static;
+  padding-left: 10px!important;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li label::before,
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li label::before {
+  right: 0;
+  left: auto;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li label::after,
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li label::after {
+  right: 4px;
+  left: auto;
+  top: 8px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li:nth-child(2n),
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li:nth-child(2n) {
+  margin-right: 0px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop_wrapper {
+  margin-bottom: 35px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop_wrapper .workshop-list li {
+  width: 100%;
+  margin-right: 0px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button {
+  background: #ec0c19 !important;
+  border: 1px solid #FFF !important;
+  border: none;
+  color: #FFF;
+  margin: 0 15px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button:hover {
+  background: #FFF !important;
+  color: #808080;
+  border: 1px solid #808080 !important;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .locations-result-section {
+  width: calc(65% - 45px);
+  margin-right: 0;
+  float: right;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing {
+  float: left;
+  height: 600px;
+  overflow-y: auto;
+  padding: 30px 0px 30px 30px;
+  width: 35%;
+}
+@media only screen and (max-width: 1638px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing {
+    width: 40%;
+  }
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item {
+  padding: 0;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item.hide {
+  display: none;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item .workshop-item h3 {
+  color: #ec0c19;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item .workshop-item h4 {
+  color: #1c0761;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item .workshop-item h4 p {
+  margin: 0;
+  color: #1c0761;
+  font-size: 18px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item .workshop-item .workshop-dec p {
+  margin: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item .workshop-item .workshop-dec a {
+  text-decoration: underline;
+  color: #808080;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #BBBBBB;
+  height: 120px;
+  width: 8px;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_draggerRail {
+  display: none;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion_section_content .accordion_section_content {
+  /* .accordion_section_content {
+                        margin-left: -30px;
+                        margin-right: -30px;
+                        border: none;
+                    } */
+}
+.page-node-type--claims .claim-procedure .mainaccordion .accordion_section_content .accordion_section_content .accordion_section_title {
+  background: #aaa9c9 !important;
+  /* margin-left: -30px;
+                        margin-right: -30px; */
+}
+.page-node-type--claims .claim-procedure .mainaccordion .no-padding {
+  padding: 0;
+}
+.page-node-type--claims .claim-procedure .mainaccordion .no-padding .accordion_section_content {
+  border: none;
+}
+.page-node-type--claims .remark {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 90px;
+}
+.page-node-type--claims .claim-details {
+  border-bottom: 1px solid #e6e6e6;
+}
+.page-node-type--claims .claim-details h4 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.page-node-type--claims .claim-details .dos-donts .dos {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+  border-right: 1px solid #e6e6e6;
+}
+.page-node-type--claims .claim-details .dos-donts .donts {
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form,
+.page-node-type--claims .msig-th-hospital-form form {
+  border: 1px solid #808080;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row,
+.page-node-type--claims .msig-th-hospital-form form .view-row {
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row .label,
+.page-node-type--claims .msig-th-hospital-form form .view-row .label {
+  width: 40%;
+  padding: 20px 30px;
+  color: #FFF;
+  display: block;
+  font-size: 18px;
+  background: #ef8f93;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row .form-radios,
+.page-node-type--claims .msig-th-hospital-form form .view-row .form-radios,
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row .form-type-select,
+.page-node-type--claims .msig-th-hospital-form form .view-row .form-type-select {
+  width: 60%;
+  padding: 20px 30px;
+  margin: 0;
+  position: relative;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row .recommended-garage-img,
+.page-node-type--claims .msig-th-hospital-form form .view-row .recommended-garage-img {
+  position: absolute;
+  top: -12px;
+  max-width: 90px;
+  left: 200px;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row .ui-selectmenu-button.ui-button,
+.page-node-type--claims .msig-th-hospital-form form .view-row .ui-selectmenu-button.ui-button,
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row .form-type-select__select-wrapper,
+.page-node-type--claims .msig-th-hospital-form form .view-row .form-type-select__select-wrapper {
+  width: 350px;
+  text-align: left;
+  max-width: 100%;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-3,
+.page-node-type--claims .msig-th-hospital-form form .view-row.view-row-3 {
+  display: block;
+  border-bottom: none;
+  position: relative;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-3 .view-row,
+.page-node-type--claims .msig-th-hospital-form form .view-row.view-row-3 .view-row {
+  width: 100%;
+  border: none;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-3 .view-row.view-row-3,
+.page-node-type--claims .msig-th-hospital-form form .view-row.view-row-3 .view-row.view-row-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-3 .view-row.last-item .label,
+.page-node-type--claims .msig-th-hospital-form form .view-row.view-row-3 .view-row.last-item .label {
+  padding-bottom: 130px;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-3 .js-form-submit,
+.page-node-type--claims .msig-th-hospital-form form .view-row.view-row-3 .js-form-submit {
+  position: absolute;
+  left: calc(40% + 30px);
+  bottom: 20px;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-3 .required-text,
+.page-node-type--claims .msig-th-hospital-form form .view-row.view-row-3 .required-text {
+  display: none;
+}
+.page-node-type--claims .msig-th-garage-dealers-form form .view-row.view-row-1 .form-type-radio {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 40px;
+}
+/** Media Query Start **/
+@media only screen and (max-width: 1638px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter {
+    width: 40%;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .locations-result-section {
+    width: calc(60% - 45px);
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list {
+    padding: 0 42px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button {
+    margin: 0 7px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter {
+    width: 40%;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .locations-result-section {
+    width: calc(60% - 45px);
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list {
+    padding: 0 33px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li {
+    margin-right: 35px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list {
+    padding: 0 30px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button {
+    margin: 0 5px;
+    padding: 0 20px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing .mCSB_container > .field > .field__items > .field__item {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .page-node-type--claims .page-main-title {
+    margin-top: 50px;
+  }
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-heading {
+    padding: 30px;
+    min-height: 160px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button {
+    margin: 5px 5px;
+    min-width: 100px;
+    padding: 0 17px;
+  }
+  .page-node-type--claim-case-sharing .share-claim-image {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 977px) {
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-heading {
+    min-height: 195px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter,
+  .page-node-type--claims .claim-procedure .mainaccordion .locations-result-section,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing {
+    width: 100%;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li {
+    width: calc(50% - 23px);
+    margin-right: 40px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing > .field > .field__items > .field__item {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing > .field > .field__items > .field__item:last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 857px) {
+  .page-node-type--claims .claim-procedure-wrapper {
+    display: block;
+  }
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-heading {
+    min-height: inherit;
+  }
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure .claim-procedure-content {
+    padding: 20px 20px 0;
+  }
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure.claim-procedure-1,
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure.claim-procedure-2 {
+    border-right: none;
+  }
+  .page-node-type--claims .claim-procedure-wrapper.claim-procedure-boxes-2 .claim-procedure {
+    width: 100%;
+  }
+  .page-node-type--claims .claim-details .dos-donts .dos {
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+  }
+  .page-node-type--claims .claim-details .dos-donts .donts {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .accordion-question-title,
+  .page-node-type--claims .claim-procedure .mainaccordion .accordion_section_title {
+    padding: 10px 55px 10px 20px !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-group {
+    display: block;
+    width: 100%;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-group:nth-child(1) {
+    margin-right: 0;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-group:nth-child(2) {
+    margin-left: 0;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .accordion-answer .answer-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list {
+    padding: 0px 20px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li {
+    width: calc(50% - 13px);
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter,
+  .page-node-type--claims .claim-procedure .mainaccordion .locations-result-section,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing {
+    width: 100%;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list {
+    width: 100%;
+    padding: 0  0 0 10px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .location-list li,
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .workshop-list li {
+    width: 100%;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-location-filter form .button {
+    display: block;
+    margin: 0 auto 20px;
+    min-width: 135px;
+    padding: 0 30px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing {
+    padding: 40px 30px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing > .field > .field__items > .field__item {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .page-node-type--claims .claim-procedure .mainaccordion .workshop-listing > .field > .field__items > .field__item:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .page-node-type--claims .claim-procedure-wrapper {
+    display: block;
+  }
+  .page-node-type--claims .claim-procedure-wrapper .claim-procedure {
+    display: inline-block;
+    margin: 0 -1.5px;
+    vertical-align: top;
+  }
+}

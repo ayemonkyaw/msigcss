@@ -1,0 +1,208 @@
+.sprite {
+  background: url(images/sprite.png) no-repeat;
+}
+/* Keyframes */
+/* Common Media */
+.pr-footer {
+  color: #808080;
+}
+ul.tick,
+ol.tick {
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+ul.tick li,
+ol.tick li {
+  list-style-type: none !important;
+  background: url(images/icon_tick.png) 0 8px no-repeat !important;
+  padding-left: 32px !important;
+  margin-bottom: 12px !important;
+}
+ul.no-tick {
+  list-style-type: disc !important;
+  margin-left: 32px !important;
+}
+ul.no-tick li {
+  list-style-type: disc !important;
+  margin-left: 0 !important;
+}
+ol.no-tick {
+  list-style-type: decimal !important;
+  margin-left: 32px !important;
+}
+ol.no-tick li {
+  list-style-type: decimal !important;
+  margin-left: 0 !important;
+}
+body {
+  font-family: Ubuntu-Regular;
+}
+.print-logo-wrapper {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 7px solid #1c0761;
+}
+.print-logo {
+  display: inline-block;
+  max-width: 100%;
+}
+input[type='checkbox'] {
+  visibility: hidden;
+  position: absolute;
+  width: auto !important;
+}
+.ticked {
+  display: inline-block;
+  border-bottom: 2px solid #1c0761;
+  border-right: 2px solid #1c0761;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 6px;
+  height: 14px;
+}
+.scroll-table {
+  width: 100%;
+  margin: 0 30px;
+  overflow-x: auto;
+}
+.scroll-table .checklist-table tr th {
+  padding: 10px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background: #f7f7f7;
+  text-align: center;
+}
+.scroll-table .checklist-table tr th p {
+  color: #1c0761;
+}
+.scroll-table .checklist-table tr th:last-child {
+  border-right: 0;
+}
+.scroll-table .checklist-table tr td {
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px;
+  font-size: 13px;
+}
+.scroll-table .checklist-table tr td:first-child {
+  font-size: 16px;
+  text-align: left;
+}
+.scroll-table .checklist-table tr td:last-child {
+  border-right: 0;
+}
+.scroll-table .checklist-table tr td.disabled {
+  background: #f7f7f7;
+  color: #707070;
+  opacity: 0.5;
+}
+.scroll-table .checklist-table tr td p {
+  margin-top: 10px;
+}
+.scroll-table .checklist-table tr td ul,
+.scroll-table .checklist-table tr td ol {
+  margin: 10px 0 0;
+  text-align: left;
+}
+input[type='checkbox'] + label {
+  padding: 0 0 0 35px !important;
+  position: relative;
+  display: inline-block;
+  line-height: 16px;
+  cursor: pointer;
+}
+input[type='checkbox'] + label::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  border: 2px solid #1c0761;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+input[type='checkbox'] + label:after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 5.5px solid #1c0761;
+  opacity: 0;
+  background: #1c0761;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+input[type='checkbox']:checked + label:after {
+  opacity: 1;
+}
+.accordion-question-title {
+  position: relative;
+  color: #1c0761;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 15px;
+}
+.accordion-answer {
+  padding: 10px 0;
+}
+.accordion-answer .answer-group {
+  display: inline-block;
+  width: calc(50% - 30px);
+  vertical-align: top;
+}
+.accordion-answer .answer-group:nth-child(1) {
+  margin-right: 15px;
+}
+.accordion-answer .answer-group:nth-child(2) {
+  margin-left: 15px;
+}
+.accordion-answer .answer-item {
+  position: relative;
+  margin: 10px 0 10px 0;
+  vertical-align: top;
+  padding-right: 35px;
+}
+.accordion-answer .answer-item label {
+  position: static;
+  width: 100%;
+  padding-left: 20px!important;
+  white-space: unset;
+  line-height: 25px;
+}
+.accordion-answer .answer-item label span {
+  left: 0;
+  position: absolute;
+  padding-right: 5px;
+}
+.accordion-answer .answer-item label::before {
+  top: 3px;
+  right: 0;
+  left: auto;
+}
+.accordion-answer .answer-item label::after {
+  right: 4px;
+  top: 7px;
+  left: auto;
+}
+.accordion-answer .answer-item .ticked {
+  position: absolute;
+  right: 7px;
+  top: 4px;
+}

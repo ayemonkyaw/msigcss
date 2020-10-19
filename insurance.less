@@ -1,0 +1,2402 @@
+@import "styleguide.less";
+.keyframes(ctaIcons, {
+    0% {
+        transform: translate3d(0, 0, 0);
+        height: auto;
+    }
+    33% {
+        transform: translate3d(0, -5px, 0);
+        height: auto;
+    }
+    66% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        height: auto;
+    }
+}
+
+);
+.keyframes(ctaIconsSticky, {
+    0% {
+        transform: translate3d(0, 0, 0);
+        height: auto;
+    }
+    33% {
+        transform: translate3d(0, -4px, 0);
+        height: auto;
+    }
+    66% {
+        transform: translate3d(0, 0, 0);
+        height: 23px;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        height: auto;
+    }
+}
+
+);
+.page-latest-products-packages {
+    .block-plugin-id--views-block-latest-products-category-icon-block-1,
+    .block-plugin-id--views-block-latest-products-category-icon-block-2 {
+        .block__title {
+            color: @blue;
+            font-size: 40px;
+            margin-bottom: 27px;
+            max-width: 390px;
+            line-height: 45px;
+        }
+        .view-latest-products-category-icon {
+            margin: 70px 0;
+            .view-rows {
+                ul {
+                    max-width: 800px;
+                    width: 100%;
+                    margin-left: -46px;
+                    li.product-category-icon-wrapper {
+                        width: 20%;
+                        display: inline-block;
+                        text-align: center;
+                        padding: 0 5px;
+                        list-style-type: none;
+                        border-right: 1px solid @dark-grey5;
+                        a:link,
+                        a:visited {
+                            display: block;
+                            .cta-icon {
+                                position: relative;
+                                height: 41px;
+                            }
+                            .cta-label {
+                                margin-top: 7px;
+                                color: #273d93;
+                                font-size: 16px;
+                            }
+                            img {
+                                bottom: 0;
+                                width: 32px;
+                                position: absolute;
+                                left: 50%;
+                                margin-left: -21px;
+                            }
+                            &:hover {
+                                text-decoration: none;
+                                @media only screen and (min-width: 978px) {
+                                    img {
+                                        .css-animation(ctaIcons, 0.65s, linear, 1, forwards);
+                                    }
+                                }
+                            }
+                        }
+                        &:last-child {
+                            border-right: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.node--view-mode-product-teaser {
+    .insurance-plan-item {
+        margin-top: 40px;
+    }
+}
+
+.page-commercial-insurance {
+    .view-quote-btn {
+        display: none;
+    }
+}
+
+.page-personal-insurance,
+.page-commercial-insurance,
+.page-latest-products-packages {
+    article {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 3px;
+    }
+    h1.node__title {
+        margin: 50px 0 15px;
+        font-size: 40px;
+        color: @red;
+        text-transform: capitalize;
+    }
+    .l-main {
+        margin-left: 130px;
+        margin-right: 130px;
+        .block-main-content {
+            max-width: 530px;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            margin-bottom: 30px;
+            article {
+                padding: 0;
+            }
+        }
+        /* .l-r {
+            padding: 0;
+        } */
+        .pr-main__content {
+            margin: 0 auto;
+            .media(1637px, 1280px);
+            .media(1403px, 1150px);
+            .media(1317px, 1100px);
+            .media(1137px, 940px);
+            .media(977px, 820px);
+            .media(857px, 720px);
+            .media(757px, 620px);
+            .media(640px, 100%);
+        }
+        .view-insurance {
+            .view-rows {
+                .views-row {
+                    position: relative;
+                    padding-bottom: 70px;
+                    margin-bottom: 90px;
+                    border-bottom: 1px solid @dark-grey5;
+                    &:last-child {
+                        border-bottom: 0;
+                        margin-bottom: 0;
+                        padding-bottom: 0;
+                    }
+                    .views-field-field-insurance-image {
+                        position: absolute;
+                        width: 86px;
+                        left: 143px;
+                        top: 0;
+                        img {
+                            display: block;
+                            float: right;
+                        }
+                    }
+                    h2 {
+                        max-width: 630px;
+                        margin: 0 auto;
+                        font-size: 24px;
+                        color: @lightblue;
+                        margin-bottom: 13px;
+                    }
+                    .views-field-body {
+                        max-width: 630px;
+                        margin: 0 auto;
+                        p {
+                            margin-bottom: 25px;
+                        }
+                        h3 {
+                            margin-bottom: 27px;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .view-msig-id-insurance-product-list,
+    .view-msig-id-ces-product-list,
+    .view-latest-products {
+        .view-content {
+            .view-grouping {
+                margin-bottom: 25px;
+                .view-grouping-header {
+                    max-width: 650px;
+                    h3 {
+                        font-size: 24px;
+                        color: @blue;
+                        margin-bottom: 18px;
+                    }
+                }
+                .view-grouping-content {
+                    font-size: 0;
+                    margin: 0 -22px;
+                    .view-title {
+                        font-size: 16px;
+                        font-weight: normal;
+                        margin: 0 22px 46px;
+                        line-height: 24px;
+                        color: @textgrey;
+                        p {
+                            max-width: 650px;
+                        }
+                        .premium-calculator-wrapper {
+                            .flex(flex);
+                            .premium-calculator-col {
+                                &.premium-calculator-description {
+                                    width: 60%;
+                                }
+                                &.premium-calculator-button {
+                                    padding-left: 20px;
+                                    width: 40%;
+                                    text-align: right;
+                                }
+                            }
+                            @media only screen and (max-width: 640px) {
+                                display: block;
+                                .premium-calculator-col {
+                                    &.premium-calculator-description {
+                                        width: 100%;
+                                    }
+                                    &.premium-calculator-button {
+                                        padding-left: 0;
+                                        width: 100%;
+                                        text-align: center;
+                                        margin-top: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .views-row {
+                        display: block !important;
+                        .views-col {
+                            font-size: medium;
+                            width: 100%/3 !important;
+                            display: inline-block;
+                            vertical-align: top;
+                            padding: 0 22px;
+                            margin-bottom: 58px;
+                            -webkit-flex: inherit;
+                            -ms-flex: inherit;
+                            flex: inherit;
+                            article {
+                                padding: 0;
+                                box-shadow: none;
+                            }
+                        }
+                        .node--view-mode-product-teaser {
+                            .insurance-plan-item {
+                                width: 100%;
+                                margin-top: 0;
+                            }
+                        }
+                        .node {
+                            margin-bottom: 0;
+                        }
+                        .insurance-plan-item {
+                            padding: 0;
+                        }
+                    }
+                    .product-list-load-more {
+                        display: block;
+                        margin: 0 22px;
+                        cursor: pointer;
+                        margin-bottom: 90px;
+                        i {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #block-msig-page-title {
+        margin-bottom: 0;
+    }
+    #block-protectthethings {
+        float: left;
+    }
+    #block-msigthinsuranceblock {
+        clear: both;
+    }
+    #block-keepthepulseofyourlivelihood,
+    #block-protectthethings {
+        max-width: 525px;
+        margin-bottom: 77px;
+        margin-top: 0;
+        h2 {
+            color: @blue;
+            font-size: 40px;
+            margin-bottom: 27px;
+            max-width: 390px;
+            line-height: 45px;
+        }
+    }
+    #product-icons-not-sticky {
+        .transition(0.2s background);
+        .block__content {
+            max-width: 1600px;
+        }
+        ul {
+            margin-bottom: 10px;
+            font-size: 0;
+            margin-left: -46px;
+            width: 100%;
+            .transition(0.5s max-width);
+            .insurance-block-li {
+                list-style: none;
+                display: inline-block;
+                text-align: center;
+                padding: 0 5px;
+                border-right: 1px solid @dark-grey5;
+                font-size: medium;
+                width: 12%;
+                vertical-align: top;
+                margin-bottom: 20px;
+                &:last-child {
+                    border-right: none;
+                }
+                .cta-icon {
+                    height: 62px;
+                    position: relative;
+                }
+                .cta-label {
+                    margin-top: 7px;
+                }
+                a {
+                    display: block;
+                    color: @blue;
+                    text-decoration: none;
+                    img {
+                        bottom: 0;
+                        max-width: 44px;
+                        max-height: 44px;
+                        position: absolute;
+                        left: 50%;
+                        margin-left: -20px;
+                    }
+                    &:first-child {
+                        margin-bottom: 4px;
+                    }
+                    &:hover {
+                        @media only screen and (min-width: 978px) {
+                            img {
+                                .css-animation(ctaIcons, 0.65s, linear, 1, forwards);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#product-icons-sticky {
+    opacity: 0;
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: @white;
+    margin: 0;
+    z-index: -1;
+    border-top: 1px solid #fbfbfb;
+    .box-shadow(0px 0px 10px -5px @black);
+    .block__content {
+        margin: 0 auto;
+        max-width: 1600px;
+        .media(1637px, 1280px);
+        .media(1403px, 1150px);
+        .media(1317px, 1100px);
+        .media(1137px, 940px);
+        .media(977px, 820px);
+        .media(857px, 720px);
+        .media(757px, 620px);
+        .media(640px, 100%);
+        .common-margin(insurance-block-ul);
+        font-size: 0;
+        .insurance-type,
+        .ces-insurance-type {
+            position: inherit;
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+            line-height: 30px;
+            color: @blue;
+            padding: 20px 0;
+            width: 22%;
+            opacity: 0;
+            .transition(0.5s all);
+        }
+        .ces-insurance-type {
+            width: 26%;
+        }
+        .insurance-block-ul {
+            vertical-align: top;
+            font-size: medium;
+            display: inline-block;
+            text-align: right;
+            margin: 0;
+            width: 78%;
+            max-width: inherit;
+            padding: 20px 0;
+            font-size: 0;
+            opacity: 0;
+            .transition(0.5s all);
+            text-align: right;
+            li.insurance-block-li {
+                list-style: none;
+                display: inline-block;
+                text-align: center;
+                padding: 0 20px;
+                font-size: medium;
+                vertical-align: middle;
+                a:link,
+                a:visited, a {
+                    margin-bottom: 0;
+                    display: block;
+                    white-space: normal;
+                    color: @blue;
+                    font-size: 20px;
+                    line-height: 30px;
+                    .cta-icon {
+                        display: inline-block;
+                        vertical-align: text-bottom;
+                        width: 40px;
+                        height: 28px;
+                        position: relative;
+                        img {
+                            width: 36px;
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                        }
+                    }
+                    .cta-label {
+                        padding-left: 6px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        text-align: left;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        color: @red;
+                    }
+                    &:focus {
+                        text-decoration: none;
+                    }
+                    &.active {
+                        color: @red;
+                    }
+                    &:hover {
+                        @media only screen and (min-width: 778px) {
+                            img {
+                                .css-animation(ctaIconsSticky, 0.65s, linear, 1, forwards);
+                            }
+                        }
+                    }
+                }
+                &:first-child {
+                    padding-left: 0;
+                }
+                &:last-child {
+                    border-right: none;
+                    padding-right: 0;
+                    a:link,
+                    a:visited {
+                        &:after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.ces-insurance-block-ul {
+                width: 74%;
+            }
+        }
+    }
+    &.animate-sticky {
+        display: block;
+        z-index: 5;
+        opacity: 1;
+        .block__content {
+            .insurance-type,
+            .ces-insurance-type {
+                padding: 32px 0;
+                opacity: 1;
+            }
+            .insurance-block-ul {
+                padding: 33px 0 29px;
+                opacity: 1;
+            }
+        }
+    }
+}
+.page-commercial-insurance {
+    #product-icons-sticky {
+        .block__content {
+            .insurance-block-ul {
+                text-align: left;
+            }
+        }
+    }
+}
+/*=====Insurance detail page start======*/
+.common-margin(back-to-insurance);
+.label-plus-check-boxes {
+    position: relative;
+    .fieldset-wrapper {
+        label {
+            &:first-child {
+                width: 30%;
+                float: left;
+                margin-right: 50px;
+                line-height: 18px;
+                max-width: 300px;
+            }
+        }
+        .js-form-item {
+            margin-left: calc(~'30% + 50px');
+            width: calc(~'70% - 50px');
+        }
+        @media only screen and (max-width: 757px){
+            label {
+                &:first-child {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-bottom: 15px;
+                }
+            }
+            .js-form-item {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+.page-node-type--products, .page-node-type--similar-product {
+    .node__header {
+        position: relative;
+        display: block;
+        &:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        .node__title {
+            width: 100%;
+        }
+    }
+    .node__content {
+        .field-type-image figure {
+            margin-bottom: 0;
+            img {
+                width: 100%;
+            }
+        }
+        .plan-highlights {
+            .highlight-title {
+                margin-bottom: 17px;
+            }
+        }
+        .field-node--field-components {
+            margin-top: 80px;
+        }
+        .webform-submission-cross-border-travel-insurance-form {
+            padding-bottom: 40px;
+            h2 {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+            .js-form-item-can-number {
+                .description {
+                    margin-left: 0;
+                }
+            }
+            ol {
+                list-style-type: decimal;
+            }
+            ul, ol {
+                margin-left: 30px;
+                li {
+                    font: 14px/24px "Trebuchet MS", Helvetica, sans-serif;
+                }
+            }
+            .agree-the-declaration {
+                legend {
+                    display: none;
+                }
+            }
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        
+        table {
+            thead {
+                tr {
+                    background: @white;
+                    &:hover {
+                        background: @white;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    background: @white;
+                    &:hover {
+                        background: @white;
+                    }
+                }
+            }
+        }
+        .product-banner-landscape-image {
+            width: 100%;
+            margin-bottom: 95px;
+            img {
+                .border-radius(20px);
+            }
+            .service-announcement {
+                padding: 30px 15px 5px;
+                background: @blue;
+                margin-top: -25px;
+                color: #fff;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .product-subtitle {
+            font-size: 28px;
+            line-height: 35px;
+            max-width: 450px;
+            margin-bottom: 60px;
+        }
+        .product-banner-portrait-image {
+            display: none;
+        }
+        .product-key-features,
+        .product-description {
+            margin-bottom: 50px;
+            a:link,
+            a:visited {
+                color: @textgrey;
+                text-decoration: underline;
+            }
+            ul {
+                margin: 0 0 20px;
+                padding: 0;
+                list-style-type: none;
+                li {
+                    background: url(images/icon_tick.png) 0 8px no-repeat;
+                    padding-left: 32px;
+                    margin-bottom: 12px;
+                    &:last-child {
+                        .paragraph--type-products-description {
+                            margin-bottom: 0;
+                        }
+                    }
+                    ul {
+                        margin-top: 20px;
+                    }
+                }
+            }
+            h3 {
+                font-size: 24px;
+                color: @blue;
+                font-weight: normal;
+                margin-bottom: 25px;
+            }
+        }
+        .product-description {
+            width: 60%;
+            display: none;
+        }
+        .product-key-features {
+            .field-node--field-key-features {
+                display: inline-block;
+                width: calc(~"100% - 400px");
+                max-width: 775px;
+            }
+            .field-node--field-offer-details {
+                display: inline-block;
+                background: url('@{path}promotion-ribbon.png') center no-repeat;
+                float: right;
+                background-size: 100%;
+                width: 346px;
+                height: 261px;
+                .field-name-field-plain-title {
+                    .field__item {
+                        color: @blue;
+                        font-size: 18px;
+                        font-weight: bold;
+                        line-height: 24px;
+                        margin-top: 60px;
+                        margin-left: 30px;
+                        width: 220px;
+                    }
+                }
+                .product-details-get-quote {
+                    margin-top: 20px;
+                    background: @red;
+                    display: block;
+                    height: 26px;
+                    width: 135px;
+                    text-decoration: none;
+                    padding: 0;
+                    .border-radius(13px);
+                    text-align: center;
+                    color: @white;
+                    line-height: 26px;
+                    margin-left: 30px;
+                    border: none;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }       
+        .product-details {
+            .highlight-wrapper-v2  {
+                width: 60%;
+                ol {
+                    padding: 0;
+                    li {
+                        margin-left: 15px;
+                        margin-bottom: 12px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        ul {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            a:link,
+            a:visited {
+                color: @textgrey;
+                text-decoration: underline;
+            }
+            .paragraph--type-additional-benefits {
+                width: 100%;
+                clear: both;
+                margin-top: 50px;
+                > .field  {
+                    > .field__items {
+                        > .field__item {
+                            display: inline-block;
+                            width: calc(~"100%/3 - 20px");
+                            vertical-align: top;
+                            margin-right: 30px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            .field-paragraph--field-image {
+                                float: left;
+                                margin-right: 20px;
+                                figure {                                   
+                                    img {
+                                        width: 75px;
+                                    }
+                                }                                
+                            }
+                            .field-paragraph--field-title {
+                                font-weight: 600;
+                                font-size: 18px;
+                                margin-left: 95px;
+                            }
+                            .field-paragraph--field-text {
+                                margin-left: 95px;
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                
+            }
+        }
+        .product-details-link-wrapper {
+            &#product-details-not-sticky {
+                padding-top: 60px;
+                margin-top: 60px;
+                border-top: 1px solid @grey;
+            }
+            .product-details-link {
+                text-align: center;
+                position: relative;
+                z-index: 1;
+                li {
+                    list-style-type: none;
+                    display: inline-block;
+                    margin: 15px 10px;
+                    &.related-dropdown {
+                        .related-product-link-label {
+                            cursor: pointer;
+                            &::after {                               
+                                position: absolute;
+                                content: "";
+                                width: 20px;
+                                height: 20px;
+                                background: url(images/down_arrow-white.png) no-repeat;
+                                z-index: 9;
+                                margin-top: 10px;
+                                right: 10px;
+                            }                            
+                        }
+                        .related-link-listing {
+                            position: relative;
+                            display: none;
+                            border: none;
+                            padding: 0;
+                            margin: -20px 0 0 0;
+                            padding-bottom: 30px;
+                            .related-link-list {
+                                a:link, a:visited {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        &:hover, &.open {
+                            .related-product-link-label {
+                                &::after {  
+                                    content: "";
+                                    background: url(images/up_arrow-white.png) no-repeat;
+                                }
+                            }
+                            .related-link-listing {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                ul {
+                    text-align: left;
+                    padding: 30px 0 0;
+                    overflow: hidden;
+                    li {
+                        display: block;
+                        margin: 0;
+                        padding: 5px 35px;
+                        &.related-dropdown {
+                            background: @blue;
+                            color: #fff;
+                            .related-link-listing {
+                                background: transparent;
+                                .related-link-list {
+                                    padding: 5px 0;
+                                    float: none; 
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+        #product-details-sticky,
+        .mobile-claim-sticky {
+            position: fixed;
+            height: 60px;
+            top: -60px; 
+            left: 0;
+            background: #fff;
+            width: 100%;
+            z-index: 5;
+            border-bottom: 1px solid #eaeaea;
+            .transition(all 0.3s);
+            .common-margin(product-details-sticky-inner-wrapper);
+            .product-details-sticky-inner-wrapper {
+                height: 60px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                .product-detail-type {
+                    .product-label {
+                        display: inline-block;
+                        color: @blue;
+                        font-size: 20px;
+                        margin-right: 10px;
+                    }
+                    .claim-title {
+                        display: inline-block;
+                        color: @blue;
+                        font-size: 20px;
+                    }
+                }
+                @media only screen and (max-width: 1137px) {
+                    .product-details-link {
+                        position: absolute;
+                        top: 60px;
+                        border-bottom: 1px solid #eaeaea;
+                        width: 100%;
+                        background: #fff;
+                        left: 0;
+                        padding: 30px;
+                        display: none;
+                        text-align: left;
+                        li {
+                            margin: 0 0 20px 0;
+                            float: left;
+                            display: block;
+                            clear: both;
+                            ul {
+                                li {
+                                    margin: 0;
+                                }
+                            }
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                            &.related-dropdown {
+                                width: 100%;
+                                .related-link-listing {
+                                    .related-link-list {
+                                        float: none;
+                                    }
+                                }
+                            }
+                        }
+                        &.isOpen {
+                            display: block !important;
+                            box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+            }
+            .product-detail-type-mobile {
+                width: 100%;
+                height: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                cursor: pointer;
+                .product-label {
+                    display: inline-block;
+                    font-size: 20px;
+                    padding-left: 10px;
+                    color: @blue;
+                }
+                .claim-title {
+                    display: inline-block;
+                    color: @blue;
+                    font-size: 20px;
+                }
+                &::after {
+                    content: "";
+                    background: @white url(images/up_arrow.png) no-repeat 50%;
+                    position: absolute;
+                    top: 50%;
+                    width: 16px;
+                    height: 10px;
+                    margin-top: -5px;
+                    right: 30px;
+                    .rotate(180deg);
+                    .transition(0.3s all);
+                }
+                &.open-dropdown {
+                    &::after {
+                        .rotate(0);
+                    }
+                }
+            }
+            &.animate-sticky {
+                top: 0;
+            }
+        }
+        .mobile-claim-sticky {
+            @media only screen and (max-width: 480px) {
+                padding: 0 15px;
+            }
+            .claim-procudure-submit-link {
+                display: none;
+                &.isOpen {
+                    display: block !important;
+                }
+            }
+        }
+        .product-details-desc-view {
+            font-size: 0;
+            height: 0;
+        }
+        .product-description {
+            margin-bottom: 40px;
+            .paragraph--type-products-description {
+                .field-paragraph--field-key {
+                    ul {
+                        margin-left: 25px;
+                        li {
+                            list-style: initial;
+                            background: none;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+                .field-name-field-key-label {
+                    .field__items {
+                        .field__item {
+                            font-size: 24px;
+                            color: @red;
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .plan-details {
+            h3 {
+                margin-bottom: 30px;
+            }
+            &.mainaccordion {
+                margin-bottom: 0;
+                .accordion_section_title {
+                    color: @blue;
+                }
+                .accordion_section_content {
+                    margin: 0;
+                    padding: 30px;
+                    .accordion_section_title {
+                        background: @blue;
+                        color: @white;
+                        &::after,
+                        &::before {
+                            border-color: @white;
+                        }
+                    }
+                    .accordion_section_content {
+                        .accordion_section_title {
+                            background: @blue1;
+                        }
+                    }
+                }
+                table {
+                    tr {
+                        th,
+                        td {
+                            vertical-align: middle;
+                            a:link, a:visited {
+                                color: @blue; 
+                                text-decoration: underline;
+                            }
+                            &.col-1,
+                            &:first-child {
+                                background: @grey1;
+                                color: @textgrey;
+                                &.no-bg {
+                                    background: @white;
+                                    color: @blue;
+                                    width: auto;
+                                }
+                               
+                                &.text-left {
+                                    text-align: left!important;
+                                }
+                                ul,
+                                ol {
+                                    li {
+                                        color: @textgrey;
+                                    }
+                                }
+                                p {
+                                    color: @textgrey;
+                                }
+                            }
+                            &.grey-bg {
+                                background: @grey1;
+                                color: @textgrey;
+                            }
+                            &.no-bg {
+                                background: @white;
+                                color: @textgrey;
+                                text-align: center;  
+                                &.auto-width {
+                                    color: @textgrey;
+                                }     
+                                &.w50 {
+                                    width: 50%;
+                                    color: @textgrey;
+                                }                                                      
+                            }
+                            &.auto-width {
+                                width: auto;
+                                max-width: auto;
+                            } 
+                            .w50 {
+                                width: 50%;
+                            }
+                            &.red-bg {
+                                background: @red2;
+                                h4 {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            &.text-left {
+                                text-align: left;
+                            }
+                            &:last-child {
+                                border-right: 1px solid @grey;
+                            }
+                            ol {
+                                margin-left: 0;
+                                li {
+                                    margin-left: 25px;
+                                    color: @textgrey;
+                                }
+                            }
+                            ul {
+                                margin-top: 0;
+                                margin-left: 0;
+                                li {
+                                    margin-left: 25px;
+                                    list-style-type: disc;
+                                    background: none;
+                                    padding-left: 0;
+                                    color: @textgrey;
+                                    &::before {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            h3 {
+                                color: @red;
+                                font-size: 20px;
+                                font-weight: 600;
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            h4 {
+                                color: @blue;
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                            }
+                            h5 {
+                                color: @textgrey;
+                            }
+                            p {
+                                strong {
+                                    &.blue-txt {
+                                        color: @blue;
+                                    }
+                                }
+                                
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                        th {
+                            &:first-child {
+                                &.heading {
+                                    color: @red;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                        td {
+                            color: @textgrey;
+                        }
+                        th {
+                            color: @blue;
+                            &.no-bg {
+                                &.auto-width {
+                                    color: @blue;
+                                }                                                           
+                            }
+                        }
+                    }
+                    thead {
+                        tr {
+                            th {
+                                &:first-child {
+                                    color: @blue;
+                                    h4 {
+                                        color: @blue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+               
+                table.no-grey {
+                    tr {
+                        td,
+                        th {
+                            &:first-child {
+                                background: transparent;
+                                color: @blue;
+                                text-align: center;
+                                &.grey {
+                                    background: @lightred;
+                                    text-align: left;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+                table.faq-table {
+                    tr {
+                        td,
+                        th {
+                            text-align: left;
+                            &:first-child {
+                                width: auto;
+                                text-align: center;
+                                &[colspan="3"], &[colspan="2"] {
+                                    text-align: left;
+                                }
+                                &.w50 {
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        td {
+                            ul, ol {
+                                li {
+                                    color: @textgrey;
+                                }
+                            }
+                        }
+                    }
+                }
+                .compare-table {
+                    table {
+                        tr {
+                            th,
+                            td {
+                                &:first-child {
+                                    width: auto;
+                                    text-align: center!important;
+                                }
+                            }
+                        }
+                    }                   
+                    &.text-left {
+                        table {
+                            tr {
+                                th,
+                                td {
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+                .imp-notes {
+                    padding: 30px;
+                    h5 {
+                        color: @blue;
+                        font-size: 18px;
+                        margin-bottom: 16px;
+                    }
+                    ol {
+                        margin-left: 20px;
+                        margin-bottom: 16px;
+                        li {
+                            margin-top: 5px;
+                        }
+                    }
+                    ul {
+                        margin-bottom: 16px;
+                    }
+                    p {
+                        margin-top: 5px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .field-node--field-quick-downloads {
+                    .field__items {
+                        margin-bottom: 20px;
+                    }
+                }
+                .quick-downloads {
+                    .accordion_section_title {
+                        h3 {
+                            font-size: 24px;
+                            line-height: 36px;
+                            margin-bottom: 0;
+                        }
+                    }
+                    .accordion_section_content {
+                        padding: 25px 30px;
+                        .field__items {
+                            .field__item {
+                                margin-bottom: 20px;
+                            }
+                        }
+                        a:link,
+                        a:visited {
+                            display: inline-block;
+                            color: @blue;
+                            font-size: 18px;
+                            line-height: 22px;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .back-url {
+        display: block;
+        text-align: center;
+        margin: 100px 0 75px;
+        a:link,
+        a:visited {
+            color: @textgrey;
+            position: relative;
+            &:after {
+                position: absolute;
+                content: '\2039';
+                left: -15px;
+                top: -5px;
+                font-size: 30px;
+            }
+            &:hover {
+                color: @black;
+            }
+        }
+    }
+    .product-footer-wrapper {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding-top: 80px;
+        border-top: 1px solid @grey;
+        text-align: center;
+        a:link.msig-btn {
+            color: @textgrey;
+            background: @white;
+            margin: 5px;
+        }
+        .share-btn {
+            display: inline-block;
+            width: 445px;
+        }
+    }
+}
+
+/*=====Insurance detail page end======*/
+
+@media only screen and (min-width: 1638px) {
+    .page-commercial-insurance {
+        #product-icons-sticky {
+            .block__content {
+                .insurance-type {
+                    width: 14%;
+                }
+                .insurance-block-ul {
+                    width: 86%;
+                    padding: 17px 0;
+                    text-align: right;
+                    li {
+                        &.insurance-block-li {
+                            padding: 0 13px;
+                            min-width: 90px;
+                            max-width: 150px;
+                            &:nth-child(2) {
+                            }
+                            a {
+                                font-size: 18px;
+                                .cta-label {
+                                    padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-node-type--products, .page-node-type--similar-product {
+        .node__content {
+            .product-details {
+                .paragraph--type-additional-benefits {
+                    > .field {
+                        > .field__items {
+                            > .field__item {
+                                width: calc(~"100%/3 - 40px");
+                                margin-right: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1637px) {
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        .l-main {
+            margin-left: 90px;
+            margin-right: 90px;
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        padding-bottom: 35px;
+                        margin-bottom: 55px;
+                        .views-field-field-insurance-image {
+                            left: 63px;
+                        }
+                    }
+                }
+            }
+        }
+        #product-icons-not-sticky {
+            clear: both;
+            ul {
+                margin-left: -48px;
+            }
+        }
+    }
+    .page-commercial-insurance {
+        #product-icons-sticky {
+            .block__content {
+                .insurance-type {
+                    width: 16%;
+                    font-size: 20px;
+                }
+                .insurance-block-ul {
+                    width: 84%;
+                    padding: 27px 0;
+                    text-align: right;
+                    li {                      
+                        &.insurance-block-li {
+                            padding: 0 13px;
+                            min-width: 90px;
+                            max-width: 150px;
+                            &:nth-child(2) {
+                            }
+                            &:last-child {
+                            }
+                            a {
+                                font-size: 17px;
+                                .cta-label {
+                                    padding-left: 0;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1403px) {
+    .page-commercial-insurance,
+    .page-personal-insurance,
+    .page-latest-products-packages {
+        .l-main {
+            margin-left: 40px;
+            margin-right: 40px;
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        .views-field-field-insurance-image {
+                            left: 36px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #product-icons-sticky {
+        .block__content {
+            .insurance-block-ul {
+                li.insurance-block-li {
+                    padding: 0 4px;
+                    a:link,
+                    a:visited {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .page-commercial-insurance {
+        #product-icons-sticky {
+            .block__content {
+                max-width: 1180px;
+                .insurance-type {
+                    width: 18%;
+                    font-size: 20px;
+                }
+                .insurance-block-ul {
+                    width: 82%;
+                    padding: 25px 0;
+                    li {                    
+                        &.insurance-block-li {
+                            &:nth-child(2) {
+                            }
+                            &:nth-child(4) {
+                            }
+                            &:nth-child(5) {
+                            }
+                            &:last-child {
+                            }
+                            a {
+                                font-size: 17px;
+                                .cta-label {
+                                    padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-personal-insurance {
+        #product-icons-sticky {
+            .block__content {
+                .insurance-block-ul {
+                    li.insurance-block-li {
+                        padding: 0 15px;
+                        a:link,
+                        a:visited {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1279px) {
+    .page-commercial-insurance {
+        #product-icons-sticky {
+            .block__content {
+                .insurance-type {
+                    width: 17%;
+                    font-size: 18px;
+                }
+                .insurance-block-ul {
+                    width: 83%; 
+                    padding: 25px 0;
+                    li {                    
+                        &.insurance-block-li {
+                            padding: 0 10px;
+                            min-width: 75px;
+                            &:nth-child(2) { 
+                            }
+                            &:nth-child(4) { 
+                            }
+                            &:nth-child(5) {
+                            }
+                            &:last-child {
+                            }
+                            a {
+                                font-size: 18px;
+                                .cta-label {
+                                    padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1137px) {
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        h1.page_title,
+        h1.node__title {
+            margin: 50px 0 20px;
+        }
+        .l-main {
+            margin-left: 30px;
+            margin-right: 30px;
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        .views-field-field-insurance-image {
+                            left: 15px;
+                            position: inherit;
+                            float: left;
+                            width: 60px;
+                            img {
+                                margin: 0;
+                            }
+                        }
+                        h2,
+                        .views-field-body {
+                            margin-left: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        #product-icons-not-sticky {
+            ul {
+                margin-left: -28px;
+            }
+        }
+    }
+    #product-icons-sticky {
+        .block__content {
+            .insurance-type {
+                font-size: 20px;
+            }
+            .insurance-block-ul {
+                padding: 35px 0 33px !important;
+                li.insurance-block-li {
+                    a:link,
+                    a:visited {
+                        .cta-icon {
+                            display: none;
+                        }
+                        .cta-label {
+                            display: block;
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-commercial-insurance {
+        #product-icons-sticky {
+            .block__content {
+                .insurance-type {
+                    width: 17%;
+                }
+                .insurance-block-ul {
+                    width: 83%;
+                    padding: 27px 0 35px !important;
+                    li {
+                        a:link {
+                            white-space: normal;
+                        }
+                        &.insurance-block-li {
+                            width: 100%;
+                            vertical-align: middle;
+                            padding: 0 10px;
+                            max-width: 100%;
+                            &:first-child {
+                                padding-left: 10px;
+                            }
+                            .cta-label {
+                                width: auto;
+                                white-space: normal;
+                                line-height: 16px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    article.node--type-products {
+        &.node--view-mode-full {
+            .back-url {
+                margin: 80px 0;
+            }
+        }
+    }
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        #product-icons-sticky {
+            height: 71px;
+            .block__content {
+                max-width: 100%;
+                .selected-insurance-mobile,
+                .selected-ces-product-mobile {
+                    padding: 22px 18px 18px;
+                    position: relative;
+                    cursor: pointer;
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        width: 14px;
+                        height: 7px;
+                        .sprite;
+                        background-position: -81px -167px;
+                        right: 18px;
+                        top: 32px;
+                    }
+                    .cta-icon {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 50px;
+                    }
+                    .cta-label {
+                        margin-left: 15px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        font-size: 24px;
+                        color: @blue;
+                    }
+                    &.open-dropdown {
+                        &:after {
+                            background-position: -81px -93px;
+                        }
+                    }
+                }
+                .insurance-block-ul {
+                    border-top: 4px solid @light-grey;
+                    border-bottom: 4px solid @light-grey;
+                    opacity: 1;
+                    width: 100%;
+                    margin: 0;
+                    background: @white;
+                    overflow: hidden;
+                    padding-left: 0 !important;
+                    box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+                    .insurance-block-li {
+                        padding-left: 25px;
+                        padding-right: 18px;
+                        margin: 0 0 31px;
+                        display: block;
+                        text-align: left;
+                        width: auto;
+                        border-right: 0;
+                        float: none;
+                        a:link,
+                        a:visited {
+                            display: block;
+                            .cta-icon {
+                                vertical-align: middle;
+                                display: inline-block;
+                                width: 48px;
+                                img {
+                                    margin: 0 auto;
+                                    display: block;
+                                }
+                            }
+                            .cta-label {
+                                margin-left: 7px;
+                                font-size: 16px;
+                                display: inline-block;
+                            }
+                            &:hover {
+                                background: transparent;
+                                color: @black;
+                            }
+                        }
+                        &:first-child {
+                        }
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                    &.isOpen {
+                        display: block !important;
+                    }
+                }
+            }
+            &.animate-sticky {
+                .block__content {
+                    .insurance-block-ul {
+                        padding: 50px 0;
+                    }
+                }
+            }
+        }
+    }
+    .page-promotions {
+        #product-icons-sticky {
+            height: 75px;
+            .block__content {
+                max-width: 100%;
+                .selected-insurance-mobile,
+                .selected-ces-product-mobile {
+                    padding: 23px 25px;
+                    position: relative;
+                    font-size: 24px;
+                    cursor: pointer;
+                    &:after {
+                        position: absolute;
+                        content: '';
+                        width: 14px;
+                        height: 7px;
+                        .sprite;
+                        background-position: -81px -167px;
+                        right: 18px;
+                        top: 32px;
+                    }
+                    .cta-icon {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 50px;
+                    }
+                    .cta-label {
+                        margin-left: 15px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        font-size: 24px;
+                        color: @blue;
+                    }
+                    &.open-dropdown {
+                        &:after {
+                            background-position: -81px -93px;
+                        }
+                    }
+                }
+                .insurance-block-ul {
+                    border-top: 4px solid @light-grey;
+                    border-bottom: 4px solid @light-grey;
+                    opacity: 1;
+                    width: 100%;
+                    margin: 0;
+                    background: @white;
+                    overflow: hidden;
+                    padding-left: 0 !important;
+                    box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+                    .insurance-block-li {
+                        padding-left: 25px;
+                        padding-right: 18px;
+                        margin: 0 0 31px;
+                        display: block;
+                        text-align: left;
+                        width: auto;
+                        border-right: 0;
+                        float: none;
+                        a:link,
+                        a:visited {
+                            display: block;
+                            .cta-icon {
+                                vertical-align: middle;
+                                display: inline-block;
+                                width: 48px;
+                                img {
+                                    margin: 0 auto;
+                                    display: block;
+                                }
+                            }
+                            .cta-label {
+                                margin-left: 7px;
+                                font-size: 16px;
+                                display: inline-block;
+                            }
+                            &:hover {
+                                background: transparent;
+                                color: @black;
+                            }
+                        }
+                        &:first-child {
+                            padding-left: 25px;
+                        }
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                    &.isOpen {
+                        display: block !important;
+                    }
+                }
+            }
+            &.animate-sticky {
+                .block__content {
+                    .insurance-block-ul {
+                        padding: 50px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 977px) {
+    .page-latest-products-packages {
+        .block-plugin-id--views-block-latest-products-category-icon-block-1,
+        .block-plugin-id--views-block-latest-products-category-icon-block-2 {
+            .view-latest-products-category-icon {
+                margin: 60px 0 20px;
+                .view-rows {
+                    ul {
+                        max-width: 100%;
+                        margin-left: 0;
+                        li.product-category-icon-wrapper {
+                            width: 49%;
+                            border-right: 0;
+                            margin-bottom: 40px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        .l-main {
+            h1.page__title {
+                font-size: 45px;
+            }
+            .block-main-content {
+                margin-bottom: 61px;
+            }
+        }
+        #block-businessinsurancedescription,
+        #block-protectthethings {
+            width: 100%;
+            margin-bottom: 61px;
+            h2 {
+                font-size: 40px;
+                max-width: 450px;
+                margin-bottom: 17px;
+            }
+        }
+        .block-config-provider--msig-insurance {
+            margin-bottom: 0;
+        }
+        #product-icons-not-sticky {
+            margin-bottom: 0;
+            ul {
+                margin-bottom: 12px;
+                display: block;
+                margin-left: 0;
+                max-width: inherit;
+                font-size: 0;
+                .insurance-block-li {
+                    width: 50%;
+                    margin-bottom: 40px;
+                    border-right: 0;
+                    text-align: center;
+                    font-size: medium;
+                    a {
+                        display: inline-block;
+                        vertical-align: middle;
+                        .cta-icon {
+                            height: auto;
+                            img {
+                                position: inherit;
+                                margin-left: 0;
+                                left: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .view-msig-id-insurance-product-list,
+        .view-msig-id-ces-product-list,
+        .view-latest-products {
+            .view-content {
+                .view-grouping {
+                    .view-grouping-content {
+                        .view-title {
+                            margin-bottom: 36px;
+                        }
+                        .views-row {
+                            .views-col {
+                                width: 100%/2 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #product-icons-sticky {
+            .block__content {
+                .insurance-type {
+                    width: 24%;
+                }
+                .insurance-block-ul {
+                    width: 76%;
+                    .insurance-block-li {
+                        margin: 0;
+                        &:last-child {
+                            border-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    article.node--type-products {
+        &.node--view-mode-full {
+            .node__content {
+                .product-description {
+                    margin-bottom: 30px;
+                    width: 100%;
+                }
+                .product-details {
+                    .highlight-wrapper-v2 {
+                        width: 100%;
+                    }
+                    
+                }
+                .product-key-features {
+                    margin-bottom: 30px;
+                    .field-node--field-key-features {
+                        width: 100%;
+                    }
+                    .field-node--field-offer-details {
+                        float: none;
+                        margin: 20px 0 0;
+                        overflow: hidden;
+                    }
+                }
+                .product-banner-landscape-image {
+                    margin-bottom: 80px;
+                }
+                .back-url {
+                    margin: 80px 0;
+                }
+            }
+        }
+    }
+    /*=====Insurance detail page start======*/
+    .page-node-type--products, .page-node-type--similar-product {
+        .node__header {
+            .node__title {        
+                padding-left: 0;                
+            }
+            img {
+                display: none;
+            }
+       }        
+        article {
+            .node__content {
+                .break {
+                    display: none;
+                }
+            }
+        }
+        .back-to-insurance {
+            margin-top: 46px;
+        }
+        .node__content {
+            .product-details {
+                .paragraph--type-additional-benefits {
+                    > .field {
+                        > .field__items {
+                            > .field__item {
+                                width: calc(~"100%/2 - 30px");
+                                margin-bottom: 30px;                                
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }                    
+                                &:nth-child(2n) {
+                                    margin-right: 0;
+                                }
+                                &:nth-child(2n + 1) {
+                                    margin-right: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*=====Insurance detail page end======*/
+    
+}
+
+@media only screen and (max-width: 857px) {
+    #product-icons-sticky {
+        .block__content {
+            .insurance-type {
+                font-size: 17px;
+            }
+            .insurance-block-ul {
+                padding-left: 20px !important;
+                li.insurance-block-li {
+                    float: left;
+                    width: auto;
+                    padding: 0 20px;
+                    &:last-child {
+                        border-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .page-personal-insurance,
+    .page-commercial-insurance {
+        #product-icons-sticky {
+            .block__content {
+                .insurance-block-ul {
+                    width: 100%;
+                    .insurance-block-li {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .page-node-type--products, .page-node-type--similar-product {
+        .node__content {
+            .product-details {
+                .paragraph--type-additional-benefits {
+                    > .field {
+                        > .field__items {
+                            > .field__item {
+                                width: 100%;
+                                &:nth-child(2n) {
+                                    margin-right: 0;
+                                }
+                                &:nth-child(2n + 1) {
+                                    margin-right: 0;
+                                }      
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 757px) {
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        h1.page_title,
+        h1.node__title {
+            margin: 50px 0 20px;
+        }
+        .l-main {
+            h1.page__title {
+                font-size: 40px;
+            }
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        h2 {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        #block-businessinsurancedescription,
+        #block-protectthethings {
+            max-width: 445px;
+        }
+        #block-msig-page-title {
+            margin-top: 0;
+        }
+    }
+
+    article.node--type-products {
+        &.node--view-mode-full {
+            .node__content {
+                .product-key-features,
+                .product-description {
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                }
+                .product-banner-landscape-image {
+                    margin-bottom: 55px;
+                }
+            }
+            .back-url {
+                margin: 55px 0;
+            }
+        }
+    }
+    .page-node-type--products, .page-node-type--similar-product {
+        article {
+            .node__content {
+                p,
+                ul,
+                div,
+                ol,
+                h3 {
+                    max-width: 100%;
+                }
+                .product-image {
+                    float: none;
+                    max-width: 100%;
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {   
+    .page-latest-products-packages {
+        .block-plugin-id--views-block-latest-products-category-icon-block-1,
+        .block-plugin-id--views-block-latest-products-category-icon-block-2 {
+            .block__title {
+                font-size: 35px;
+            }
+        }
+    }
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        h1.page_title,
+        h1.node__title {
+            margin: 50px 0 20px;
+            font-size: 35px;
+        }
+        .highlight-title {
+            font-size: 30px;
+        }
+        .l-main {
+            margin-left: 20px;
+            margin-right: 20px;
+            h1.page__title {
+                font-size: 35px;
+            }
+            #block-businessinsurancedescription,
+            #block-protectthethings {
+                h2 {
+                    font-size: 35px;
+                }
+            }
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        .views-field-field-insurance-image {
+                            left: auto;
+                            position: inherit;
+                            float: right;
+                            width: 60px;
+                            margin-top: 5px;
+                            top: 0;
+                        }
+                        h2 {
+                            margin-left: 0;
+                        }
+                        .views-field-body {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .view-msig-id-insurance-product-list,
+        .view-msig-id-ces-product-list,
+        .view-latest-products {
+            .view-content {
+                .view-grouping {
+                    margin-bottom: 55px;
+                    .view-grouping-content {
+                        .views-row {
+                            .views-col {
+                                width: 100% !important;
+                                margin-bottom: 40px;
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-node-type--products, .page-node-type--similar-product {
+        .product-footer-wrapper {
+            .share-btn {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page-personal-insurance,
+    .page-commercial-insurance,
+    .page-latest-products-packages {
+        .l-main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .product-footer-wrapper {
+        a:link.msig-btn {
+            width: 100%;
+        }
+    }
+    .page-node-type--products, .page-node-type--similar-product {
+        .node__content {
+            .product-details-link-wrapper {
+                .product-details-link {
+                    li {
+                        display: block; 
+                        a {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+    article.node--type-products {
+        &.node--view-mode-full {
+            .node__content {
+                .product-key-features {
+                    .field-node--field-offer-details { 
+                        margin-top:0px;
+                        .field-name-field-plain-title {
+                            .field__item {
+                                width: 170px;
+                                font-size: 17px;
+                                line-height: 20px;
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .page-personal-insurance {
+        .l-main {
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        h2 {
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-commercial-insurance {
+        .l-main {
+            .view-insurance {
+                .view-rows {
+                    .views-row {
+                        h2 {
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

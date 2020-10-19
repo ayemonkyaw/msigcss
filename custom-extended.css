@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+	.l-header header .l-rw .pr-header__header-first .block#block-msigsgcookies-2 .block__inner #privacy-policy-cookies #close-cookies {
+	    right: 5px;
+	    top: 0;
+	}
+	.video--box {
+		width: 100%;
+	}
+	.knowledge_hub--item .bio--modal.modal {
+		height: auto;
+		background-color: transparent;
+	}
+	.knowledge_hub--item .bio--modal.modal .field-content {
+		background-color: #bdc3c7;
+	}
+
+		.bio-kh-page-layout .pr-main__content, .bio-kh-page-layout .pr-main__rw {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.bio-kh-page-layout .node__content {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.bio-kh-page-layout .block-config-provider--msig-sg-products,
+		.bio-kh-page-layout .block-plugin-id--views-block-msig-sg-promotions-banner-promotions-landing {
+		    margin-left: 0;
+		    margin-right: 0;
+		}
+}
+.our-initiatives {
+	z-index: 2;
+}

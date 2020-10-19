@@ -1,0 +1,2387 @@
+.sprite {
+  background: url(images/sprite.png) no-repeat;
+}
+/* Keyframes */
+/* Common Media */
+.pr-footer {
+  color: #808080;
+}
+ul.tick,
+ol.tick {
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+ul.tick li,
+ol.tick li {
+  list-style-type: none !important;
+  background: url(images/icon_tick.png) 0 8px no-repeat !important;
+  padding-left: 32px !important;
+  margin-bottom: 12px !important;
+}
+ul.no-tick {
+  list-style-type: disc !important;
+  margin-left: 32px !important;
+}
+ul.no-tick li {
+  list-style-type: disc !important;
+  margin-left: 0 !important;
+}
+ol.no-tick {
+  list-style-type: decimal !important;
+  margin-left: 32px !important;
+}
+ol.no-tick li {
+  list-style-type: decimal !important;
+  margin-left: 0 !important;
+}
+@-webkit-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-moz-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-ms-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+/* About us main page banner */
+/* two_columns_container */
+.two_columns_container {
+  border-top: 2px solid #e6e6e6;
+  clear: both;
+  display: block;
+  padding: 100px 0 10px;
+}
+.two_columns_container .row {
+  font-size: 0;
+}
+.two_columns_container .row .two_columns_container__title {
+  font-size: 28px;
+  line-height: 35px;
+  color: #1c0761;
+  margin-bottom: 15px;
+}
+.two_columns_container .row .columns {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.two_columns_container .row .columns ul {
+  padding-left: 30px;
+  list-style-type: disc;
+}
+.two_columns_container .row .columns ul li {
+  margin-bottom: 10px;
+}
+.two_columns_container .row .columns h5,
+.two_columns_container .row .columns h3 {
+  color: #1c0761;
+  margin: 40px 0 25px;
+}
+.two_columns_container .row .columns.col_1 {
+  padding-right: 20px;
+}
+.two_columns_container .row .columns.col_2 {
+  padding-left: 20px;
+}
+/* Left content right image component */
+.title-link-img-section {
+  border-top: 2px solid #e6e6e6;
+  clear: both;
+  display: block;
+  padding: 100px 0 105px;
+}
+.title-link-img-section .title-link-img-section__title {
+  font-size: 28px;
+  line-height: 35px;
+  color: #1c0761;
+  margin-bottom: 15px;
+}
+.title-link-img-section .title-link-img-section__left {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+  width: 50%;
+}
+.title-link-img-section .title-link-img-section__left ul {
+  padding-left: 30px;
+}
+.title-link-img-section .title-link-img-section__left ul li {
+  margin-bottom: 10px;
+}
+.title-link-img-section .title-link-img-section__left p,
+.title-link-img-section .title-link-img-section__left h5 {
+  margin-bottom: 20px;
+}
+.title-link-img-section .title-link-img-section__left p a,
+.title-link-img-section .title-link-img-section__left li a {
+  color: #808080;
+  text-decoration: underline;
+}
+.title-link-img-section .title-link-img-section__left p a:hover,
+.title-link-img-section .title-link-img-section__left li a:hover {
+  text-decoration: none;
+}
+.title-link-img-section .title-link-img-section__left p a.msig-btn,
+.title-link-img-section .title-link-img-section__left li a.msig-btn {
+  text-decoration: none;
+}
+.title-link-img-section .title-link-img-section__left h3 {
+  font-size: 28px;
+  line-height: 35px;
+  color: #ec0c19;
+  margin-bottom: 20px;
+}
+.title-link-img-section .title-link-img-section__right {
+  display: inline-block;
+  padding-left: 15px;
+  vertical-align: top;
+  width: 49%;
+}
+.title-link-img-section .title-link-img-section__right img {
+  width: 100%;
+}
+/* job-opportunities start */
+.job-opportunities h2 {
+  font-size: 24px;
+}
+.job-opportunities .search_by {
+  margin-bottom: 20px;
+  padding: 40px 30px;
+  background: #1c0761;
+  color: #FFF;
+  margin-top: 20px;
+}
+.job-opportunities .search_by .search_input {
+  position: relative;
+}
+.job-opportunities .search_by .search_input::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  right: 5px;
+  top: 10px;
+  pointer-events: none;
+  border-bottom: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.job-opportunities .search_by #searchText {
+  font-family: inherit;
+  background: none;
+  color: #FFF;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 2px solid #FFF;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.job-opportunities .search_by #searchText::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #FFF;
+}
+.job-opportunities .search_by #searchText::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #FFF;
+}
+.job-opportunities .search_by #searchText:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #FFF;
+}
+.job-opportunities .search_by #searchText:-moz-placeholder {
+  /* Firefox 18- */
+  color: #FFF;
+}
+.job-opportunities .search_by .department-list {
+  margin-top: 20px;
+  list-style-type: none;
+}
+.job-opportunities .search_by .department-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.job-opportunities .search_by .department-list li:last-child {
+  margin-bottom: 0;
+}
+/* job-opportunities end */
+/* highlight-wrapper-v2 */
+.highlight-wrapper-v2 ul {
+  padding-left: 30px;
+}
+.highlight-wrapper-v2 ul li {
+  margin-bottom: 10px;
+}
+.highlight-wrapper-v2 h5,
+.highlight-wrapper-v2 h3 {
+  color: #1c0761;
+  margin: 40px 0 25px;
+}
+.highlight-wrapper-v2 .highlight-title {
+  font-size: 24px;
+  color: #1c0761;
+}
+.highlight-wrapper-v2.list-grid-4 {
+  width: 100%;
+}
+.highlight-wrapper-v2.list-grid-4 ul {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 20px;
+}
+.highlight-wrapper-v2.list-grid-4 ul li {
+  list-style: none;
+}
+.highlight-wrapper-v2.list-grid-4 ul:first-child {
+  padding-left: 0;
+}
+.highlight-wrapper-v2.heading-content .highlight-title {
+  padding-top: 100px;
+  margin-top: 0;
+}
+/** page-about-us Start  **/
+.page-about-us {
+  /* About Mission & Vision */
+  /* About msig left right component */
+  /* Our History & Nurturing talents left right component */
+  /* CEO's Message left right component */
+  /* our-promise*/
+  /* nurturing talents section*/
+  /* leadership-profiles */
+  /* leadership-popup */
+  /* Society contribution section */
+  /* Internship section starts */
+  /* Two columns container */
+  /* ourvalue-content */
+  /* slider-section */
+  /* origins-of-sumitomo-container */
+  /* Zooming */
+  /** credit-rating-section **/
+  /* financial-list */
+  /** people-comment **/
+}
+.page-about-us h2,
+.page-about-us h3,
+.page-about-us h4,
+.page-about-us h5 {
+  color: #1c0761;
+}
+.page-about-us .title-link-img-section .title-link-img-section__title {
+  color: #1c0761;
+}
+.page-about-us .field-type-image figure {
+  margin-bottom: 0;
+}
+.page-about-us .node__title h3 {
+  color: #ec0c19;
+  margin: 0 0 25px;
+}
+.page-about-us .node__content ul {
+  margin-left: 30px;
+}
+.page-about-us .node__content ul li {
+  margin-top: 10px;
+}
+.page-about-us .node__content .slick-dots {
+  margin-left: 0;
+}
+.page-about-us .node__content .slick-dots li {
+  margin: 0 7px;
+}
+.page-about-us .two_columns_container .columns .single-image {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.page-about-us .about-banner {
+  margin-bottom: 50px;
+  position: relative;
+}
+.page-about-us .about-banner .banner-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.page-about-us .about-banner .banner-img img,
+.page-about-us .about-banner .banner-img video {
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+.page-about-us .about-banner .banner-content {
+  color: #FFF;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.8);
+  position: relative;
+  padding: 60px 0;
+  z-index: 1;
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+}
+.page-about-us .about-banner .banner-content h3 {
+  color: #FFF;
+  margin-bottom: 16px;
+}
+.page-about-us .about-banner .banner-content p {
+  font-size: 16px;
+  color: #FFF;
+  margin-bottom: 16px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 1403px) {
+  .page-about-us .about-banner .banner-content {
+    padding: 20px 0;
+  }
+}
+.page-about-us .accordion_section_content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.page-about-us .accordion_section_content .img-text-columns p {
+  font-size: 16px;
+}
+.page-about-us .field-paragraph--field-accordion-section .img-text-columns.slick-slider .slick-slide {
+  margin: 0 2px;
+}
+.page-about-us .field-paragraph--field-accordion-section .img-text-columns.slick-slider .slick-slide img {
+  margin: 0 auto;
+}
+.page-about-us .field-paragraph--field-accordion-section .img-text-columns.slick-slider .slick-arrow {
+  color: #808080;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #808080;
+  background: #FFF url(images/arrows_slider.png) no-repeat;
+  text-indent: -9999999px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 1;
+  background-size: 200%;
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-box-shadow: 0 0 10px -1px #808080;
+  -moz-box-shadow: 0 0 10px -1px #808080;
+  -ms-box-shadow: 0 0 10px -1px #808080;
+  box-shadow: 0 0 10px -1px #808080;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+}
+.page-about-us .field-paragraph--field-accordion-section .img-text-columns.slick-slider .slick-arrow.slick-prev {
+  left: -20px;
+  background-position: 15px 50%;
+  -ms-animation: left-arrow 0.75s infinite;
+  -moz-animation: left-arrow 0.75s infinite;
+  -webkit-animation: left-arrow 0.75s infinite;
+  -o-animation: left-arrow 0.75s infinite;
+  animation: left-arrow 0.75s infinite;
+}
+.page-about-us .field-paragraph--field-accordion-section .img-text-columns.slick-slider .slick-arrow.slick-next {
+  right: -20px;
+  background-position: -52px 50%;
+  -ms-animation: right-arrow 0.75s infinite;
+  -moz-animation: right-arrow 0.75s infinite;
+  -webkit-animation: right-arrow 0.75s infinite;
+  -o-animation: right-arrow 0.75s infinite;
+  animation: right-arrow 0.75s infinite;
+}
+.page-about-us .single-image {
+  margin-bottom: 65px;
+}
+.page-about-us .single-image img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.page-about-us .about-mission-vision {
+  border-top: 2px solid #e6e6e6;
+  padding: 100px 0 105px;
+  margin-top: 80px;
+  text-align: center;
+}
+.page-about-us .about-mission-vision img {
+  display: block;
+  margin: 30px auto 0;
+}
+.page-about-us .about-mission-vision img.mission-vision-desktop {
+  display: none;
+}
+.page-about-us .about-mission-vision h3 {
+  margin-bottom: 60px;
+}
+.page-about-us .about-mission-vision .mission {
+  width: 350px;
+  display: inline-block;
+  margin-right: -70px;
+  transition: 0.2s all;
+  transform-origin: right;
+}
+.page-about-us .about-mission-vision .mission svg path.cls-1 {
+  fill: #ec0c19;
+}
+.page-about-us .about-mission-vision .mission:hover {
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.page-about-us .about-mission-vision .vision {
+  width: 350px;
+  display: inline-block;
+  transition: 0.2s all;
+  transform-origin: left;
+}
+.page-about-us .about-mission-vision .vision:hover {
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 857px) {
+  .page-about-us .about-mission-vision .mission,
+  .page-about-us .about-mission-vision .vision {
+    transform-origin: inherit;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-about-us .about-mission-vision .mission,
+  .page-about-us .about-mission-vision .vision {
+    width: 300px;
+    transform-origin: inherit;
+    margin-right: 0px;
+  }
+  .page-about-us .about-mission-vision .mission:hover,
+  .page-about-us .about-mission-vision .vision:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.page-about-us .about-msig-section .title-link-img-section .title-link-img-section__left {
+  width: 35%;
+}
+.page-about-us .about-msig-section .title-link-img-section .title-link-img-section__left img {
+  display: block;
+  margin: 30px auto 0;
+}
+.page-about-us .about-msig-section .title-link-img-section .title-link-img-section__right {
+  width: 64%;
+}
+.page-about-us .about-msig-section .title-link-img-section .title-link-img-section__right p {
+  margin-bottom: 25px;
+}
+.page-about-us .about-our-history-section .title-link-img-section .title-link-img-section__right img,
+.page-about-us .about-nurturing-section .title-link-img-section .title-link-img-section__right img {
+  margin-top: 0;
+  width: 100%;
+}
+.page-about-us .about-ceo-section h2 {
+  font-size: 28px;
+  line-height: 35px;
+  margin: 15px 0px;
+}
+.page-about-us .about-ceo-section h2:first-child {
+  margin: 0 0 15px;
+}
+.page-about-us .about-ceo-section p {
+  margin-bottom: 20px;
+}
+.page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__left {
+  width: 70%;
+}
+.page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__left img.ceo-image-mobile {
+  display: none;
+}
+.page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__right {
+  width: 29%;
+}
+.page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__right img {
+  margin-top: 0;
+  width: 100%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+}
+.page-about-us .about-ceo-section .columns.col_2 .single-image {
+  width: calc(100% - 286px);
+  margin: 0 0 0 auto;
+}
+@media only screen and (max-width: 1637px) {
+  .page-about-us .about-ceo-section .columns.col_2 .single-image {
+    width: calc(100% - 28%);
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-about-us .about-ceo-section .columns.col_2 .single-image {
+    width: calc(100% - 18%);
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .page-about-us .about-ceo-section .columns.col_2 .single-image {
+    width: calc(100% - 12%);
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .page-about-us .about-ceo-section .columns.col_2 .single-image {
+    width: calc(100% - 0px);
+  }
+}
+.page-about-us .our-promise p {
+  margin-bottom: 20px;
+}
+.page-about-us .nurturing-talents p {
+  margin-bottom: 20px;
+}
+.page-about-us .nurturing-talents h2 {
+  font-size: 28px;
+  line-height: 35px;
+  margin: 15px 0px;
+}
+.page-about-us .nurturing-talents .left-content h2 {
+  margin-top: 20px;
+}
+.page-about-us .nurturing-talents .columns.col_2 .single-image {
+  width: calc(100% - 210px);
+  margin: 0 0 0 auto;
+}
+@media only screen and (max-width: 1637px) {
+  .page-about-us .nurturing-talents .columns.col_2 .single-image {
+    width: calc(100% - 12%);
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-about-us .nurturing-talents .columns.col_2 .single-image {
+    width: calc(100% - 0px);
+  }
+}
+.page-about-us .highlight-wrapper-v2 {
+  border-top: 2px solid #e6e6e6;
+  padding-top: 75px;
+}
+.page-about-us .highlight-wrapper-v2.awards-item {
+  border: none;
+  width: 33.33333333%;
+  float: left;
+  text-align: center;
+  height: 275px;
+  background: url('images/award_bg.jpg') no-repeat 50%;
+  background-size: 90%;
+  padding: 10px 8% 0;
+  margin-bottom: 30px;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+}
+@media only screen and (min-width: 1637px) {
+  .page-about-us .highlight-wrapper-v2.awards-item {
+    background-size: 80%;
+  }
+}
+.page-about-us .highlight-wrapper-v2.awards-item .highlight-title {
+  color: #ec0c19;
+  font-size: 16px;
+  line-height: normal;
+}
+.page-about-us .highlight-wrapper-v2.awards-item .highlight-title .field__item {
+  width: 100%;
+  margin: 0 auto;
+}
+.page-about-us .highlight-wrapper-v2.awards-item .paragraph {
+  font-size: 14px;
+}
+.page-about-us .highlight-wrapper-v2.awards-item .paragraph p {
+  line-height: normal;
+}
+.page-about-us .paragraph--type-videos .youtube-video-wrapper {
+  margin: 30px 0 0;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.page-about-us .paragraph--type-videos .youtube-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  height: 100%;
+}
+.page-about-us .paragraph--type--leadership-profiles {
+  border-top: 1px solid #e6e6e6;
+  padding: 105px 0 10px;
+}
+.page-about-us .paragraph--type--leadership-profiles .field-paragraph--field-title {
+  font-size: 28px;
+  color: #1c0761;
+  margin-bottom: 40px;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container {
+  display: none;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles {
+  background: #FFF;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  padding: 50px 40px;
+  text-align: center;
+  overflow: hidden;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles .profile-image {
+  margin: 0 auto 35px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles .name {
+  font-size: 20px;
+  color: #1c0761;
+  margin-bottom: 10px;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles .designation {
+  font-size: 18px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles .description {
+  display: none;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles .curvy-box-learn-more-button {
+  cursor: pointer;
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  width: 100%;
+  background: #1c0761;
+  color: #FFF;
+  font-size: 16px;
+  height: 40px;
+  padding: 6px 0 8px;
+  display: block;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.page-about-us .paragraph--type--leadership-profiles .swiper-container .paragraph--type--profiles.swiper-slide-active:hover .curvy-box-learn-more-button {
+  bottom: 0;
+  color: #FFF;
+}
+.page-about-us .leadership-popup {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+  overflow-y: auto;
+}
+.page-about-us .leadership-popup .popup-wrapper {
+  background: #FFF;
+  position: relative;
+  max-width: 1205px;
+  width: 90%;
+  margin: 100px auto 50px;
+  padding: 105px 60px;
+  overflow: hidden;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.page-about-us .leadership-popup .popup-wrapper .close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: url(images/icon_close.png) no-repeat;
+  cursor: pointer;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .image-left,
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right {
+  display: inline-block;
+  vertical-align: top;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .image-left {
+  width: 45%;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .image-left .profile-image {
+  height: 450px;
+  overflow: hidden;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .image-left .profile-image img {
+  width: 100%;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right {
+  width: calc(55% - 5px);
+  padding-left: 30px;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right .name {
+  color: #1c0761;
+  font-size: 22px;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right .designation {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right .description p {
+  color: #808080;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.page-about-us .about-society-contribution {
+  padding: 40px 0 105px;
+}
+.page-about-us .about-society-contribution .society-initiatives-container h4 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.page-about-us .about-society-contribution .society-initiatives-container .society-initiatives {
+  display: inline-block;
+  width: calc(33% - 40px);
+  margin: 0 40px;
+  float: left;
+}
+.page-about-us .about-society-contribution .society-initiatives-container .society-initiatives > img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.page-about-us .about-society-contribution .society-initiatives-container .society-initiatives .caption {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+.page-about-us .about-society-contribution .society-initiatives-container .society-initiatives h5 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.page-about-us .about-society-contribution .society-initiatives-container .society-initiatives.nomargin-left {
+  margin-left: 0 !important;
+}
+.page-about-us .about-society-contribution .society-initiatives-container .society-initiatives.nomargin-right {
+  margin-right: 0 !important;
+}
+.page-about-us .internship-wrapper {
+  border-top: 2px solid #e6e6e6;
+  clear: both;
+  display: block;
+  padding: 100px 0 35px;
+}
+.page-about-us .internship-wrapper .internship-title {
+  max-width: 50%;
+}
+.page-about-us .internship-wrapper .internship-title h3 {
+  color: #ec0c19;
+  margin-bottom: 10px;
+}
+.page-about-us .internship-wrapper .internship-content {
+  max-width: 50%;
+}
+.page-about-us .internship-wrapper .internship-table > ul {
+  list-style: none;
+  display: block;
+  margin: 45px 0 60px;
+  padding: 0;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li {
+  border-bottom: 2px solid #e6e6e6;
+  font-size: 0;
+  margin: 0;
+  padding: 15px 0;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li:last-child {
+  border: 0 none;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li:first-child {
+  border: 2px solid #ec0c19;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  padding: 0;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  width: 50%;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column h4 {
+  color: #ec0c19;
+  font-size: 18px;
+  line-height: 30px;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column.internship-view-left {
+  color: #1c0761;
+  font-weight: bold;
+  padding-left: 15%;
+  padding-right: 5%;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column.internship-view-right h4 {
+  padding-left: 25%;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column ul {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column ul li {
+  margin-top: 0;
+}
+.page-about-us .two_columns_container.promise-text-container {
+  padding: 100px 0 65px;
+}
+.page-about-us .two_columns_container.promise-text-container .col_1 {
+  width: 60%;
+  margin-right: 10%;
+}
+.page-about-us .two_columns_container.promise-text-container .col_1 ul {
+  padding-left: 0px;
+  list-style-type: disc;
+}
+.page-about-us .two_columns_container.promise-text-container .col_1 ul li {
+  margin-bottom: 10px;
+}
+.page-about-us .two_columns_container.promise-text-container .col_1 h5,
+.page-about-us .two_columns_container.promise-text-container .col_1 h3 {
+  color: #1c0761;
+  margin: 40px 0 25px;
+}
+.page-about-us .two_columns_container.promise-text-container .col_2 {
+  width: 30%;
+}
+.page-about-us .our-partners .title-link-img-section {
+  padding: 100px 0 65px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.page-about-us .our-partners .title-link-img-section .title-link-img-section__left {
+  width: calc(70% - 70px);
+  margin-right: 60px;
+}
+.page-about-us .our-partners .title-link-img-section .title-link-img-section__right {
+  width: 30%;
+}
+.page-about-us .our-partners .title-link-img-section .title-link-img-section__right img {
+  margin-top: -25px;
+  width: 100%;
+}
+.page-about-us .ourvalue-content {
+  border-top: 2px solid #e6e6e6;
+  padding-top: 100px;
+}
+.page-about-us .ourvalue-content .field__item h3 {
+  font-size: 28px;
+  line-height: 40px;
+}
+.page-about-us .ourvalue-content .field__item p {
+  max-width: 600px;
+}
+.page-about-us .slider-section .field__label {
+  display: none;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track {
+  padding: 80px 0 90px;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide {
+  padding: 30px;
+  -webkit-transition: 0.7s all;
+  -moz-transition: 0.7s all;
+  -ms-transition: 0.7s all;
+  -o-transition: 0.7s all;
+  transition: 0.7s all;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .title-image-text-section {
+  position: relative;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .title-image-text-section .image-section {
+  position: relative;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .title-image-text-section .image-section .field-paragraph--field-image .field-type-image__item img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .title-image-text-section .image-section .field.field-paragraph--field-image-style {
+  display: none;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .title-image-text-section .image-section .field-paragraph--field-plain-title .field__items .field__item {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  -moz-text-shadow: 0 0 10px #000;
+  -ms-text-shadow: 0 0 10px #000;
+  -o-text-shadow: 0 0 10px #000;
+  text-shadow: 0 0 10px #000;
+  font-size: 18px;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .title-image-text-section .field-paragraph--field-text .field__items .field__item P {
+  display: none;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3;
+  margin-top: 20px;
+  height: 70px;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide.slick-center {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide.slick-center .field-paragraph--field-text .field__items .field__item p {
+  display: block;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-arrow {
+  color: #808080;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #808080;
+  background: #FFF url('images/arrows_slider.png') no-repeat;
+  text-indent: -9999999px;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  margin-top: -15px;
+  z-index: 1;
+  background-size: 200%;
+  -webkit-box-shadow: 0 0 10px -1px #808080;
+  -moz-box-shadow: 0 0 10px -1px #808080;
+  -ms-box-shadow: 0 0 10px -1px #808080;
+  box-shadow: 0 0 10px -1px #808080;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-arrow.slick-prev {
+  left: 40px;
+  background-position: 15px 50%;
+  -ms-animation: left-arrow 0.75s infinite;
+  -moz-animation: left-arrow 0.75s infinite;
+  -webkit-animation: left-arrow 0.75s infinite;
+  -o-animation: left-arrow 0.75s infinite;
+  animation: left-arrow 0.75s infinite;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-arrow.slick-next {
+  right: 40px;
+  background-position: -52px 50%;
+  -ms-animation: right-arrow 0.75s infinite;
+  -moz-animation: right-arrow 0.75s infinite;
+  -webkit-animation: right-arrow 0.75s infinite;
+  -o-animation: right-arrow 0.75s infinite;
+  animation: right-arrow 0.75s infinite;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-arrow.slick-disabled {
+  display: none !important;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots {
+  text-align: center;
+  margin-left: 0;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+  width: 12px;
+  height: 12px;
+  background: #FFF;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #95989a;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots li button {
+  display: none;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots li.slick-active {
+  background: #dbdbdb;
+  border: 2px solid #dbdbdb;
+}
+.page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots li.slick-active div {
+  background: #dbdbdb !important;
+}
+.page-about-us .accordion_section_content .img-text-columns.origins-of-mitsui-container .accordion-cols:nth-child(1) {
+  width: 40.5%;
+}
+.page-about-us .accordion_section_content .img-text-columns.origins-of-mitsui-container .accordion-cols:nth-child(2) {
+  width: calc(26.7% - 15px);
+}
+.page-about-us .accordion_section_content .img-text-columns.origins-of-mitsui-container .accordion-cols:nth-child(3) {
+  width: calc(32.6% - 15px);
+}
+.page-about-us .accordion_section_content .img-text-columns.origins-of-sumitomo-container .accordion-cols:nth-child(1) {
+  width: 30.1%;
+}
+.page-about-us .accordion_section_content .img-text-columns.origins-of-sumitomo-container .accordion-cols:nth-child(2) {
+  width: calc(23.1% - 15px);
+}
+.page-about-us .accordion_section_content .img-text-columns.origins-of-sumitomo-container .accordion-cols:nth-child(3) {
+  width: calc(45.5% - 15px);
+}
+.page-about-us .accordion_section_content {
+  position: relative;
+}
+.page-about-us .accordion_section_content .zoom-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9;
+}
+.page-about-us .accordion_section_content .zoom-icon .zoom-in-pic,
+.page-about-us .accordion_section_content .zoom-icon .zoom-out-pic {
+  background: #e6e6e6;
+  color: #707070;
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 35px;
+  display: block;
+  margin: 6px 0;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.page-about-us .accordion_section_content .timeline-link {
+  display: none;
+}
+.page-about-us .accordion_section_content #aboutus_timeline_div .panzoom {
+  text-align: center;
+}
+.page-about-us .accordion_section_content #aboutus_timeline_div .panzoom .desktop {
+  display: block;
+}
+.page-about-us .accordion_section_content #aboutus_timeline_div .panzoom .mobile {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .page-about-us .accordion_section_content #aboutus_timeline_div .panzoom .desktop {
+    display: none;
+  }
+  .page-about-us .accordion_section_content #aboutus_timeline_div .panzoom .mobile {
+    display: block;
+  }
+}
+.page-about-us .credit-rating-section {
+  text-align: center;
+}
+.page-about-us .credit-rating-section .credit-title {
+  color: #1c0761;
+  font-weight: bold;
+}
+.page-about-us .credit-rating-section .credit-title h4 {
+  margin-bottom: 15px;
+}
+.page-about-us .credit-rating-section .circle-border-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.page-about-us .credit-rating-section .circle-border-row .credit-circle-title {
+  color: #1c0761;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle {
+  overflow: hidden;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-border {
+  border: 15px solid #ec0c19;
+  display: inline-block;
+  height: 220px;
+  margin: 0 15px;
+  position: relative;
+  width: 220px !important;
+  text-align: center;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-border .circle-border-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -35px;
+  width: 100%;
+  /* .translate(-50%, -50%); */
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-border .circle-border-content .circle-border-title {
+  color: #1c0761;
+  font-size: 21px;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-border .circle-border-content .circle-border-text {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 15px;
+  margin: auto;
+  max-width: 80%;
+}
+.page-about-us .credit-rating-section .circle-border-row.border-row-moody {
+  max-width: 600px;
+}
+.page-about-us .credit-rating-section .circle-border-row.border-row-company {
+  max-width: 600px;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-content-wrapper .slick-dots {
+  text-align: center;
+  margin: 20px 0;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-content-wrapper .slick-dots li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+  width: 12px;
+  height: 12px;
+  background: #FFF;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #95989a;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-content-wrapper .slick-dots li button {
+  display: none;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-content-wrapper .slick-dots li.slick-active {
+  background: #dbdbdb;
+  border: 2px solid #dbdbdb;
+}
+.page-about-us .credit-rating-section .circle-border-row .circle-content-wrapper .slick-dots li.slick-active div {
+  background: #dbdbdb !important;
+}
+.page-about-us .about-financial-content .financial-list {
+  width: 20%;
+  float: left;
+}
+.page-about-us .about-financial-content .financial-list h4 {
+  margin-top: 20px;
+}
+.page-about-us .about-financial-content .financial-list ul {
+  margin: 15px 0 0 20px;
+}
+.page-about-us .about-financial-content .financial-list ul li a {
+  color: #707070;
+  text-decoration: underline;
+}
+.page-about-us .about-financial-content .financial-list.full-width {
+  width: 100%;
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+.page-about-us .about-financial-content p.note {
+  margin-top: 30px;
+}
+.page-about-us .people-comment-container {
+  border-top: 2px solid #e6e6e6;
+  padding: 100px 50px;
+}
+.page-about-us .people-comment-container .people-comment {
+  display: inline-block;
+  width: calc(33% - 150px);
+  padding: 0 50px;
+}
+.page-about-us .people-comment-container .people-comment .comment-top {
+  margin-bottom: 10px;
+}
+.page-about-us .people-comment-container .people-comment .comment-bottom {
+  display: table;
+}
+.page-about-us .people-comment-container .people-comment .comment-bottom h4,
+.page-about-us .people-comment-container .people-comment .comment-bottom .profile {
+  display: table-cell;
+}
+.page-about-us .people-comment-container .people-comment .comment-bottom h4 {
+  display: table-cell;
+  width: calc(100% - 80px);
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.page-about-us .people-comment-container .people-comment .comment-bottom .profile {
+  width: 80px;
+}
+.page-about-us .people-comment-container .people-comment .comment-bottom img {
+  float: right;
+  width: 80px;
+  height: 80px;
+}
+.page-about-us .people-comment-container .people-comment.active .comment-bottom h4 {
+  color: #ec0c19;
+}
+.page-about-us .people-comment-container .slick-dots {
+  margin: 25px 0 0;
+  text-align: center;
+}
+.page-about-us .people-comment-container .slick-dots li {
+  position: relative;
+  z-index: 0;
+  margin: 0 12px;
+  list-style-type: none;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #95989a;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.page-about-us .people-comment-container .slick-dots li button {
+  display: none;
+}
+.page-about-us .people-comment-container .slick-dots li div {
+  background: #FFF !important;
+}
+.page-about-us .people-comment-container .slick-dots li div::after {
+  content: none;
+}
+.page-about-us .people-comment-container .slick-dots li.slick-active {
+  background: #dbdbdb;
+  border: 2px solid #dbdbdb;
+}
+.page-about-us .people-comment-container .slick-dots li.slick-active div {
+  background: #dbdbdb !important;
+}
+/** page-nurturing-talents Start  **/
+.page-nurturing-talents-at-msig p {
+  margin-bottom: 20px;
+}
+.page-nurturing-talents-at-msig .single-image figure {
+  margin-bottom: 0;
+}
+.page-nurturing-talents-at-msig .single-image img {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.page-nurturing-talents-at-msig .title-link-img-section .title-link-img-section__right .section-image {
+  margin-top: 0;
+}
+.page-nurturing-talents-at-msig .title-link-img-section .title-link-img-section__right .section-image img {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.page-nurturing-talents-at-msig .title-link-img-section#scholarships {
+  padding-bottom: 0;
+}
+.page-nurturing-talents-at-msig .two_columns_container .columns .single-image img {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.page-nurturing-talents-at-msig .two_columns_container.eligibility-content {
+  border-top: none;
+  padding: 0 0 65px;
+}
+.page-nurturing-talents-at-msig .small-decs {
+  padding-top: 45px;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner {
+  position: relative;
+  padding: 30px 0 85px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .slick-slide {
+  padding: 0 1px;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point {
+  display: inline-block;
+  width: calc(100% / 4 - 27px);
+  margin: 15px;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point:first-child {
+  margin-left: 0;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point:last-child {
+  margin-right: 0;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .default-view {
+  cursor: pointer;
+  padding: 50px 30px;
+  text-align: center;
+  background: #FFF;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .default-view img {
+  max-height: 80px;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .default-view p {
+  max-width: 150px;
+  text-align: center;
+  font-size: 20px;
+  color: #1c0761;
+  line-height: 25px;
+  margin: 30px auto 0;
+}
+@media only screen and (min-width: 778px) {
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .default-view:hover img {
+    -moz-animation-name: ctaIcons;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: ctaIcons;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: ctaIcons;
+    -o-animation-duration: 0.65s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    animation-duration: 0.65s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: ctaIcons;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .details-view {
+  max-width: 650px;
+  position: absolute;
+  top: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point:hover .details-view {
+  background: #1c0761;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  padding: 35px 30px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  -webkit-transition: top 0.5s, background 0.5s, color 0.5s;
+  /* Safari prior 6.1 */
+  transition: top 0.5s, background 0.5s, color 0.5s;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point:hover .details-view .icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 20px auto 0;
+  border: 2px solid #fff;
+  background: url('images/right_arrow-white.png') no-repeat center;
+  text-indent: -9999999px;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 6px -1px #808080;
+  -moz-box-shadow: 0 0 6px -1px #808080;
+  -ms-box-shadow: 0 0 6px -1px #808080;
+  box-shadow: 0 0 6px -1px #808080;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .close-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 9;
+  top: 20px;
+  right: 20px;
+  background: url("images/icon_close.png") no-repeat;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen {
+  position: relative;
+  width: 100%;
+  left: 0;
+  background: #FFF;
+  margin: 15px 0;
+  z-index: 9;
+  height: auto !important;
+  /* .transition(1s ease-out); */
+  overflow: hidden;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .default-view,
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .details-view {
+  display: table-cell;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .default-view {
+  min-width: 300px;
+  position: relative;
+  z-index: 9;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .default-view img {
+  height: 80px;
+}
+.page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .details-view {
+  background: none !important;
+  color: #808080 !important;
+  position: relative;
+  top: auto;
+  padding: 30px 40px;
+}
+@media only screen and (max-width: 640px) {
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point {
+    display: block !important;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .default-view img {
+    margin: 0 auto;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .details-view {
+    display: block;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point .close-icon {
+    display: none !important;
+  }
+}
+.page-nurturing-talents-at-msig .mainaccordion.Job-content {
+  padding: 100px 0 105px;
+  border-top: 2px solid #e6e6e6;
+  margin-bottom: 0;
+}
+.page-nurturing-talents-at-msig .mainaccordion.Job-content .accordion_title {
+  font-size: 28px;
+  color: #1c0761;
+  margin-bottom: 50px;
+}
+.page-nurturing-talents-at-msig .mainaccordion.Job-content .accordion_section_title {
+  margin-bottom: 1px;
+}
+.page-nurturing-talents-at-msig .mainaccordion.faq-content {
+  margin: 50px 0 65px;
+}
+.page-nurturing-talents-at-msig .mainaccordion.agent-accordion-content {
+  margin-bottom: 0;
+}
+.page-nurturing-talents-at-msig .msig-agent-content .title-link-img-section {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider {
+  margin: 60px 0;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide {
+  margin: 0 20px;
+  padding: 0 1px;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles {
+  background: #FFF;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  padding: 30px 30px 70px 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles .profile-image {
+  margin: 0 auto 35px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles .name {
+  font-size: 18px;
+  color: #1c0761;
+  margin-bottom: 5px;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles .designation {
+  max-width: 250px;
+  margin: 0 auto 15px;
+  font-weight: bold;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles .description {
+  color: #808080;
+  font-size: 16px;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles .curvy-box-learn-more-button {
+  display: none;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-slide .paragraph--type--profiles .read-more-link {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-arrow.slick-prev {
+  left: 0;
+}
+.page-nurturing-talents-at-msig .scholarslist-content.slick-slider .slick-arrow.slick-next {
+  right: 0;
+}
+.page-nurturing-talents-at-msig .agent-slider.slick-slider .slick-slide .paragraph--type--profiles {
+  padding: 30px;
+}
+.page-nurturing-talents-at-msig .agent-service-lists {
+  margin-bottom: 65px;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner {
+  position: relative;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .slick-slide {
+  padding: 0 1px;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list {
+  display: inline-block;
+  width: calc(100% / 3 - 26px);
+  margin: 15px;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list:first-child {
+  margin-left: 0;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list:last-child {
+  margin-right: 0;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .default-view {
+  padding: 50px 30px;
+  text-align: center;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .default-view img {
+  max-height: 80px;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .default-view p {
+  max-width: 150px;
+  text-align: center;
+  font-size: 20px;
+  color: #1c0761;
+  line-height: 25px;
+  margin: 30px auto 0;
+}
+@media only screen and (min-width: 778px) {
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .default-view:hover img {
+    -moz-animation-name: ctaIcons;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: ctaIcons;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: ctaIcons;
+    -o-animation-duration: 0.65s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    animation-duration: 0.65s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: ctaIcons;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .details-view {
+  max-width: 650px;
+  position: absolute;
+  top: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list:hover .details-view {
+  background: #1c0761;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  padding: 35px 30px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  -webkit-transition: top 0.5s, background 0.5s, color 0.5s;
+  /* Safari prior 6.1 */
+  transition: top 0.5s, background 0.5s, color 0.5s;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list:hover .details-view .icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 20px auto 0;
+  border: 2px solid #fff;
+  background: url('images/right_arrow-white.png') no-repeat center;
+  text-indent: -9999999px;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 6px -1px #808080;
+  -moz-box-shadow: 0 0 6px -1px #808080;
+  -ms-box-shadow: 0 0 6px -1px #808080;
+  box-shadow: 0 0 6px -1px #808080;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .close-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 9;
+  top: 20px;
+  right: 20px;
+  background: url("images/icon_close.png") no-repeat;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen {
+  position: relative;
+  width: 100%;
+  background: #FFF;
+  margin: 15px 0;
+  height: auto !important;
+  overflow: hidden;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .default-view,
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .details-view {
+  display: table-cell;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .default-view {
+  min-width: 300px;
+  background: #FFF;
+  position: relative;
+  z-index: 9;
+}
+.page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .details-view {
+  padding: 30px 40px;
+  background: none !important;
+  color: #808080 !important;
+  display: table-cell;
+  position: relative;
+  top: auto;
+}
+@media only screen and (max-width: 640px) {
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list {
+    display: block !important;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .default-view img {
+    margin: 0 auto;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .details-view {
+    display: block;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list .close-icon {
+    display: none !important;
+  }
+}
+/** Media Query **/
+@media only screen and (max-width: 1600px) {
+  .page-about-us .people-comment-container {
+    padding: 70px 0px;
+  }
+  .page-about-us .people-comment-container .people-comment {
+    width: calc(33% - 116px);
+    padding: 10px 58px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .page-about-us .people-comment-container .people-comment {
+    width: calc(33% - 80px);
+    padding: 10px 40px;
+  }
+  .page-about-us .accordion_section_content .credit-rating-section .circle-border-row .circle-border {
+    height: 210px;
+    width: 210px !important;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .page-about-us .accordion_section_content .credit-rating-section .circle-border-row .circle-border {
+    height: 200px;
+    width: 200px !important;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .page-about-us .about-banner .banner-content h3 {
+    margin-bottom: 10px;
+  }
+  .page-about-us .about-banner .banner-content p {
+    margin-bottom: 8px;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point {
+    width: calc(100% / 2 - 18px);
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point:nth-child(2n) {
+    margin-right: 0;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point:nth-child(2n+1) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .page-about-us {
+    /* .paragraph--type-videos {
+            .youtube-video-wrapper {
+                iframe {
+                    height: 550px;
+                }
+            }
+        } */
+  }
+  .page-about-us .people-comment-container {
+    padding: 70px 0px;
+  }
+  .page-about-us .people-comment-container .people-comment {
+    width: calc(50% - 63px);
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  .page-about-us .people-comment-container .people-comment .comment-top {
+    margin-bottom: 5px;
+  }
+  .page-about-us .people-comment-container .people-comment .comment-bottom {
+    display: table;
+    width: 100%;
+  }
+  .page-about-us .people-comment-container .people-comment .comment-bottom h4 {
+    display: table-cell;
+    width: calc(100% - 40px);
+  }
+  .page-about-us .about-society-contribution .society-initiatives-container .society-initiatives {
+    width: calc(33% - 20px);
+    margin: 0 20px;
+  }
+  .page-about-us .our-partners .title-link-img-section .title-link-img-section__left {
+    width: calc(70% - 35px);
+    margin-right: 30px;
+  }
+  .page-about-us .highlight-wrapper-v2.awards-item {
+    width: calc(50% - 30px);
+    margin: 0 15px;
+    height: 275px;
+    background-size: 100%;
+    padding: 10px 8% 0;
+    margin-bottom: 50px;
+  }
+  .page-about-us .highlight-wrapper-v2.awards-item .highlight-title {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .page-about-us .about-banner {
+    margin-bottom: 0;
+  }
+  .page-about-us .about-banner .banner-img {
+    position: relative;
+    left: 0;
+    transform: translateX(0);
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  .page-about-us .about-banner .banner-content {
+    text-align: left;
+    padding: 20px 0;
+    text-shadow: none;
+  }
+  .page-about-us .about-banner .banner-content h3 {
+    color: #1c0761;
+  }
+  .page-about-us .about-banner .banner-content p {
+    color: #808080;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .page-about-us .accordion-key-roles img.align-right {
+    float: right;
+  }
+}
+@media only screen and (max-width: 857px) {
+  .page-about-us .about-mission-vision,
+  .page-about-us .ourvalue-content,
+  .page-about-us .title-link-img-section,
+  .page-about-us .two_columns_container.promise-text-container,
+  .page-about-us .our-partners .title-link-img-section,
+  .page-about-us .paragraph--type--leadership-profiles,
+  .page-about-us .about-ceo-section {
+    padding: 75px 0 80px;
+  }
+  .page-about-us .about-mission-vision {
+    margin-top: 40px;
+  }
+  .page-about-us .title-link-img-section .title-link-img-section__right p:last-child {
+    margin-bottom: 0;
+  }
+  .page-about-us .single-image {
+    margin-bottom: 40px;
+  }
+  .page-about-us .two_columns_container,
+  .page-about-us .internship-wrapper {
+    padding-top: 75px;
+  }
+  .page-about-us .about__banner-content {
+    padding: 0 50px 80px 80px;
+  }
+  .page-about-us .financial-list {
+    width: 33%;
+  }
+  .page-about-us .financial-list.full-width {
+    margin-bottom: 70px;
+  }
+  .page-about-us .people-comment-container .people-comment .comment-bottom img {
+    max-width: 100%;
+    height: auto;
+  }
+  .page-about-us .about-society-contribution {
+    padding-bottom: 80px;
+  }
+  .page-about-us .about-society-contribution .society-initiatives-container .society-initiatives {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+  .page-about-us .about-society-contribution .society-initiatives-container .society-initiatives:last-child {
+    margin-bottom: 0;
+  }
+  .page-about-us .about-society-contribution .society-initiatives-container .msig-btn.mt60 {
+    margin-top: 0px;
+  }
+  .title-link-img-section {
+    padding: 75px 0 80px;
+  }
+  .page-nurturing-talents-at-msig .small-decs {
+    padding-top: 75px;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner {
+    padding: 75px 0 80px;
+  }
+  .page-nurturing-talents-at-msig .highlight-wrapper-v2.heading-content .highlight-title {
+    padding-top: 75px;
+  }
+  .page-nurturing-talents-at-msig .mainaccordion.Job-content {
+    padding-top: 75px;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list {
+    width: calc(100% / 2 - 18px);
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list:nth-child(even) {
+    margin-right: 0;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list:nth-child(odd) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .title-link-img-section .title-link-img-section__left {
+    width: 100%;
+    padding-right: 0;
+  }
+  .title-link-img-section .title-link-img-section__right {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .two_columns_container .row .columns.col_1,
+  .two_columns_container .row .columns.col_2 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .two_columns_container .row .columns.col_2 {
+    margin-top: 40px;
+    padding-left: 0;
+  }
+  .highlight-wrapper-v2.list-grid-4 ul {
+    width: 100%;
+    padding: 0;
+  }
+  .page-about-us .about-us-page-content .about-banner .banner-content p {
+    line-height: 20px;
+  }
+  .page-about-us .about-us-page-content .about-banner .banner-content p:last-child strong {
+    font-weight: 400;
+  }
+  .page-about-us .about-us-page-content .about-mission-vision h3 {
+    text-align: left;
+  }
+  .page-about-us .about-us-page-content .ourvalue-content .field__item h3 {
+    text-align: left;
+  }
+  .page-about-us .about__banner-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page-about-us .about-msig-section .title-link-img-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .page-about-us .about-msig-section .title-link-img-section .title-link-img-section__left {
+    margin-top: 30px;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+  }
+  .page-about-us .about-msig-section .title-link-img-section .title-link-img-section__left img {
+    margin: 30px auto;
+    max-width: 150px;
+  }
+  .page-about-us .about-msig-section .title-link-img-section .title-link-img-section__right {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 100%;
+    padding-left: 0;
+  }
+  .page-about-us .about-msig-section .title-link-img-section img {
+    display: block;
+    margin: auto;
+  }
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__left,
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__right {
+    width: 100%;
+  }
+  .page-about-us .about-mission-vision img {
+    display: none;
+  }
+  .page-about-us .about-mission-vision img.mission-vision-desktop {
+    display: block;
+  }
+  .page-about-us .about-nurturing-section .title-link-img-section .field-name-field-link .field__item a {
+    margin-top: 0;
+  }
+  .page-about-us .about-nurturing-section .title-link-img-section__left {
+    margin-top: 0;
+    padding-right: 0;
+  }
+  .page-about-us .about-nurturing-section .title-link-img-section__right {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__left {
+    width: 100%;
+  }
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__left img.ceo-image-mobile {
+    display: none;
+  }
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__left .ceo-signature {
+    margin-bottom: 30px;
+  }
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__right {
+    width: 100%;
+  }
+  .page-about-us .about-ceo-section .title-link-img-section .title-link-img-section__right img {
+    margin-top: 0;
+    width: 100%;
+  }
+  .page-about-us .ourvalue-content .field__item {
+    text-align: center;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0;
+    margin: 0 20px;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide .paragraph--type-title-image-text .field-paragraph--field-text .field__items .field__item p {
+    height: auto;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide.slick-center {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+    position: relative;
+    z-index: 9;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots {
+    margin-bottom: 80px;
+  }
+  .page-about-us .internship-wrapper .internship-content {
+    max-width: 100%;
+  }
+  .page-about-us .accordion_section_content .img-text-columns .accordion-cols {
+    margin-left: 0 !important;
+  }
+  .page-about-us .accordion_section_content .accordion-img-right .left-content,
+  .page-about-us .accordion_section_content .accordion-img-right .right-img {
+    width: 100% !important;
+  }
+  .page-about-us .accordion-key-roles img.align-right {
+    float: none;
+    display: block;
+  }
+  .page-about-us .about-nurturing-content .title-link-img-section .field-name-field-link .field__item a.msig-btn {
+    margin: 0 0 20px;
+  }
+  .page-about-us .about-nurturing-content .title-link-img-section .field-name-field-link .paragraph.paragraph--type-learn-more {
+    text-align: center;
+  }
+  .page-about-us #decreaseTimelinePic,
+  .page-about-us #increaseTimelinePic {
+    display: block;
+  }
+  .page-about-us .accordion_section_content .timeline-link {
+    display: block;
+    margin-top: 30px;
+  }
+  .page-about-us .accordion_section_content .timeline-link a {
+    color: #1c0761;
+    font-size: 18px;
+  }
+  .page-about-us .our-partners .title-link-img-section .title-link-img-section__left,
+  .page-about-us .our-partners .title-link-img-section .title-link-img-section__right {
+    width: 100%;
+    margin: 0;
+  }
+  .page-about-us .our-partners .title-link-img-section .title-link-img-section__right img {
+    margin-top: 30px;
+    max-width: 450px;
+  }
+  .page-about-us .leadership-popup {
+    overflow-y: scroll;
+  }
+  .page-about-us .leadership-popup .popup-wrapper {
+    padding: 80px 50px;
+  }
+  .page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .image-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right {
+    padding-left: 0;
+    width: 100%;
+  }
+  .page-about-us .highlight-wrapper-v2.awards-item {
+    width: 100%;
+    float: none;
+    height: 275px;
+    background-size: 80%;
+    padding: 80px 22% 0;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-about-us .people-comment-container .people-comment {
+    width: 100%;
+    padding: 0px;
+  }
+  .page-about-us .people-comment-container .people-comment .comment-top {
+    margin-bottom: 5px;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen {
+    margin: 0 0 30px 0;
+    position: relative;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .default-view,
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .details-view {
+    text-align: center;
+    display: block;
+  }
+  .page-nurturing-talents-at-msig .highlight-content .highlight-content-inner .highlight-point.fullscreen .details-view {
+    padding-top: 0;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen {
+    margin: 0;
+    position: relative;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .default-view,
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .details-view {
+    text-align: center;
+    display: block;
+  }
+  .page-nurturing-talents-at-msig .agent-service-lists .agent-service-inner .agent-service-list.fullscreen .details-view {
+    padding-top: 0;
+  }
+  .page-nurturing-talents-at-msig .paragraph--type--leadership-profiles .scholarslist-content.slick-slider .slick-slide {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .page-about-us .about-ceo-msg-section .title-link-img-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .page-about-us .about-ceo-msg-section .title-link-img-section .title-link-img-section__title {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .page-about-us .about-ceo-msg-section .title-link-img-section .title-link-img-section__title .ceo-signature {
+    margin-top: 40px;
+  }
+  .page-about-us .about-ceo-msg-section .title-link-img-section .title-link-img-section__left {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    width: 100%;
+    padding-right: 0;
+  }
+  .page-about-us .about-ceo-msg-section .title-link-img-section .title-link-img-section__right {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-left: 0;
+  }
+  .page-about-us .about-ceo-msg-section .title-link-img-section .title-link-img-section__right .section-image {
+    text-align: center;
+    margin: 30px auto;
+  }
+  .page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column.internship-view-left {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 35%;
+  }
+  .page-about-us .internship-wrapper .internship-table > ul > li .internship-view-column.internship-view-right {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 65%;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list {
+    padding: 0 50px !important;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide {
+    margin: 0;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-list .slick-track .slick-slide.slick-center {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    position: relative;
+    z-index: 9;
+  }
+  .page-about-us .slider-section .field-name-field-slide .slick-slider .slick-dots {
+    margin-bottom: 80px;
+  }
+  .page-about-us .financial-list {
+    width: 50%;
+  }
+  .page-about-us .financial-list ul {
+    margin: 10px 0 0 20px !important;
+  }
+  .page-about-us .financial-list.full-width {
+    margin-bottom: 50px;
+  }
+  .page-about-us .title-link-img-section .ceo-signature {
+    margin-top: 30px;
+  }
+  .page-about-us .title-link-img-section .ceo-signature h6 {
+    font-size: 16px;
+  }
+  .page-about-us .title-link-img-section .ceo-signature p {
+    line-height: 22px;
+  }
+  .page-about-us .leadership-popup {
+    overflow-y: scroll;
+  }
+  .page-about-us .leadership-popup .popup-wrapper {
+    padding: 60px 30px;
+  }
+  .page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .image-left .profile-image {
+    height: auto;
+  }
+  .page-about-us .leadership-popup .popup-wrapper .popup-wrapper-inner .content-right {
+    padding-left: 0;
+    width: 100%;
+  }
+  .page-about-us .highlight-wrapper-v2.awards-item {
+    padding-top: 30px;
+    margin: 0 0 30px;
+    background-size: 100%;
+  }
+  .page-about-us .paragraph--type--leadership-profiles {
+    padding: 75px 0 30px;
+  }
+  .page-about-us .swiper-pagination {
+    text-align: center;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .page-about-us .swiper-pagination .swiper-pagination-bullet {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+    background: #FFF;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 1;
+    border: 2px solid #95989a;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  .page-about-us .swiper-pagination .swiper-pagination-bullet button {
+    display: none;
+  }
+  .page-about-us .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #dbdbdb;
+    border: 2px solid #dbdbdb;
+  }
+  .page-about-us .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active div {
+    background: #95989a !important;
+  }
+}

@@ -1,0 +1,37 @@
+.sprite {
+  background: url(images/sprite.png) no-repeat;
+}
+/* Keyframes */
+/* Common Media */
+.pr-footer {
+  color: #808080;
+}
+ul.tick,
+ol.tick {
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+ul.tick li,
+ol.tick li {
+  list-style-type: none !important;
+  background: url(images/icon_tick.png) 0 8px no-repeat !important;
+  padding-left: 32px !important;
+  margin-bottom: 12px !important;
+}
+ul.no-tick {
+  list-style-type: disc !important;
+  margin-left: 32px !important;
+}
+ul.no-tick li {
+  list-style-type: disc !important;
+  margin-left: 0 !important;
+}
+ol.no-tick {
+  list-style-type: decimal !important;
+  margin-left: 32px !important;
+}
+ol.no-tick li {
+  list-style-type: decimal !important;
+  margin-left: 0 !important;
+}

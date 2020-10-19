@@ -1,0 +1,454 @@
+.forest--animated--section {
+  /* The style below is just for the appearance of the example div */
+}
+.forest--animated--section * {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.forest--animated--section h1,
+.forest--animated--section h2,
+.forest--animated--section h3,
+.forest--animated--section p {
+  font-family: "Ubuntu-Regular", Helvetica, sans-serif;
+}
+.forest--animated--section .flex {
+  display: flex;
+  /* establish flex container */
+  flex-direction: row;
+  /* default value; can be omitted */
+  flex-wrap: nowrap;
+  /* default value; can be omitted */
+  justify-content: space-between;
+  /* switched from default (flex-start, see below) */
+  background-color: lightyellow;
+}
+.forest--animated--section h1 {
+  font-size: 32px;
+  color: #1C0761;
+  font-weight: 400;
+  line-height: 45px;
+}
+.forest--animated--section h2 {
+  font-size: 40px;
+  color: #1C0761;
+  font-weight: 600;
+}
+.forest--animated--section h3 {
+  font-size: 20px;
+  color: #808080;
+  font-weight: 400;
+  line-height: 32px;
+}
+.forest--animated--section .copy {
+  opacity: 1;
+  position: relative;
+  overflow: visible;
+  max-width: 480px;
+  z-index: 50;
+  border-style: dashed;
+}
+.forest--animated--section .pangolin-right {
+  width: 700px;
+  height: 600px;
+  opacity: 1;
+  position: relative;
+  border-style: dashed;
+  float: right;
+  top: -200px;
+}
+.forest--animated--section .pangolin-right > div {
+  display: block;
+}
+.forest--animated--section .center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.forest--animated--section .intro-copy {
+  position: relative;
+  height: auto;
+  text-align: center;
+  overflow: visible;
+}
+.forest--animated--section .text-container {
+  margin-top: 40px !important;
+  max-width: 650px;
+  overflow: visible;
+}
+.forest--animated--section .pin {
+  width: 100%;
+  height: auto;
+  border-style: dashed;
+  overflow: visible;
+  z-index: 50;
+}
+.forest--animated--section .pin2 {
+  width: 100%;
+  height: auto;
+  border-style: dashed;
+  overflow: visible;
+  z-index: 50;
+}
+.forest--animated--section .s4-container {
+  height: 100vh;
+}
+.forest--animated--section .s1 {
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  top: 100px;
+  overflow: visible;
+  z-index: 50;
+}
+.forest--animated--section .s2 {
+  margin-left: 40px !important;
+  margin-top: 100px !important;
+}
+.forest--animated--section .section1 {
+  padding: 0px;
+  display: block;
+  position: relative;
+}
+.forest--animated--section .intro-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 150px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: #EDEDE4;
+}
+.forest--animated--section .pangolin-wrapper {
+  border-style: dotted;
+}
+.forest--animated--section .forest-container {
+  width: 100%;
+  height: 1200px;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(198, 211, 202, 0) 0%, rgba(198, 211, 202, 0.5) 14.58%);
+  border-radius: 0px;
+}
+.forest--animated--section .s3-container {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  background-color: #EDEDE4;
+  border-style: dashed;
+}
+.forest--animated--section .intro-earth {
+  display: block;
+  position: relative;
+  width: 480px;
+  height: 520px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: visible;
+}
+.forest--animated--section #earth,
+.forest--animated--section #animals,
+.forest--animated--section .intro-title {
+  position: absolute;
+  display: block;
+}
+.forest--animated--section .intro-title {
+  width: 100%;
+  height: auto;
+  z-index: 50;
+  text-align: center;
+  top: 190px;
+  overflow: hidden;
+}
+.forest--animated--section .intro-title h2 {
+  overflow: hidden;
+}
+.forest--animated--section .header {
+  position: relative;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px !important;
+  margin-bottom: 40px !important;
+  font-weight: 400;
+}
+.forest--animated--section .highlight {
+  color: #EC0C19;
+  font-weight: 600;
+}
+.forest--animated--section .s3box {
+  height: 1000px;
+  width: 100%;
+  border-style: dashed;
+}
+.forest--animated--section .front {
+  width: 100%;
+  height: 1004px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+  z-index: 20;
+}
+.forest--animated--section .front > div {
+  display: block;
+}
+.forest--animated--section .mid {
+  width: 100%;
+  height: 1304px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: 10;
+}
+.forest--animated--section .mid > div {
+  display: block;
+}
+.forest--animated--section .bg {
+  width: 100%;
+  height: 1504px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.6;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  z-index: 1;
+}
+.forest--animated--section .bg > div {
+  display: block;
+}
+.forest--animated--section #animals {
+  width: 498px;
+  height: 502px;
+  background: url("./images/animals.png");
+  overflow: hidden;
+  left: -5px;
+  top: -5px;
+  background-repeat: no-repeat;
+}
+.forest--animated--section #earth {
+  width: 489px;
+  height: 488px;
+  background-image: url("./images/earth.png");
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+}
+.forest--animated--section #forest-bg {
+  width: 695px;
+  height: 767px;
+  background: url("./images/v218_1780.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 690px;
+  overflow: hidden;
+}
+.forest--animated--section #backdrop {
+  width: 100%;
+  height: 560px;
+  background: url("./images/v218_1826.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 475px;
+  left: 0px;
+  overflow: hidden;
+}
+.forest--animated--section #fernright1 {
+  width: 270px;
+  height: 423px;
+  background: url("./images/v218_1819.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 496px;
+  left: 1050px;
+}
+.forest--animated--section #fernright {
+  width: 624px;
+  height: 795px;
+  background: url("./images/v218_1781.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 1020px;
+  overflow: hidden;
+}
+.forest--animated--section #tree2 {
+  width: 490px;
+  height: 676px;
+  background: url("./images/v218_1783.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 240px;
+  left: -60px;
+  overflow: hidden;
+}
+.forest--animated--section #tree1 {
+  width: 547px;
+  height: 892px;
+  background: url("./images/v218_1784.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: -240px;
+}
+.forest--animated--section #fern2 {
+  width: 683px;
+  height: 530px;
+  background: url("./images/v218_1787.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 362px;
+  left: -170px;
+  overflow: hidden;
+}
+.forest--animated--section #fern3 {
+  width: 394px;
+  height: 275px;
+  background: url("./images/v218_1782.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 701px;
+  left: 200px;
+  overflow: hidden;
+}
+.forest--animated--section #fern1 {
+  width: 634px;
+  height: 702px;
+  background: url("./images/v218_1793.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 357px;
+  left: -300px;
+  overflow: hidden;
+  z-index: 20;
+}
+.forest--animated--section #front-right {
+  width: 933px;
+  height: 471px;
+  background: url("./images/v218_1788.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 517px;
+  overflow: hidden;
+}
+.forest--animated--section #front-left {
+  width: 1500px;
+  height: 450px;
+  background: url("./images/v218_1789.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: -5px;
+  left: -200px;
+  overflow: hidden;
+}
+.forest--animated--section #brunch {
+  width: 869px;
+  height: 502px;
+  background: url("./images/v218_1618.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  overflow: hidden;
+}
+.forest--animated--section #pangolin {
+  width: 682px;
+  height: 396px;
+  background: url("./images/v218_1790.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  z-index: 20;
+}
+.forest--animated--section #s2-fern {
+  width: 533px;
+  height: 650px;
+  background: url("./images/v218_1791.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: -150px;
+  left: 400px;
+  overflow: hidden;
+  z-index: 30;
+}
+.forest--animated--section #termites {
+  width: 85px;
+  height: 79px;
+  background: url("./images/termites.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  display: block;
+}
+.forest--animated--section .rotate {
+  animation: rotation 34s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

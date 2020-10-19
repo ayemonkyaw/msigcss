@@ -1,0 +1,754 @@
+.ocean--animated--section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+    margin: 0px !important;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* ocean gradient */
+    /* Cover */
+    /* Section 2*/
+    /* Images*/
+}
+
+.ocean--animated--section h1,
+.ocean--animated--section h2,
+.ocean--animated--section h3,
+.ocean--animated--section p {
+    font-family: 'Ubuntu-Regular';
+}
+
+.ocean--animated--section h1 {
+    font-size: 40px;
+    color: #1C0761;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.ocean--animated--section h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+}
+
+.ocean--animated--section .content-footer h2 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocean--animated--section h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.ocean--animated--section p {
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ocean--animated--section .content {
+    /* Content */
+    position: absolute;
+    height: 180px;
+    left: 23px;
+    right: 23px;
+    top: calc(50% - 180px/2 - 46px);
+    text-align: center;
+}
+
+.ocean--animated--section .highlight {
+    color: #EC0C19;
+    font-weight: 600;
+}
+
+.ocean--animated--section .content-style {
+    position: absolute;
+    height: 128px;
+    left: 0px;
+    right: 0px;
+    bottom: 26px;
+    font-family: 'Ubuntu-Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    text-align: center;
+    /* MSIG RED */
+    color: #EC0C19;
+}
+
+.ocean--animated--section .bg-ocean {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #36AAB9;
+}
+
+.ocean--animated--section .ocean-gradient {
+    background: linear-gradient(178.77deg, rgba(1, 148, 168, 0.75) 51.7%, rgba(142, 234, 127, 0.2925) 73.43%, rgba(93, 129, 183, 0) 95.16%);
+}
+
+.ocean--animated--section .cover {
+    text-align: center;
+    /* Start */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    padding: 80px 16px;
+    position: static;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #EDEDE4;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    margin: 0px 0px;
+}
+
+.ocean--animated--section .cover-title {
+    position: static;
+    width: 382px;
+    height: 110px;
+    left: calc(50% - 382px/2);
+    top: 80px;
+    /* or 137% */
+    text-align: center;
+    /* msig blue */
+    color: #1C0761;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.ocean--animated--section .cover-image {
+    /* The ocean ecosystem */
+    display: block;
+    background: url("./images/marine/cover-img-marine.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: static;
+    width: 500px;
+    height: 500px;
+    top: 239px;
+    margin-top: 30px;
+    /* Inside Auto Layout */
+    flex: none;
+    align-self: center;
+}
+
+.ocean--animated--section .cover-intro {
+    max-width: 720px;
+    position: relative;
+    height: auto;
+    /* or 131% */
+    text-align: center;
+    /* bod text */
+    color: #808080;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 40px 24px;
+}
+
+.ocean--animated--section .section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #36AAB9;
+    /* text-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.ocean--animated--section .section-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-around;
+    position: relative;
+    min-height: 629px;
+    /* text-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2); */
+    background-color: #36AAB9;
+    width: 100%;
+}
+
+.ocean--animated--section .section-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 992px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2); */
+    background-color: #36AAB9;
+}
+
+.ocean--animated--section .section-1 .bg .wave-1 {
+    top: -40px;
+    left: -380px;
+    opacity: 80%;
+}
+
+.ocean--animated--section .footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #012D38;
+    z-index: 4;
+}
+
+.ocean--animated--section .line-border {
+    display: block;
+    position: static;
+    /* MSIG RED */
+    height: 4px;
+    background-color: #EC0C19;
+    width: 150px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.ocean--animated--section .graphic {
+    flex: 1;
+    z-index: 88;
+    position: relative;
+    z-index: 3;
+}
+
+.ocean--animated--section .graphic-2 {
+    flex: 1;
+    z-index: 88;
+    position: relative;
+    width: 100px;
+}
+
+.ocean--animated--section .spacer {
+    margin-bottom: 200px;
+    height: 50px;
+}
+
+.ocean--animated--section .content-1 {
+    position: relative;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    z-index: 99;
+    max-width: 640px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.ocean--animated--section .content-2 {
+    flex: 1;
+    position: relative;
+    height: auto;
+    z-index: 99;
+    max-width: 490px;
+    margin: 50px 24px;
+    min-width: 390px;
+}
+
+.ocean--animated--section .content-3 {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    height: auto;
+    max-width: 500px;
+    z-index: 99;
+    margin-right: 24px;
+    margin-left: 24px;
+    align-self: top;
+}
+
+@media (min-width: 1200px) {
+    .ocean--animated--section .content-3 {
+        margin-top: -170px;
+    }
+}
+
+.ocean--animated--section .background {
+    top: -300px;
+}
+
+.ocean--animated--section .bg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.ocean--animated--section .background-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.ocean--animated--section .section-1 .bg .bubble {
+    left: 150px;
+    top: 400px;
+}
+
+.ocean--animated--section .section-2 .bg .bubble {
+    left: 500px;
+    top: 100px;
+}
+
+.ocean--animated--section .section-3 .bg .bubble {
+    left: 550px;
+    top: 0px;
+}
+
+.ocean--animated--section .section-1 .graphic .bubble {
+    left: -80px;
+    top: -30px;
+}
+
+.ocean--animated--section .section-2 .graphic .bubble {
+    left: 500px;
+    top: 100px;
+}
+
+.ocean--animated--section .section-3 .graphic .bubble {
+    left: 0px;
+    top: 0px;
+}
+
+.ocean--animated--section .bubble {
+    width: 88px;
+    height: 137px;
+    display: block;
+    background: url("./images/marine/bubble.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+}
+
+.ocean--animated--section .shark2 {
+    width: 674px;
+    height: 286px;
+    display: block;
+    background: url("./images/marine/Shark.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocean--animated--section .fishes {
+    width: 889px;
+    height: 457px;
+    display: block;
+    background: url("./images/marine/Fishes.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    left: -400px;
+}
+
+.ocean--animated--section .wave-blue {
+    width: 1300px;
+    height: 190px;
+    display: block;
+    background: url("./images/marine/wave.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: -80px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.ocean--animated--section .ground {
+    position: absolute;
+    width: 1316px;
+    height: 360px;
+    top: 188px;
+    left: -10px;
+    display: block;
+    background: url("./images/marine/seabed-1.png");
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.ocean--animated--section .wave-1 {
+    position: absolute;
+    width: 1058px;
+    height: 221px;
+    display: block;
+    background: url("./images/marine/wave-1.png");
+    background-color: #36AAB9;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: screen;
+    z-index: 0;
+}
+
+.ocean--animated--section .bg-reef {
+    position: absolute;
+    width: 1300px;
+    height: 960px;
+    display: block;
+    background: url("./images/marine/bg-reef.png");
+    left: 0px;
+    top: -280px;
+    z-index: 1;
+}
+
+.ocean--animated--section .reef {
+    position: relative;
+    width: 594px;
+    height: 540px;
+    display: block;
+    background: url("./images/marine/reef-1.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.ocean--animated--section .bg-reef-2 {
+    display: block;
+    background: url("./images/marine/bg-reef-2.png");
+    width: 1231px;
+    height: 286px;
+    position: absolute;
+    top: 139px;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+
+.ocean--animated--section .content-footer {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.ocean--animated--section .content-wrapper {
+    padding: 37px 24px;
+    position: relative;
+    height: auto;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0) 100%);
+    background-blend-mode: screen, normal;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.ocean--animated--section .link-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.ocean--animated--section .link-mangrove {
+    display: block;
+    background: url("./images/marine/link-mangrove.png");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.ocean--animated--section .link-forest {
+    display: block;
+    background: url("./images/marine/link-forest.png");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.ocean--animated--section .link-ocean {
+    display: block;
+    background: url("./images/marine/link-ocean.png");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.ocean--animated--section .link-row-1 {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.ocean--animated--section .link-row-2 {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.ocean--animated--section .link-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.ocean--animated--section .footer-wrapper {
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 720px;
+}
+
+.ocean--animated--section .link-header {
+    /* Learn more about other ecosystems: */
+    position: relative;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+}
+
+.ocean--animated--section .link-wrapper {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocean--animated--section .footer-container {
+    /* Footer */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 16px;
+    position: relative;
+    height: auto;
+    margin-top: 0px;
+}
+
+.ocean--animated--section .link-txt-mangrove {
+    /* Mangrove */
+    position: relative;
+    width: 150px;
+    height: 40.54px;
+    font-weight: bold;
+    line-height: 38px;
+    /* or 237% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.ocean--animated--section .link-txt-forest {
+    /* Forest */
+    position: static;
+    width: 150px;
+    height: 40.54px;
+    left: -8.11px;
+    top: 166px;
+    font-family: 'Ubuntu-Regular';
+    font-style: normal;
+    font-weight: bold;
+    /* or 237% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 960px) {
+    .ocean--animated--section body {
+        background-color: olive;
+        width: 100%;
+    }
+    .ocean--animated--section h1 {
+        font-size: 32px;
+        color: #1C0761;
+        font-weight: 400;
+        line-height: 45px;
+    }
+    .ocean--animated--section h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: white;
+    }
+    .ocean--animated--section h3 {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .ocean--animated--section p {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .ocean--animated--section .section-2 {
+        text-align: left;
+    }
+    .ocean--animated--section .section-3 {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 140px;
+    }
+    .ocean--animated--section .content-3 {
+        align-self: center;
+        width: auto;
+    }
+    .ocean--animated--section .reef {
+        top: 170px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .ocean--animated--section .shark2 {
+        margin-left: 200px;
+    }
+        .ocean--animated--section .link-mangrove {
+        display: block;
+        background: url("./images/marine/link-mangrove.png");
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        justify-self: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .ocean--animated--section .link-forest {
+        display: block;
+        background: url("./images/marine/link-forest.png");
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        justify-self: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .ocean--animated--section .link-ocean {
+        display: block;
+        background: url("./images/marine/link-ocean.png");
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        justify-self: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .waave-1{
+        border: 2px red dashed;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ocean--animated--section .content-2 {
+        min-width: 90%;
+        text-align: center;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .ocean--animated--section .shark2 {
+        margin-left: 400px;
+    }
+    .ocean--animated--section .fishes {
+        left: -500px;
+    }
+    .ocean--animated--section .content-wrapper {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .ocean--animated--section .cover-image {
+        width: 300px;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    .ocean--animated--section .bg-reef {
+        background-size: 80% 80%;
+        background-position: center center;
+    }
+    .ocean--animated--section .bg-reef-2 {
+        background-size: 80% 80%;
+        background-position: center center;
+    }
+    .ocean--animated--section .reef {
+        background-size: 60% 60%;
+        background-position: center center;
+    }
+    .ocean--animated--section .link-mangrove {
+        display: block;
+        background: url("./images/marine/link-mangrove.png");
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        justify-self: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .ocean--animated--section .link-forest {
+        display: block;
+        background: url("./images/marine/link-forest.png");
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        justify-self: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .ocean--animated--section .link-ocean {
+        display: block;
+        background: url("./images/marine/link-ocean.png");
+        width: 150px;
+        height: 150px;
+        background-repeat: no-repeat;
+        justify-self: center;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+}

@@ -1,0 +1,856 @@
+/**
+* Custom CSS
+* Use this file to override styles if you feel uncomfortable editing
+* component stylesheets.
+============================================================================ */
+@import "styleguide.less";
+
+/* Custom Fonts starts */
+.ready-fonts(@font-name) {
+	@font-face {
+		font-family: '@{font-name}';
+		src: url('fonts/@{font-name}.eot'); /* IE9 Compat Modes */
+		src: url('fonts/@{font-name}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('fonts/@{font-name}.woff') format('woff'), /* Modern Browsers */
+			url('fonts/@{font-name}.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('fonts/@{font-name}.svg#svgFontName') format('svg'); /* Legacy iOS */
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+.ready-fonts(Ubuntu-Regular);
+
+/*font-family: 'NeoSansCyr-Regular';
+font-family: 'NeoSansPro-Regular';*/
+
+/* Custom Fonts ends */
+.common-margin(block-main-content);
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	.box-sizing;
+	&:focus {
+		outline: none;
+	}
+}
+
+.node {
+	box-shadow: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: @blue;
+	font-weight: normal;
+}
+p, h1, h2, h3, h4, h5, h6, div, span, ul, ol, li, main, article, aside, details, figcaption, figure, footer, header, menu, nav, section, summary {
+	margin: 0;
+	padding: 0;
+	&:empty{
+		display:none;
+	}
+}
+.avatarcontainer { 
+	display: block;
+	&:empty{
+		display: block;
+	}
+}
+h2 {
+	font-size: 40px;
+	line-height:40px;	
+	margin-bottom: 40px;  
+}
+
+.block {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a:link, a:visited {
+	&:focus {
+		outline: none;
+		text-decoration: none;
+	}
+}
+/*Button start*/
+.button, a.button, .msig-btn, a.msig-btn:link, a.msig-btn:visited {
+	border: 1px solid @dark-grey1;
+	color: @textgrey;
+	font-size: 16px;
+	display: inline-block;
+	.border-radius(25px);
+	background: @white;
+	font-family: Ubuntu-Regular;
+	min-width: 135px;
+	height: 40px;
+	line-height: 38px;
+	padding: 0 30px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	.transition(0.2s all);
+	&:hover, &:focus { 
+		text-decoration: none;
+		color: @white;
+		background: @blue;
+		outline: none;
+		&:visited {
+			color: @white;
+		}
+		a {
+			color: @white;
+		}
+
+	}
+	&:visited {
+		color: @textgrey;
+	}
+	&.grey-link {
+		position: relative;
+		&::after {
+			background: url(images/extarnal_link_grey.png) no-repeat 50% 50%;
+			background-size: 13px;
+			content: "";
+			height: 15px;
+			width: 15px;
+			float: right;
+			top: 50%;
+			position: relative;
+			margin-top: -7.5px;
+			margin-left: 5px;
+		}
+		&:hover {
+			&::after {
+				background: url(images/extarnal_link_white.png) no-repeat;
+				background-size: 13px;
+			}
+		}
+	}
+	&.long-msig-btn{
+		&::after{
+			display: inline-block;
+			vertical-align: text-bottom;
+			top: 0 !important;
+			float: none !important;
+		} 
+	}
+	&.red {
+		background: @red !important;
+		color: @white !important;
+		&:hover {
+			background: @white!important;
+			color: @textgrey!important;
+			a {
+				color: @textgrey!important;
+			}
+		}
+		&:focus {
+			color: @white;
+		}
+	}
+	&.blue {
+		background: @blue !important;
+		color: @white !important;
+		&:hover { 
+			background: @white!important;
+			color: @textgrey!important;
+			a {
+				color: @textgrey!important;
+			}
+		}
+		&:focus {
+			color: @white;
+		}
+		a {
+			color: @white !important;
+			text-decoration: none;
+		}
+	}
+}
+
+.os-mac { 
+	.button, a.button, .msig-btn, a.msig-btn:link, a.msig-btn:visited {
+		padding: 16px 40px 12px !important;
+	}
+}
+.button {
+	background: transparent !important;
+	line-height: normal;
+	&:hover {
+		background: transparent !important;
+	}
+}
+
+.back-to-landing { 
+	position: relative;
+	color: #808080 !important;
+	font-size: 16px;
+	&:before {
+		content: " ";
+		background: url(images/left_arrow.png) no-repeat 0;
+		background-size: 6px;
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+	}
+}
+
+
+/*Button end*/
+
+/*PDF popup*/
+.claim-pdf-wrapper {
+	width: 1100px !important;
+	max-width: 100% !important;
+	height: 95vh !important;
+	min-width: auto !important;
+	background: #fff !important;
+	left: 50% !important;
+	top: 50% !important;
+	transform: translate(-50%, -50%) !important;
+	padding: 0 !important;
+	max-width: 100%;
+	max-height: 100%;
+	.border-radius(20px);
+	.ui-dialog-titlebar {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	&.ui-widget {
+		&.ui-widget-content {
+			.ui-dialog-titlebar-close {
+				top: 25px !important;
+			}
+		}
+	}
+	.claim-pdf-dialog {
+		width: 100% !important;
+		height: 100% !important;
+		margin: 0;
+		padding: 35px 0 !important;
+		overflow: hidden !important;
+		.popup-wrapper {
+			height: calc(~'100% - 60px');
+			iframe {
+				width: 100%;
+				height: 100%;
+			}
+			a#pdf_download {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+
+.body_hidden {
+	overflow: hidden;
+}
+.hide {
+	display: none;
+}
+.pointer {
+	cursor: pointer;
+}
+.blue {
+	color: @blue !important;
+}
+.red {
+	color: @red !important;
+}
+.bg-blue {
+	background-color: @blue !important;
+}
+.bg-red {
+	background-color: @red !important;
+}
+.grey {
+	color: @textgrey !important;
+}
+
+.disc {
+	list-style-type: disc;
+}
+.decimal {
+	list-style-type: decimal;
+}
+
+.anchors-link {
+	font-size: 0 !important;
+	height: 0 !important;
+	margin: 0 !important;
+}
+
+input::-ms-clear {
+	width : 0;
+	height: 0;	
+}
+html, .page, .regions {
+	background-color: @white;
+}
+
+body { 
+	font-family: Ubuntu-Regular;
+	font-size: 16px;
+	line-height: 24px;
+	color: @textgrey;
+	background: #f7f6f3;
+	height: auto;
+	overflow-x: hidden;
+	/*&.popup-noscroll {
+	overflow:hidden;
+}*/
+}
+p { 
+	line-height: 24px;
+	font-family: Ubuntu-Regular;
+}
+ul, ol {
+	li {
+		line-height: 24px;
+	}
+}
+
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%; 
+	top: 96px;
+	left: 0;
+	z-index: 4;
+	background: rgba(0,0,0,0.8);
+	@media only screen and (max-width: 977px){
+		top: 74px;
+	}
+}
+body.overflow {
+	overflow: hidden;
+}
+.noscroll {
+	position: fixed;
+	overflow-y: scroll;
+}
+.noscroll-1{
+	overflow: hidden;
+}
+.l-rw {
+	max-width: 100% !important;
+}
+article {
+	box-shadow: none;
+	padding: 0;
+} 
+.field {
+	margin-bottom: 0;
+}
+.small-font {
+	font-size: 14px;
+}
+.ui-widget {
+	font-family: Ubuntu-Regular !important;
+}
+.insurance-plan-item {
+	padding: 0 15px;
+	.insurance-plan-item-inner {
+		border-radius: 5px;
+		width: 100%;
+		overflow: hidden;
+		border: 1px solid @grey;
+		.border-radius(25px);
+		.insurance-plan-item-header {
+			background: @blue;
+			color: @white;
+			padding: 23px 26px 22px;
+			position: relative;
+			.title {
+				font-size: 18px;
+				margin-top: 11px;
+				padding: 0;
+			}
+			.compare-btn {
+				position: absolute;
+				top: 11px;
+				right: 11px;
+				input[type=checkbox] {
+					display: none;
+				}
+				label {
+					display: inline-block;
+					cursor: pointer;
+					position: relative;
+					padding-right: 30px;
+					font-size: 11px;
+					font-weight: normal;
+					user-select: none;
+					&::before {
+						content: "";
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						position: absolute;
+						right: 0px;
+						top: 2px;
+						background: @blue;
+						border: 1px solid #8b80ae;
+						transition: all 0.2s linear;
+						-moz-border-radius: 100%;
+						-ms-border-radius: 100%;
+						-webkit-border-radius: 100%;
+						border-radius: 100%;
+					}
+				}
+				input[type=checkbox]:checked + label::before {
+					background: @red;
+				}
+			}
+			.insurance-category-img {
+				min-width: 35px;
+			}
+		}
+		.insurance-plan-item-body {
+			padding: 23px 26px 30px;
+			position: relative;
+			.plain_text {
+				color: @red;
+				margin-bottom: 18px;
+			}
+			.description {
+				margin-bottom: 50px;
+				font-size: 16px;
+				color: @textgrey;
+				p {
+					margin-bottom: 12px;
+					margin-top: 10px;
+				}
+
+				ol {
+					padding-left: 32px;
+					li {
+						margin-bottom: 12px;
+					}
+				}
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+					li {
+						background: url(images/icon_tick.png) 0 8px no-repeat;
+						padding-left: 32px;
+						margin-bottom: 12px;
+					}
+				}
+			}
+			.bottom-button-block {
+				a.msig-btn {
+					width: 100%;
+					background: @red;
+					color: @white;
+					.transition(0.2s all);
+					&:hover, &:active {
+						background: @white;
+						color: @red; 
+					}
+				}
+				a.grey-btn {
+					background: @white;
+					color: @textgrey;
+					&:hover, &:active {
+						background: @blue;
+						color: @white;  
+					}
+				}
+				.view-quote-btn {
+					margin-bottom: 20px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}
+.page-personal-insurance, .page-corporate-employee-scheme--ces {
+	.insurance-plan-item {
+		.insurance-plan-item-inner {
+			.insurance-plan-item-body {
+				.bottom-button-block {
+					height: 100px;
+					position: relative;
+					.view-product-btn {
+						position: absolute;
+						bottom: 0;
+						width: 100%;
+						left: 0;
+						a {
+							&:hover {
+								color: @white;
+								background: @blue;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.range-bar-wrapper {
+	span, h3 {
+		color: #000;
+		margin-bottom: 5px;
+		display: block;
+		font-weight: normal;
+		font-size: 16px;
+	}
+	&.level-of-coverage{
+		margin:5px 0 30px;
+	}
+	&.premiums {
+		margin:5px 0 35px;
+	}
+	.range-bar {
+		background:@grey;
+		height: 10px;
+		width: 100%;
+		.border-radius(10px);
+		overflow: hidden;
+		.range {
+			background: @red;
+			height: 10px;
+			width: 0%;
+			.border-radius(10px);
+			&.range-1 {
+				width: 10%;
+			}
+			&.range-2 {
+				width: 20%;
+			}
+			&.range-3 {
+				width: 30%;
+			}
+			&.range-4 {
+				width: 40%;
+			}
+			&.range-5 {
+				width: 50%;
+			}
+			&.range-6 {
+				width: 60%;
+			}
+			&.range-7 {
+				width: 70%;
+			}
+			&.range-8 {
+				width: 80%;
+			}
+			&.range-9 {
+				width: 90%;
+			}
+			&.range-10 {
+				width: 100%;
+			}
+		}
+	}
+}
+
+#block-msig-local-tasks {
+	display: none;
+}
+.page-user {
+	#block-msig-local-tasks {
+		display: block;
+	}
+	&.user-logged-out {
+		#block-msig-local-tasks {
+			display: none;
+		}
+	}
+}
+
+.desktop-view {
+	display: block;
+}
+.mobile-view {
+	display: none; 
+}
+
+/* padding & margin */
+.nopadding-top{
+	padding-top: 0;
+}
+.nopadding-bottom{
+	padding-bottom: 0;
+}
+.nopadding-left{
+	padding-left: 0;
+}
+.nopadding-right{
+	padding-right: 0;
+}
+.nomargin-top{
+	margin-top: 0;
+}
+.nomargin-bottom{
+	margin-bottom: 0;
+}
+.nomargin-left{
+	margin-left: 0;
+}
+.nomargin-right{
+	margin-right: 0;
+}
+.mt60{
+	margin-top: 60px;
+}
+/* node__title */
+.node{
+	padding: 0;
+}
+.node__title{
+	margin: 50px 0 20px;
+	font-size: 40px;
+	width: 490px;
+	max-width: 100%;
+}
+@media only screen and (max-width: 977px) {
+	.noscroll {
+		width: 100%;
+	}
+	.insurance-plan-item {
+		.insurance-plan-item-inner {
+			.insurance-plan-item-body {
+				.description {
+					margin-bottom: 70px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1137px) {
+	body {
+		width: 100%;
+	}
+	.desktop-view {
+		display: none; 
+	}
+	.mobile-view {
+		display: block;
+	}
+	.page__title {
+		margin: 50px 0 50px;
+	}
+	.node__title {
+		margin: 50px 0 20px;
+	}
+}
+@media only screen and (max-width: 757px) {
+	/*.button, a.button, .msig-btn, a.msig-btn:link, a.msig-btn:visited {
+	padding: 15px 40px 13px 40px !important;
+}*/
+	.page__title {
+		margin: 50px 0 40px;
+	}
+	.node__title {
+		margin: 50px 0 20px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	h2 {
+		font-size: 35px;
+		line-height:35px;	 
+	}
+	.page__title {
+		margin: 50px 0 40px;
+		font-size: 35px;
+	}
+	.node__title {
+		margin: 50px 0 20px;
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.page__title {
+		margin: 40px 0 30px;	
+	}
+	.node__title {
+		margin: 40px 0 30px;
+	}
+	.insurance-plan-item {
+		.insurance-plan-item-inner {
+			.insurance-plan-item-header {
+				padding: 20px 20px 16px;
+			}
+			.insurance-plan-item-body {
+				padding: 20px;
+			}
+		}
+	}
+}
+
+
+
+ul.filters {
+	font-size: 0;
+	li.filter-item {
+		border: 1px solid @grey3;
+		border-right: 0;
+		color: @textgrey; 
+		font-size: 16px; 
+		display: inline-block;
+		line-height: normal;
+		background: @white;
+		padding: 0 28px;
+		height: 40px;
+		line-height: 40px; 
+		text-align: center;
+		cursor: pointer;
+		font-weight: bold;
+		letter-spacing: 0.2px;
+		a:link, a:visited {
+			color: @textgrey; 
+			&:hover, &:focus {
+				text-decoration: none;
+			}
+		}
+		&.active {
+			background: @red;
+			color: @white;
+			a:link, a:visited {
+				color: @white;
+			}
+		}
+		&:first-child {
+			.border-radius(25px 0 0 25px);
+		}
+		&:last-child {
+			.border-radius(0 25px 25px 0);
+			border-right: 1px solid @grey3;
+			&.first-li-element{
+				.border-radius(25px 25px 25px 25px);
+			}
+		}
+		&.first-li-element{
+			.border-radius(25px 0 0 25px);
+			margin-top: 11px;
+		}
+		&.last-li-element{
+			.border-radius(0 25px 25px 0);
+			border-right: 1px solid @grey3;
+		}
+	}
+}
+@media only screen and (max-width: 1320px) {
+	ul.filters {
+		li.filter-item {
+			padding: 0 28px;
+			&.filter-lifestyle-library{
+				padding: 0 15px;
+			}	
+		}
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	ul.filters {
+		li.filter-item {
+			padding: 0 28px;
+			&.filter-lifestyle-library{
+				padding: 0 12px;
+			}	
+		}
+	}
+}
+@media only screen and (max-width: 977px) {
+	ul.filters {
+		li.filter-item {
+			padding: 0 28px;
+			&.filter-lifestyle-library{
+				padding: 0 20px;
+			}	
+		}
+	}
+}
+
+@media only screen and (max-width: 757px) {
+	ul.filters {
+		li.filter-item {
+			padding: 0 20px;
+			&.filter-lifestyle-library{
+				padding: 0 15px;
+			}	
+		}
+	}
+}
+@media only screen and (max-width: 640px) {
+	ul.filters {
+		li.filter-item {
+			padding: 0 18px;
+			&.filter-lifestyle-library{
+				padding: 0 12px;
+			}	
+		}
+
+	}
+}
+@media only screen and (max-width: 545px) {
+	ul.filters {
+		li.filter-item {
+			&.filter-lifestyle-library{
+				padding: 0 9px;
+			}	
+		}
+
+	}
+}
+@media only screen and (max-width: 510px) {
+	ul.filters {
+		li.filter-item {
+			&.filter-lifestyle-library{
+				padding: 0 7px;
+			}	
+		}
+
+	}
+}
+
+/** page tilte **/
+h1.page_title{
+	margin: 50px 0 30px;
+	font-size: 40px;
+	width: 490px;
+	max-width: 100%;
+}
+@media only screen and (max-width: 1137px){
+	h1.page_title {
+		margin: 50px 0 20px; 
+	}
+}
+
+@media only screen and (max-width: 757px){
+	h1.page_title {
+		margin: 50px 0 20px;
+	}
+}
+@media only screen and (max-width: 640px){
+	h1.page_title {
+		margin: 50px 0 20px;
+		font-size: 35px;
+	}
+}

@@ -1,0 +1,3206 @@
+.sprite {
+  background: url(images/sprite.png) no-repeat;
+}
+/* Keyframes */
+/* Common Media */
+.pr-footer {
+  color: #808080;
+}
+ul.tick,
+ol.tick {
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+ul.tick li,
+ol.tick li {
+  list-style-type: none !important;
+  background: url(images/icon_tick.png) 0 8px no-repeat !important;
+  padding-left: 32px !important;
+  margin-bottom: 12px !important;
+}
+ul.no-tick {
+  list-style-type: disc !important;
+  margin-left: 32px !important;
+}
+ul.no-tick li {
+  list-style-type: disc !important;
+  margin-left: 0 !important;
+}
+ol.no-tick {
+  list-style-type: decimal !important;
+  margin-left: 32px !important;
+}
+ol.no-tick li {
+  list-style-type: decimal !important;
+  margin-left: 0 !important;
+}
+@-webkit-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-moz-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-ms-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-o-keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@keyframes ctaIcons {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -5px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-webkit-keyframes ctaIconsSticky {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -4px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+    height: 23px;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-moz-keyframes ctaIconsSticky {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -4px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+    height: 23px;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-ms-keyframes ctaIconsSticky {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -4px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+    height: 23px;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@-o-keyframes ctaIconsSticky {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -4px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+    height: 23px;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+@keyframes ctaIconsSticky {
+  0% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+  33% {
+    transform: translate3d(0, -4px, 0);
+    height: auto;
+  }
+  66% {
+    transform: translate3d(0, 0, 0);
+    height: 23px;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    height: auto;
+  }
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .block__title,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .block__title {
+  color: #1c0761;
+  font-size: 40px;
+  margin-bottom: 27px;
+  max-width: 390px;
+  line-height: 45px;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon {
+  margin: 70px 0;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul {
+  max-width: 800px;
+  width: 100%;
+  margin-left: -46px;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  padding: 0 5px;
+  list-style-type: none;
+  border-right: 1px solid #d9d9d9;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited {
+  display: block;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link .cta-icon,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link .cta-icon,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited .cta-icon,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited .cta-icon {
+  position: relative;
+  height: 41px;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link .cta-label,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link .cta-label,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited .cta-label,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited .cta-label {
+  margin-top: 7px;
+  color: #273d93;
+  font-size: 16px;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link img,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link img,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited img,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited img {
+  bottom: 0;
+  width: 32px;
+  position: absolute;
+  left: 50%;
+  margin-left: -21px;
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link:hover,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link:hover,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited:hover,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited:hover {
+  text-decoration: none;
+}
+@media only screen and (min-width: 978px) {
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link:hover img,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:link:hover img,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited:hover img,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper a:visited:hover img {
+    -moz-animation-name: ctaIcons;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: ctaIcons;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: ctaIcons;
+    -o-animation-duration: 0.65s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    animation-duration: 0.65s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: ctaIcons;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+}
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper:last-child,
+.page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper:last-child {
+  border-right: none;
+}
+.node--view-mode-product-teaser .insurance-plan-item {
+  margin-top: 40px;
+}
+.page-commercial-insurance .view-quote-btn {
+  display: none;
+}
+.page-personal-insurance article,
+.page-commercial-insurance article,
+.page-latest-products-packages article {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+.page-personal-insurance h1.node__title,
+.page-commercial-insurance h1.node__title,
+.page-latest-products-packages h1.node__title {
+  margin: 50px 0 15px;
+  font-size: 40px;
+  color: #ec0c19;
+  text-transform: capitalize;
+}
+.page-personal-insurance .l-main,
+.page-commercial-insurance .l-main,
+.page-latest-products-packages .l-main {
+  margin-left: 130px;
+  margin-right: 130px;
+  /* .l-r {
+            padding: 0;
+        } */
+}
+.page-personal-insurance .l-main .block-main-content,
+.page-commercial-insurance .l-main .block-main-content,
+.page-latest-products-packages .l-main .block-main-content {
+  max-width: 530px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 30px;
+}
+.page-personal-insurance .l-main .block-main-content article,
+.page-commercial-insurance .l-main .block-main-content article,
+.page-latest-products-packages .l-main .block-main-content article {
+  padding: 0;
+}
+.page-personal-insurance .l-main .pr-main__content,
+.page-commercial-insurance .l-main .pr-main__content,
+.page-latest-products-packages .l-main .pr-main__content {
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1637px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 1280px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 1150px;
+  }
+}
+@media only screen and (max-width: 1317px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 1100px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 940px;
+  }
+}
+@media only screen and (max-width: 977px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 820px;
+  }
+}
+@media only screen and (max-width: 857px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 720px;
+  }
+}
+@media only screen and (max-width: 757px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 620px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-personal-insurance .l-main .pr-main__content,
+  .page-commercial-insurance .l-main .pr-main__content,
+  .page-latest-products-packages .l-main .pr-main__content {
+    max-width: 100%;
+  }
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row {
+  position: relative;
+  padding-bottom: 70px;
+  margin-bottom: 90px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row:last-child,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row:last-child,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image {
+  position: absolute;
+  width: 86px;
+  left: 143px;
+  top: 0;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image img,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image img,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image img {
+  display: block;
+  float: right;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row h2,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row h2,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row h2 {
+  max-width: 630px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #273d93;
+  margin-bottom: 13px;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-body,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-body,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-body {
+  max-width: 630px;
+  margin: 0 auto;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-body p,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-body p,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-body p {
+  margin-bottom: 25px;
+}
+.page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-body h3,
+.page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-body h3,
+.page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-body h3 {
+  margin-bottom: 27px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping,
+.page-personal-insurance .view-latest-products .view-content .view-grouping,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping {
+  margin-bottom: 25px;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-header,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-header,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-header,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-header,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-header,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-header,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-header,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-header,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-header {
+  max-width: 650px;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-header h3,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-header h3,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-header h3,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-header h3,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-header h3,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-header h3,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-header h3,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-header h3,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-header h3 {
+  font-size: 24px;
+  color: #1c0761;
+  margin-bottom: 18px;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content {
+  font-size: 0;
+  margin: 0 -22px;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 22px 46px;
+  line-height: 24px;
+  color: #808080;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title p,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title p,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title p,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title p,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title p,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title p,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title p,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title p,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title p {
+  max-width: 650px;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description {
+  width: 60%;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button {
+  padding-left: 20px;
+  width: 40%;
+  text-align: right;
+}
+@media only screen and (max-width: 640px) {
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper {
+    display: block;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-description {
+    width: 100%;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title .premium-calculator-wrapper .premium-calculator-col.premium-calculator-button {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row {
+  display: block !important;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col {
+  font-size: medium;
+  width: 33.33333333% !important;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 22px;
+  margin-bottom: 58px;
+  -webkit-flex: inherit;
+  -ms-flex: inherit;
+  flex: inherit;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col article,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col article {
+  padding: 0;
+  box-shadow: none;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .node--view-mode-product-teaser .insurance-plan-item {
+  width: 100%;
+  margin-top: 0;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .node,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .node {
+  margin-bottom: 0;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .insurance-plan-item {
+  padding: 0;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .product-list-load-more,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .product-list-load-more {
+  display: block;
+  margin: 0 22px;
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+.page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .product-list-load-more i,
+.page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .product-list-load-more i {
+  margin-left: 5px;
+}
+.page-personal-insurance #block-msig-page-title,
+.page-commercial-insurance #block-msig-page-title,
+.page-latest-products-packages #block-msig-page-title {
+  margin-bottom: 0;
+}
+.page-personal-insurance #block-protectthethings,
+.page-commercial-insurance #block-protectthethings,
+.page-latest-products-packages #block-protectthethings {
+  float: left;
+}
+.page-personal-insurance #block-msigthinsuranceblock,
+.page-commercial-insurance #block-msigthinsuranceblock,
+.page-latest-products-packages #block-msigthinsuranceblock {
+  clear: both;
+}
+.page-personal-insurance #block-keepthepulseofyourlivelihood,
+.page-commercial-insurance #block-keepthepulseofyourlivelihood,
+.page-latest-products-packages #block-keepthepulseofyourlivelihood,
+.page-personal-insurance #block-protectthethings,
+.page-commercial-insurance #block-protectthethings,
+.page-latest-products-packages #block-protectthethings {
+  max-width: 525px;
+  margin-bottom: 77px;
+  margin-top: 0;
+}
+.page-personal-insurance #block-keepthepulseofyourlivelihood h2,
+.page-commercial-insurance #block-keepthepulseofyourlivelihood h2,
+.page-latest-products-packages #block-keepthepulseofyourlivelihood h2,
+.page-personal-insurance #block-protectthethings h2,
+.page-commercial-insurance #block-protectthethings h2,
+.page-latest-products-packages #block-protectthethings h2 {
+  color: #1c0761;
+  font-size: 40px;
+  margin-bottom: 27px;
+  max-width: 390px;
+  line-height: 45px;
+}
+.page-personal-insurance #product-icons-not-sticky,
+.page-commercial-insurance #product-icons-not-sticky,
+.page-latest-products-packages #product-icons-not-sticky {
+  -webkit-transition: 0.2s background;
+  -moz-transition: 0.2s background;
+  -ms-transition: 0.2s background;
+  -o-transition: 0.2s background;
+  transition: 0.2s background;
+}
+.page-personal-insurance #product-icons-not-sticky .block__content,
+.page-commercial-insurance #product-icons-not-sticky .block__content,
+.page-latest-products-packages #product-icons-not-sticky .block__content {
+  max-width: 1600px;
+}
+.page-personal-insurance #product-icons-not-sticky ul,
+.page-commercial-insurance #product-icons-not-sticky ul,
+.page-latest-products-packages #product-icons-not-sticky ul {
+  margin-bottom: 10px;
+  font-size: 0;
+  margin-left: -46px;
+  width: 100%;
+  -webkit-transition: 0.5s max-width;
+  -moz-transition: 0.5s max-width;
+  -ms-transition: 0.5s max-width;
+  -o-transition: 0.5s max-width;
+  transition: 0.5s max-width;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0 5px;
+  border-right: 1px solid #d9d9d9;
+  font-size: medium;
+  width: 12%;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li:last-child,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li:last-child,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li:last-child {
+  border-right: none;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li .cta-icon,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li .cta-icon,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li .cta-icon {
+  height: 62px;
+  position: relative;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li .cta-label,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li .cta-label,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li .cta-label {
+  margin-top: 7px;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a {
+  display: block;
+  color: #1c0761;
+  text-decoration: none;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a img,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a img,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a img {
+  bottom: 0;
+  max-width: 44px;
+  max-height: 44px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+}
+.page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a:first-child,
+.page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a:first-child,
+.page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a:first-child {
+  margin-bottom: 4px;
+}
+@media only screen and (min-width: 978px) {
+  .page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a:hover img,
+  .page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a:hover img,
+  .page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a:hover img {
+    -moz-animation-name: ctaIcons;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: ctaIcons;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: ctaIcons;
+    -o-animation-duration: 0.65s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    animation-duration: 0.65s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: ctaIcons;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+}
+#product-icons-sticky {
+  opacity: 0;
+  height: 95px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFF;
+  margin: 0;
+  z-index: -1;
+  border-top: 1px solid #fbfbfb;
+  -webkit-box-shadow: 0px 0px 10px -5px #000;
+  -moz-box-shadow: 0px 0px 10px -5px #000;
+  -ms-box-shadow: 0px 0px 10px -5px #000;
+  box-shadow: 0px 0px 10px -5px #000;
+}
+#product-icons-sticky .block__content {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-size: 0;
+}
+@media only screen and (max-width: 1637px) {
+  #product-icons-sticky .block__content {
+    max-width: 1280px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  #product-icons-sticky .block__content {
+    max-width: 1150px;
+  }
+}
+@media only screen and (max-width: 1317px) {
+  #product-icons-sticky .block__content {
+    max-width: 1100px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  #product-icons-sticky .block__content {
+    max-width: 940px;
+  }
+}
+@media only screen and (max-width: 977px) {
+  #product-icons-sticky .block__content {
+    max-width: 820px;
+  }
+}
+@media only screen and (max-width: 857px) {
+  #product-icons-sticky .block__content {
+    max-width: 720px;
+  }
+}
+@media only screen and (max-width: 757px) {
+  #product-icons-sticky .block__content {
+    max-width: 620px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  #product-icons-sticky .block__content {
+    max-width: 100%;
+  }
+}
+#product-icons-sticky .block__content .insurance-block-ul {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+@media only screen and (max-width: 1637px) {
+  #product-icons-sticky .block__content .insurance-block-ul {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  #product-icons-sticky .block__content .insurance-block-ul {
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  #product-icons-sticky .block__content .insurance-block-ul {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  #product-icons-sticky .block__content .insurance-block-ul {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  #product-icons-sticky .block__content .insurance-block-ul {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #product-icons-sticky .block__content .insurance-block-ul {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+#product-icons-sticky .block__content .insurance-type,
+#product-icons-sticky .block__content .ces-insurance-type {
+  position: inherit;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  line-height: 30px;
+  color: #1c0761;
+  padding: 20px 0;
+  width: 22%;
+  opacity: 0;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+}
+#product-icons-sticky .block__content .ces-insurance-type {
+  width: 26%;
+}
+#product-icons-sticky .block__content .insurance-block-ul {
+  vertical-align: top;
+  font-size: medium;
+  display: inline-block;
+  margin: 0;
+  width: 78%;
+  max-width: inherit;
+  padding: 20px 0;
+  font-size: 0;
+  opacity: 0;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+  text-align: right;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+  font-size: medium;
+  vertical-align: middle;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a {
+  margin-bottom: 0;
+  display: block;
+  white-space: normal;
+  color: #1c0761;
+  font-size: 20px;
+  line-height: 30px;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link .cta-icon,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited .cta-icon,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-icon {
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 40px;
+  height: 28px;
+  position: relative;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link .cta-icon img,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited .cta-icon img,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-icon img {
+  width: 36px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link .cta-label,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited .cta-label,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-label {
+  padding-left: 6px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link:hover,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited:hover,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:hover {
+  text-decoration: none;
+  color: #ec0c19;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link:focus,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited:focus,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:focus {
+  text-decoration: none;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link.active,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited.active,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a.active {
+  color: #ec0c19;
+}
+@media only screen and (min-width: 778px) {
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link:hover img,
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited:hover img,
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:hover img {
+    -moz-animation-name: ctaIconsSticky;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: ctaIconsSticky;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: ctaIconsSticky;
+    -o-animation-duration: 0.65s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: 1;
+    animation-duration: 0.65s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-name: ctaIconsSticky;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li:first-child {
+  padding-left: 0;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li:last-child a:link:after,
+#product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li:last-child a:visited:after {
+  display: none;
+}
+#product-icons-sticky .block__content .insurance-block-ul.ces-insurance-block-ul {
+  width: 74%;
+}
+#product-icons-sticky.animate-sticky {
+  display: block;
+  z-index: 5;
+  opacity: 1;
+}
+#product-icons-sticky.animate-sticky .block__content .insurance-type,
+#product-icons-sticky.animate-sticky .block__content .ces-insurance-type {
+  padding: 32px 0;
+  opacity: 1;
+}
+#product-icons-sticky.animate-sticky .block__content .insurance-block-ul {
+  padding: 33px 0 29px;
+  opacity: 1;
+}
+.page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+  text-align: left;
+}
+/*=====Insurance detail page start======*/
+.back-to-insurance {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+@media only screen and (max-width: 1637px) {
+  .back-to-insurance {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .back-to-insurance {
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .back-to-insurance {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .back-to-insurance {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .back-to-insurance {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .back-to-insurance {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.label-plus-check-boxes {
+  position: relative;
+}
+.label-plus-check-boxes .fieldset-wrapper label:first-child {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+  line-height: 18px;
+  max-width: 300px;
+}
+.label-plus-check-boxes .fieldset-wrapper .js-form-item {
+  margin-left: calc(30% + 50px);
+  width: calc(70% - 50px);
+}
+@media only screen and (max-width: 757px) {
+  .label-plus-check-boxes .fieldset-wrapper label:first-child {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .label-plus-check-boxes .fieldset-wrapper .js-form-item {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+.page-node-type--products .node__header,
+.page-node-type--similar-product .node__header {
+  position: relative;
+  display: block;
+}
+.page-node-type--products .node__header:after,
+.page-node-type--similar-product .node__header:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.page-node-type--products .node__header img,
+.page-node-type--similar-product .node__header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.page-node-type--products .node__header .node__title,
+.page-node-type--similar-product .node__header .node__title {
+  width: 100%;
+}
+.page-node-type--products .node__content .field-type-image figure,
+.page-node-type--similar-product .node__content .field-type-image figure {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .field-type-image figure img,
+.page-node-type--similar-product .node__content .field-type-image figure img {
+  width: 100%;
+}
+.page-node-type--products .node__content .plan-highlights .highlight-title,
+.page-node-type--similar-product .node__content .plan-highlights .highlight-title {
+  margin-bottom: 17px;
+}
+.page-node-type--products .node__content .field-node--field-components,
+.page-node-type--similar-product .node__content .field-node--field-components {
+  margin-top: 80px;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form {
+  padding-bottom: 40px;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form h2,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form .js-form-item-can-number .description,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form .js-form-item-can-number .description {
+  margin-left: 0;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form ol,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form ol {
+  list-style-type: decimal;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form ul,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form ul,
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form ol,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form ol {
+  margin-left: 30px;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form ul li,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form ul li,
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form ol li,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form ol li {
+  font: 14px/24px "Trebuchet MS", Helvetica, sans-serif;
+}
+.page-node-type--products .node__content .webform-submission-cross-border-travel-insurance-form .agree-the-declaration legend,
+.page-node-type--similar-product .node__content .webform-submission-cross-border-travel-insurance-form .agree-the-declaration legend {
+  display: none;
+}
+.page-node-type--products .node__content p,
+.page-node-type--similar-product .node__content p {
+  margin-bottom: 20px;
+}
+.page-node-type--products .node__content table thead tr,
+.page-node-type--similar-product .node__content table thead tr {
+  background: #FFF;
+}
+.page-node-type--products .node__content table thead tr:hover,
+.page-node-type--similar-product .node__content table thead tr:hover {
+  background: #FFF;
+}
+.page-node-type--products .node__content table tbody tr,
+.page-node-type--similar-product .node__content table tbody tr {
+  background: #FFF;
+}
+.page-node-type--products .node__content table tbody tr:hover,
+.page-node-type--similar-product .node__content table tbody tr:hover {
+  background: #FFF;
+}
+.page-node-type--products .node__content .product-banner-landscape-image,
+.page-node-type--similar-product .node__content .product-banner-landscape-image {
+  width: 100%;
+  margin-bottom: 95px;
+}
+.page-node-type--products .node__content .product-banner-landscape-image img,
+.page-node-type--similar-product .node__content .product-banner-landscape-image img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+.page-node-type--products .node__content .product-banner-landscape-image .service-announcement,
+.page-node-type--similar-product .node__content .product-banner-landscape-image .service-announcement {
+  padding: 30px 15px 5px;
+  background: #1c0761;
+  margin-top: -25px;
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.page-node-type--products .node__content .product-banner-landscape-image .service-announcement p,
+.page-node-type--similar-product .node__content .product-banner-landscape-image .service-announcement p {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .product-subtitle,
+.page-node-type--similar-product .node__content .product-subtitle {
+  font-size: 28px;
+  line-height: 35px;
+  max-width: 450px;
+  margin-bottom: 60px;
+}
+.page-node-type--products .node__content .product-banner-portrait-image,
+.page-node-type--similar-product .node__content .product-banner-portrait-image {
+  display: none;
+}
+.page-node-type--products .node__content .product-key-features,
+.page-node-type--similar-product .node__content .product-key-features,
+.page-node-type--products .node__content .product-description,
+.page-node-type--similar-product .node__content .product-description {
+  margin-bottom: 50px;
+}
+.page-node-type--products .node__content .product-key-features a:link,
+.page-node-type--similar-product .node__content .product-key-features a:link,
+.page-node-type--products .node__content .product-description a:link,
+.page-node-type--similar-product .node__content .product-description a:link,
+.page-node-type--products .node__content .product-key-features a:visited,
+.page-node-type--similar-product .node__content .product-key-features a:visited,
+.page-node-type--products .node__content .product-description a:visited,
+.page-node-type--similar-product .node__content .product-description a:visited {
+  color: #808080;
+  text-decoration: underline;
+}
+.page-node-type--products .node__content .product-key-features ul,
+.page-node-type--similar-product .node__content .product-key-features ul,
+.page-node-type--products .node__content .product-description ul,
+.page-node-type--similar-product .node__content .product-description ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style-type: none;
+}
+.page-node-type--products .node__content .product-key-features ul li,
+.page-node-type--similar-product .node__content .product-key-features ul li,
+.page-node-type--products .node__content .product-description ul li,
+.page-node-type--similar-product .node__content .product-description ul li {
+  background: url(images/icon_tick.png) 0 8px no-repeat;
+  padding-left: 32px;
+  margin-bottom: 12px;
+}
+.page-node-type--products .node__content .product-key-features ul li:last-child .paragraph--type-products-description,
+.page-node-type--similar-product .node__content .product-key-features ul li:last-child .paragraph--type-products-description,
+.page-node-type--products .node__content .product-description ul li:last-child .paragraph--type-products-description,
+.page-node-type--similar-product .node__content .product-description ul li:last-child .paragraph--type-products-description {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .product-key-features ul li ul,
+.page-node-type--similar-product .node__content .product-key-features ul li ul,
+.page-node-type--products .node__content .product-description ul li ul,
+.page-node-type--similar-product .node__content .product-description ul li ul {
+  margin-top: 20px;
+}
+.page-node-type--products .node__content .product-key-features h3,
+.page-node-type--similar-product .node__content .product-key-features h3,
+.page-node-type--products .node__content .product-description h3,
+.page-node-type--similar-product .node__content .product-description h3 {
+  font-size: 24px;
+  color: #1c0761;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+.page-node-type--products .node__content .product-description,
+.page-node-type--similar-product .node__content .product-description {
+  width: 60%;
+  display: none;
+}
+.page-node-type--products .node__content .product-key-features .field-node--field-key-features,
+.page-node-type--similar-product .node__content .product-key-features .field-node--field-key-features {
+  display: inline-block;
+  width: calc(100% - 400px);
+  max-width: 775px;
+}
+.page-node-type--products .node__content .product-key-features .field-node--field-offer-details,
+.page-node-type--similar-product .node__content .product-key-features .field-node--field-offer-details {
+  display: inline-block;
+  background: url('images/promotion-ribbon.png') center no-repeat;
+  float: right;
+  background-size: 100%;
+  width: 346px;
+  height: 261px;
+}
+.page-node-type--products .node__content .product-key-features .field-node--field-offer-details .field-name-field-plain-title .field__item,
+.page-node-type--similar-product .node__content .product-key-features .field-node--field-offer-details .field-name-field-plain-title .field__item {
+  color: #1c0761;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 220px;
+}
+.page-node-type--products .node__content .product-key-features .field-node--field-offer-details .product-details-get-quote,
+.page-node-type--similar-product .node__content .product-key-features .field-node--field-offer-details .product-details-get-quote {
+  margin-top: 20px;
+  background: #ec0c19;
+  display: block;
+  height: 26px;
+  width: 135px;
+  text-decoration: none;
+  padding: 0;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  border-radius: 13px;
+  text-align: center;
+  color: #FFF;
+  line-height: 26px;
+  margin-left: 30px;
+  border: none;
+}
+.page-node-type--products .node__content .product-key-features .field-node--field-offer-details .product-details-get-quote:hover,
+.page-node-type--similar-product .node__content .product-key-features .field-node--field-offer-details .product-details-get-quote:hover {
+  text-decoration: none;
+}
+.page-node-type--products .node__content .product-details .highlight-wrapper-v2,
+.page-node-type--similar-product .node__content .product-details .highlight-wrapper-v2 {
+  width: 60%;
+}
+.page-node-type--products .node__content .product-details .highlight-wrapper-v2 ol,
+.page-node-type--similar-product .node__content .product-details .highlight-wrapper-v2 ol {
+  padding: 0;
+}
+.page-node-type--products .node__content .product-details .highlight-wrapper-v2 ol li,
+.page-node-type--similar-product .node__content .product-details .highlight-wrapper-v2 ol li {
+  margin-left: 15px;
+  margin-bottom: 12px;
+}
+.page-node-type--products .node__content .product-details .highlight-wrapper-v2 ol li:last-child,
+.page-node-type--similar-product .node__content .product-details .highlight-wrapper-v2 ol li:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .product-details .highlight-wrapper-v2 ol li ul,
+.page-node-type--similar-product .node__content .product-details .highlight-wrapper-v2 ol li ul {
+  margin-top: 20px;
+}
+.page-node-type--products .node__content .product-details a:link,
+.page-node-type--similar-product .node__content .product-details a:link,
+.page-node-type--products .node__content .product-details a:visited,
+.page-node-type--similar-product .node__content .product-details a:visited {
+  color: #808080;
+  text-decoration: underline;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits {
+  width: 100%;
+  clear: both;
+  margin-top: 50px;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item {
+  display: inline-block;
+  width: calc(100%/3 - 20px);
+  vertical-align: top;
+  margin-right: 30px;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:last-child,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:last-child {
+  margin-right: 0;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-image,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-image {
+  float: left;
+  margin-right: 20px;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-image figure img,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-image figure img {
+  width: 75px;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-title,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 95px;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-text,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-text {
+  margin-left: 95px;
+}
+.page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-text p,
+.page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item .field-paragraph--field-text p {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .product-details-link-wrapper#product-details-not-sticky,
+.page-node-type--similar-product .node__content .product-details-link-wrapper#product-details-not-sticky {
+  padding-top: 60px;
+  margin-top: 60px;
+  border-top: 1px solid #e6e6e6;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px 10px;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-product-link-label,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-product-link-label {
+  cursor: pointer;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-product-link-label::after,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-product-link-label::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(images/down_arrow-white.png) no-repeat;
+  z-index: 9;
+  margin-top: 10px;
+  right: 10px;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-link-listing,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-link-listing {
+  position: relative;
+  display: none;
+  border: none;
+  padding: 0;
+  margin: -20px 0 0 0;
+  padding-bottom: 30px;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list a:link,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list a:link,
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list a:visited,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list a:visited {
+  color: #fff;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown:hover .related-product-link-label::after,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown:hover .related-product-link-label::after,
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown.open .related-product-link-label::after,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown.open .related-product-link-label::after {
+  content: "";
+  background: url(images/up_arrow-white.png) no-repeat;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown:hover .related-link-listing,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown:hover .related-link-listing,
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link li.related-dropdown.open .related-link-listing,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li.related-dropdown.open .related-link-listing {
+  display: block;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link ul,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link ul {
+  text-align: left;
+  padding: 30px 0 0;
+  overflow: hidden;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link ul li,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link ul li {
+  display: block;
+  margin: 0;
+  padding: 5px 35px;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link ul li.related-dropdown,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link ul li.related-dropdown {
+  background: #1c0761;
+  color: #fff;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link ul li.related-dropdown .related-link-listing,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link ul li.related-dropdown .related-link-listing {
+  background: transparent;
+}
+.page-node-type--products .node__content .product-details-link-wrapper .product-details-link ul li.related-dropdown .related-link-listing .related-link-list,
+.page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link ul li.related-dropdown .related-link-listing .related-link-list {
+  padding: 5px 0;
+  float: none;
+}
+.page-node-type--products .node__content #product-details-sticky,
+.page-node-type--similar-product .node__content #product-details-sticky,
+.page-node-type--products .node__content .mobile-claim-sticky,
+.page-node-type--similar-product .node__content .mobile-claim-sticky {
+  position: fixed;
+  height: 60px;
+  top: -60px;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+.page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+.page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+@media only screen and (max-width: 1637px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+.page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper,
+.page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-detail-type .product-label,
+.page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-detail-type .product-label,
+.page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-detail-type .product-label,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-detail-type .product-label {
+  display: inline-block;
+  color: #1c0761;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-detail-type .claim-title,
+.page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-detail-type .claim-title,
+.page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-detail-type .claim-title,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-detail-type .claim-title {
+  display: inline-block;
+  color: #1c0761;
+  font-size: 20px;
+}
+@media only screen and (max-width: 1137px) {
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link {
+    position: absolute;
+    top: 60px;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    padding: 30px;
+    display: none;
+    text-align: left;
+  }
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li {
+    margin: 0 0 20px 0;
+    float: left;
+    display: block;
+    clear: both;
+  }
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li ul li,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li ul li,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li ul li,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li ul li {
+    margin: 0;
+  }
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li:last-child,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li:last-child,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li:last-child,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li:last-child {
+    margin-bottom: 0;
+  }
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown {
+    width: 100%;
+  }
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link li.related-dropdown .related-link-listing .related-link-list {
+    float: none;
+  }
+  .page-node-type--products .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link.isOpen,
+  .page-node-type--similar-product .node__content #product-details-sticky .product-details-sticky-inner-wrapper .product-details-link.isOpen,
+  .page-node-type--products .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link.isOpen,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky .product-details-sticky-inner-wrapper .product-details-link.isOpen {
+    display: block !important;
+    box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+  }
+}
+.page-node-type--products .node__content #product-details-sticky .product-detail-type-mobile,
+.page-node-type--similar-product .node__content #product-details-sticky .product-detail-type-mobile,
+.page-node-type--products .node__content .mobile-claim-sticky .product-detail-type-mobile,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-detail-type-mobile {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.page-node-type--products .node__content #product-details-sticky .product-detail-type-mobile .product-label,
+.page-node-type--similar-product .node__content #product-details-sticky .product-detail-type-mobile .product-label,
+.page-node-type--products .node__content .mobile-claim-sticky .product-detail-type-mobile .product-label,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-detail-type-mobile .product-label {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  color: #1c0761;
+}
+.page-node-type--products .node__content #product-details-sticky .product-detail-type-mobile .claim-title,
+.page-node-type--similar-product .node__content #product-details-sticky .product-detail-type-mobile .claim-title,
+.page-node-type--products .node__content .mobile-claim-sticky .product-detail-type-mobile .claim-title,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-detail-type-mobile .claim-title {
+  display: inline-block;
+  color: #1c0761;
+  font-size: 20px;
+}
+.page-node-type--products .node__content #product-details-sticky .product-detail-type-mobile::after,
+.page-node-type--similar-product .node__content #product-details-sticky .product-detail-type-mobile::after,
+.page-node-type--products .node__content .mobile-claim-sticky .product-detail-type-mobile::after,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-detail-type-mobile::after {
+  content: "";
+  background: #FFF url(images/up_arrow.png) no-repeat 50%;
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 10px;
+  margin-top: -5px;
+  right: 30px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.page-node-type--products .node__content #product-details-sticky .product-detail-type-mobile.open-dropdown::after,
+.page-node-type--similar-product .node__content #product-details-sticky .product-detail-type-mobile.open-dropdown::after,
+.page-node-type--products .node__content .mobile-claim-sticky .product-detail-type-mobile.open-dropdown::after,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .product-detail-type-mobile.open-dropdown::after {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+.page-node-type--products .node__content #product-details-sticky.animate-sticky,
+.page-node-type--similar-product .node__content #product-details-sticky.animate-sticky,
+.page-node-type--products .node__content .mobile-claim-sticky.animate-sticky,
+.page-node-type--similar-product .node__content .mobile-claim-sticky.animate-sticky {
+  top: 0;
+}
+@media only screen and (max-width: 480px) {
+  .page-node-type--products .node__content .mobile-claim-sticky,
+  .page-node-type--similar-product .node__content .mobile-claim-sticky {
+    padding: 0 15px;
+  }
+}
+.page-node-type--products .node__content .mobile-claim-sticky .claim-procudure-submit-link,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .claim-procudure-submit-link {
+  display: none;
+}
+.page-node-type--products .node__content .mobile-claim-sticky .claim-procudure-submit-link.isOpen,
+.page-node-type--similar-product .node__content .mobile-claim-sticky .claim-procudure-submit-link.isOpen {
+  display: block !important;
+}
+.page-node-type--products .node__content .product-details-desc-view,
+.page-node-type--similar-product .node__content .product-details-desc-view {
+  font-size: 0;
+  height: 0;
+}
+.page-node-type--products .node__content .product-description,
+.page-node-type--similar-product .node__content .product-description {
+  margin-bottom: 40px;
+}
+.page-node-type--products .node__content .product-description .paragraph--type-products-description .field-paragraph--field-key ul,
+.page-node-type--similar-product .node__content .product-description .paragraph--type-products-description .field-paragraph--field-key ul {
+  margin-left: 25px;
+}
+.page-node-type--products .node__content .product-description .paragraph--type-products-description .field-paragraph--field-key ul li,
+.page-node-type--similar-product .node__content .product-description .paragraph--type-products-description .field-paragraph--field-key ul li {
+  list-style: initial;
+  background: none;
+  padding-left: 5px;
+}
+.page-node-type--products .node__content .product-description .paragraph--type-products-description .field-name-field-key-label .field__items .field__item,
+.page-node-type--similar-product .node__content .product-description .paragraph--type-products-description .field-name-field-key-label .field__items .field__item {
+  font-size: 24px;
+  color: #ec0c19;
+  margin-bottom: 25px;
+}
+.page-node-type--products .node__content .plan-details h3,
+.page-node-type--similar-product .node__content .plan-details h3 {
+  margin-bottom: 30px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .accordion_section_title,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .accordion_section_title {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .accordion_section_content,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .accordion_section_content {
+  margin: 0;
+  padding: 30px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_title,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_title {
+  background: #1c0761;
+  color: #FFF;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_title::after,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_title::after,
+.page-node-type--products .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_title::before,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_title::before {
+  border-color: #FFF;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_content .accordion_section_title,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .accordion_section_content .accordion_section_content .accordion_section_title {
+  background: #aaa9c9;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td {
+  vertical-align: middle;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th a:link,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th a:link,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td a:link,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td a:link,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th a:visited,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th a:visited,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td a:visited,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td a:visited {
+  color: #1c0761;
+  text-decoration: underline;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.col-1,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.col-1,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.col-1,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.col-1,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:first-child {
+  background: #f7f7f7;
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.col-1.no-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.col-1.no-bg,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.col-1.no-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.col-1.no-bg,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child.no-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child.no-bg,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:first-child.no-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:first-child.no-bg {
+  background: #FFF;
+  color: #1c0761;
+  width: auto;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.col-1.text-left,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.col-1.text-left,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.col-1.text-left,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.col-1.text-left,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child.text-left,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child.text-left,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:first-child.text-left,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:first-child.text-left {
+  text-align: left!important;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.col-1 ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.col-1 ul li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.col-1 ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.col-1 ul li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child ul li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:first-child ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:first-child ul li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.col-1 ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.col-1 ol li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.col-1 ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.col-1 ol li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child ol li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:first-child ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:first-child ol li {
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.col-1 p,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.col-1 p,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.col-1 p,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.col-1 p,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child p,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child p,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:first-child p,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:first-child p {
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.grey-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.grey-bg,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.grey-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.grey-bg {
+  background: #f7f7f7;
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.no-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.no-bg,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.no-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.no-bg {
+  background: #FFF;
+  color: #808080;
+  text-align: center;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.no-bg.auto-width,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.no-bg.auto-width,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.no-bg.auto-width,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.no-bg.auto-width {
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.no-bg.w50,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.no-bg.w50,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.no-bg.w50,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.no-bg.w50 {
+  width: 50%;
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.auto-width,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.auto-width,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.auto-width,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.auto-width {
+  width: auto;
+  max-width: auto;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th .w50,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th .w50,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td .w50,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td .w50 {
+  width: 50%;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.red-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.red-bg,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.red-bg,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.red-bg {
+  background: #ea565d;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.red-bg h4,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.red-bg h4,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.red-bg h4,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.red-bg h4 {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.text-left,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.text-left,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td.text-left,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td.text-left {
+  text-align: left;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:last-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td:last-child {
+  border-right: 1px solid #e6e6e6;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th ol,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th ol,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td ol,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td ol {
+  margin-left: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th ol li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td ol li {
+  margin-left: 25px;
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th ul,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th ul,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td ul,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td ul {
+  margin-top: 0;
+  margin-left: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th ul li,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td ul li {
+  margin-left: 25px;
+  list-style-type: disc;
+  background: none;
+  padding-left: 0;
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th ul li::before,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th ul li::before,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td ul li::before,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td ul li::before {
+  display: none;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th h3,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th h3,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td h3,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td h3 {
+  color: #ec0c19;
+  font-size: 20px;
+  font-weight: 600;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th h3:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th h3:last-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td h3:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td h3:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th h4,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th h4,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td h4,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td h4 {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th h4:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th h4:last-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td h4:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td h4:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th h5,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th h5,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td h5,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td h5 {
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th p strong.blue-txt,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th p strong.blue-txt,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td p strong.blue-txt,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td p strong.blue-txt {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th p:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th p:last-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td p:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td p:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th:first-child.heading,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th:first-child.heading {
+  color: #ec0c19;
+  text-transform: uppercase;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr td,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr td {
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table tr th.no-bg.auto-width,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table tr th.no-bg.auto-width {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table thead tr th:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table thead tr th:first-child {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table thead tr th:first-child h4,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table thead tr th:first-child h4 {
+  color: #1c0761;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.no-grey tr td:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.no-grey tr td:first-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table.no-grey tr th:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.no-grey tr th:first-child {
+  background: transparent;
+  color: #1c0761;
+  text-align: center;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.no-grey tr td:first-child.grey,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.no-grey tr td:first-child.grey,
+.page-node-type--products .node__content .plan-details.mainaccordion table.no-grey tr th:first-child.grey,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.no-grey tr th:first-child.grey {
+  background: #ef8f93;
+  text-align: left;
+  color: #fff;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td,
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr th,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr th {
+  text-align: left;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td:first-child,
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr th:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr th:first-child {
+  width: auto;
+  text-align: center;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td:first-child[colspan="3"],
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td:first-child[colspan="3"],
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr th:first-child[colspan="3"],
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr th:first-child[colspan="3"],
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td:first-child[colspan="2"],
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td:first-child[colspan="2"],
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr th:first-child[colspan="2"],
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr th:first-child[colspan="2"] {
+  text-align: left;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td:first-child.w50,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td:first-child.w50,
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr th:first-child.w50,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr th:first-child.w50 {
+  text-align: left;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td ul li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td ul li,
+.page-node-type--products .node__content .plan-details.mainaccordion table.faq-table tr td ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion table.faq-table tr td ol li {
+  color: #808080;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .compare-table table tr th:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .compare-table table tr th:first-child,
+.page-node-type--products .node__content .plan-details.mainaccordion .compare-table table tr td:first-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .compare-table table tr td:first-child {
+  width: auto;
+  text-align: center!important;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .compare-table.text-left table tr th,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .compare-table.text-left table tr th,
+.page-node-type--products .node__content .plan-details.mainaccordion .compare-table.text-left table tr td,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .compare-table.text-left table tr td {
+  text-align: left;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes {
+  padding: 30px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes h5,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes h5 {
+  color: #1c0761;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes ol,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes ol {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes ol li,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes ol li {
+  margin-top: 5px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes ul,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes ul {
+  margin-bottom: 16px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes p,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes p {
+  margin-top: 5px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .imp-notes p:last-child,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .imp-notes p:last-child {
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .field-node--field-quick-downloads .field__items,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .field-node--field-quick-downloads .field__items {
+  margin-bottom: 20px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_title h3,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_title h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content {
+  padding: 25px 30px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content .field__items .field__item,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content .field__items .field__item {
+  margin-bottom: 20px;
+}
+.page-node-type--products .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content a:link,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content a:link,
+.page-node-type--products .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content a:visited,
+.page-node-type--similar-product .node__content .plan-details.mainaccordion .quick-downloads .accordion_section_content a:visited {
+  display: inline-block;
+  color: #1c0761;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+}
+.page-node-type--products .back-url,
+.page-node-type--similar-product .back-url {
+  display: block;
+  text-align: center;
+  margin: 100px 0 75px;
+}
+.page-node-type--products .back-url a:link,
+.page-node-type--similar-product .back-url a:link,
+.page-node-type--products .back-url a:visited,
+.page-node-type--similar-product .back-url a:visited {
+  color: #808080;
+  position: relative;
+}
+.page-node-type--products .back-url a:link:after,
+.page-node-type--similar-product .back-url a:link:after,
+.page-node-type--products .back-url a:visited:after,
+.page-node-type--similar-product .back-url a:visited:after {
+  position: absolute;
+  content: '\2039';
+  left: -15px;
+  top: -5px;
+  font-size: 30px;
+}
+.page-node-type--products .back-url a:link:hover,
+.page-node-type--similar-product .back-url a:link:hover,
+.page-node-type--products .back-url a:visited:hover,
+.page-node-type--similar-product .back-url a:visited:hover {
+  color: #000;
+}
+.page-node-type--products .product-footer-wrapper,
+.page-node-type--similar-product .product-footer-wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 80px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+.page-node-type--products .product-footer-wrapper a:link.msig-btn,
+.page-node-type--similar-product .product-footer-wrapper a:link.msig-btn {
+  color: #808080;
+  background: #FFF;
+  margin: 5px;
+}
+.page-node-type--products .product-footer-wrapper .share-btn,
+.page-node-type--similar-product .product-footer-wrapper .share-btn {
+  display: inline-block;
+  width: 445px;
+}
+/*=====Insurance detail page end======*/
+@media only screen and (min-width: 1638px) {
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-type {
+    width: 14%;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+    width: 86%;
+    padding: 17px 0;
+    text-align: right;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    padding: 0 13px;
+    min-width: 90px;
+    max-width: 150px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a {
+    font-size: 18px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-label {
+    padding-left: 0;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item,
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item {
+    width: calc(100%/3 - 40px);
+    margin-right: 60px;
+  }
+}
+@media only screen and (max-width: 1637px) {
+  .page-personal-insurance .l-main,
+  .page-commercial-insurance .l-main,
+  .page-latest-products-packages .l-main {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row {
+    padding-bottom: 35px;
+    margin-bottom: 55px;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image {
+    left: 63px;
+  }
+  .page-personal-insurance #product-icons-not-sticky,
+  .page-commercial-insurance #product-icons-not-sticky,
+  .page-latest-products-packages #product-icons-not-sticky {
+    clear: both;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul,
+  .page-commercial-insurance #product-icons-not-sticky ul,
+  .page-latest-products-packages #product-icons-not-sticky ul {
+    margin-left: -48px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-type {
+    width: 16%;
+    font-size: 20px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+    width: 84%;
+    padding: 27px 0;
+    text-align: right;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    padding: 0 13px;
+    min-width: 90px;
+    max-width: 150px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a {
+    font-size: 17px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-label {
+    padding-left: 0;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .page-commercial-insurance .l-main,
+  .page-personal-insurance .l-main,
+  .page-latest-products-packages .l-main {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image {
+    left: 36px;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    padding: 0 4px;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link,
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited {
+    font-size: 18px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content {
+    max-width: 1180px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-type {
+    width: 18%;
+    font-size: 20px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+    width: 82%;
+    padding: 25px 0;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a {
+    font-size: 17px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-label {
+    padding-left: 0;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    padding: 0 15px;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link,
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-type {
+    width: 17%;
+    font-size: 18px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+    width: 83%;
+    padding: 25px 0;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    padding: 0 10px;
+    min-width: 75px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a {
+    font-size: 18px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a .cta-label {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .page-personal-insurance h1.page_title,
+  .page-commercial-insurance h1.page_title,
+  .page-latest-products-packages h1.page_title,
+  .page-personal-insurance h1.node__title,
+  .page-commercial-insurance h1.node__title,
+  .page-latest-products-packages h1.node__title {
+    margin: 50px 0 20px;
+  }
+  .page-personal-insurance .l-main,
+  .page-commercial-insurance .l-main,
+  .page-latest-products-packages .l-main {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image {
+    left: 15px;
+    position: inherit;
+    float: left;
+    width: 60px;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image img,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image img,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image img {
+    margin: 0;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row h2,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row h2,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row h2,
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-body,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-body,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-body {
+    margin-left: 100px;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul,
+  .page-commercial-insurance #product-icons-not-sticky ul,
+  .page-latest-products-packages #product-icons-not-sticky ul {
+    margin-left: -28px;
+  }
+  #product-icons-sticky .block__content .insurance-type {
+    font-size: 20px;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul {
+    padding: 35px 0 33px !important;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link .cta-icon,
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited .cta-icon {
+    display: none;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:link .cta-label,
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li a:visited .cta-label {
+    display: block;
+    padding-left: 0;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-type {
+    width: 17%;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+    width: 83%;
+    padding: 27px 0 35px !important;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li a:link {
+    white-space: normal;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li:first-child {
+    padding-left: 10px;
+  }
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li .cta-label {
+    width: auto;
+    white-space: normal;
+    line-height: 16px;
+    text-align: left;
+  }
+  article.node--type-products.node--view-mode-full .back-url {
+    margin: 80px 0;
+  }
+  .page-personal-insurance #product-icons-sticky,
+  .page-commercial-insurance #product-icons-sticky,
+  .page-latest-products-packages #product-icons-sticky {
+    height: 71px;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content,
+  .page-commercial-insurance #product-icons-sticky .block__content,
+  .page-latest-products-packages #product-icons-sticky .block__content {
+    max-width: 100%;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .selected-insurance-mobile,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-insurance-mobile,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-insurance-mobile,
+  .page-personal-insurance #product-icons-sticky .block__content .selected-ces-product-mobile,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-ces-product-mobile,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-ces-product-mobile {
+    padding: 22px 18px 18px;
+    position: relative;
+    cursor: pointer;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .selected-insurance-mobile:after,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-insurance-mobile:after,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-insurance-mobile:after,
+  .page-personal-insurance #product-icons-sticky .block__content .selected-ces-product-mobile:after,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-ces-product-mobile:after,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-ces-product-mobile:after {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 7px;
+    background: url(images/sprite.png) no-repeat;
+    background-position: -81px -167px;
+    right: 18px;
+    top: 32px;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .selected-insurance-mobile .cta-icon,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-insurance-mobile .cta-icon,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-insurance-mobile .cta-icon,
+  .page-personal-insurance #product-icons-sticky .block__content .selected-ces-product-mobile .cta-icon,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-ces-product-mobile .cta-icon,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-ces-product-mobile .cta-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .selected-insurance-mobile .cta-label,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-insurance-mobile .cta-label,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-insurance-mobile .cta-label,
+  .page-personal-insurance #product-icons-sticky .block__content .selected-ces-product-mobile .cta-label,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-ces-product-mobile .cta-label,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-ces-product-mobile .cta-label {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #1c0761;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .selected-insurance-mobile.open-dropdown:after,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-insurance-mobile.open-dropdown:after,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-insurance-mobile.open-dropdown:after,
+  .page-personal-insurance #product-icons-sticky .block__content .selected-ces-product-mobile.open-dropdown:after,
+  .page-commercial-insurance #product-icons-sticky .block__content .selected-ces-product-mobile.open-dropdown:after,
+  .page-latest-products-packages #product-icons-sticky .block__content .selected-ces-product-mobile.open-dropdown:after {
+    background-position: -81px -93px;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul {
+    border-top: 4px solid #eeeeee;
+    border-bottom: 4px solid #eeeeee;
+    opacity: 1;
+    width: 100%;
+    margin: 0;
+    background: #FFF;
+    overflow: hidden;
+    padding-left: 0 !important;
+    box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li {
+    padding-left: 25px;
+    padding-right: 18px;
+    margin: 0 0 31px;
+    display: block;
+    text-align: left;
+    width: auto;
+    border-right: 0;
+    float: none;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link,
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited {
+    display: block;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon,
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 48px;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon img,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon img,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon img,
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon img,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon img,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon img {
+    margin: 0 auto;
+    display: block;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-label,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-label,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-label,
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-label,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-label,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-label {
+    margin-left: 7px;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link:hover,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link:hover,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link:hover,
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited:hover,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited:hover,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited:hover {
+    background: transparent;
+    color: #000;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child {
+    margin-bottom: 0;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul.isOpen,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul.isOpen,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul.isOpen {
+    display: block !important;
+  }
+  .page-personal-insurance #product-icons-sticky.animate-sticky .block__content .insurance-block-ul,
+  .page-commercial-insurance #product-icons-sticky.animate-sticky .block__content .insurance-block-ul,
+  .page-latest-products-packages #product-icons-sticky.animate-sticky .block__content .insurance-block-ul {
+    padding: 50px 0;
+  }
+  .page-promotions #product-icons-sticky {
+    height: 75px;
+  }
+  .page-promotions #product-icons-sticky .block__content {
+    max-width: 100%;
+  }
+  .page-promotions #product-icons-sticky .block__content .selected-insurance-mobile,
+  .page-promotions #product-icons-sticky .block__content .selected-ces-product-mobile {
+    padding: 23px 25px;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .page-promotions #product-icons-sticky .block__content .selected-insurance-mobile:after,
+  .page-promotions #product-icons-sticky .block__content .selected-ces-product-mobile:after {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 7px;
+    background: url(images/sprite.png) no-repeat;
+    background-position: -81px -167px;
+    right: 18px;
+    top: 32px;
+  }
+  .page-promotions #product-icons-sticky .block__content .selected-insurance-mobile .cta-icon,
+  .page-promotions #product-icons-sticky .block__content .selected-ces-product-mobile .cta-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+  }
+  .page-promotions #product-icons-sticky .block__content .selected-insurance-mobile .cta-label,
+  .page-promotions #product-icons-sticky .block__content .selected-ces-product-mobile .cta-label {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #1c0761;
+  }
+  .page-promotions #product-icons-sticky .block__content .selected-insurance-mobile.open-dropdown:after,
+  .page-promotions #product-icons-sticky .block__content .selected-ces-product-mobile.open-dropdown:after {
+    background-position: -81px -93px;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul {
+    border-top: 4px solid #eeeeee;
+    border-bottom: 4px solid #eeeeee;
+    opacity: 1;
+    width: 100%;
+    margin: 0;
+    background: #FFF;
+    overflow: hidden;
+    padding-left: 0 !important;
+    box-shadow: 0px 1000px 0 1000px rgba(0, 0, 0, 0.5);
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li {
+    padding-left: 25px;
+    padding-right: 18px;
+    margin: 0 0 31px;
+    display: block;
+    text-align: left;
+    width: auto;
+    border-right: 0;
+    float: none;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link,
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited {
+    display: block;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon,
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 48px;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-icon img,
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-icon img {
+    margin: 0 auto;
+    display: block;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link .cta-label,
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited .cta-label {
+    margin-left: 7px;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:link:hover,
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li a:visited:hover {
+    background: transparent;
+    color: #000;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:first-child {
+    padding-left: 25px;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child {
+    margin-bottom: 0;
+  }
+  .page-promotions #product-icons-sticky .block__content .insurance-block-ul.isOpen {
+    display: block !important;
+  }
+  .page-promotions #product-icons-sticky.animate-sticky .block__content .insurance-block-ul {
+    padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 977px) {
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon {
+    margin: 60px 0 20px;
+  }
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .view-latest-products-category-icon .view-rows ul li.product-category-icon-wrapper {
+    width: 49%;
+    border-right: 0;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+  .page-personal-insurance .l-main h1.page__title,
+  .page-commercial-insurance .l-main h1.page__title,
+  .page-latest-products-packages .l-main h1.page__title {
+    font-size: 45px;
+  }
+  .page-personal-insurance .l-main .block-main-content,
+  .page-commercial-insurance .l-main .block-main-content,
+  .page-latest-products-packages .l-main .block-main-content {
+    margin-bottom: 61px;
+  }
+  .page-personal-insurance #block-businessinsurancedescription,
+  .page-commercial-insurance #block-businessinsurancedescription,
+  .page-latest-products-packages #block-businessinsurancedescription,
+  .page-personal-insurance #block-protectthethings,
+  .page-commercial-insurance #block-protectthethings,
+  .page-latest-products-packages #block-protectthethings {
+    width: 100%;
+    margin-bottom: 61px;
+  }
+  .page-personal-insurance #block-businessinsurancedescription h2,
+  .page-commercial-insurance #block-businessinsurancedescription h2,
+  .page-latest-products-packages #block-businessinsurancedescription h2,
+  .page-personal-insurance #block-protectthethings h2,
+  .page-commercial-insurance #block-protectthethings h2,
+  .page-latest-products-packages #block-protectthethings h2 {
+    font-size: 40px;
+    max-width: 450px;
+    margin-bottom: 17px;
+  }
+  .page-personal-insurance .block-config-provider--msig-insurance,
+  .page-commercial-insurance .block-config-provider--msig-insurance,
+  .page-latest-products-packages .block-config-provider--msig-insurance {
+    margin-bottom: 0;
+  }
+  .page-personal-insurance #product-icons-not-sticky,
+  .page-commercial-insurance #product-icons-not-sticky,
+  .page-latest-products-packages #product-icons-not-sticky {
+    margin-bottom: 0;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul,
+  .page-commercial-insurance #product-icons-not-sticky ul,
+  .page-latest-products-packages #product-icons-not-sticky ul {
+    margin-bottom: 12px;
+    display: block;
+    margin-left: 0;
+    max-width: inherit;
+    font-size: 0;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul .insurance-block-li,
+  .page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li,
+  .page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li {
+    width: 50%;
+    margin-bottom: 40px;
+    border-right: 0;
+    text-align: center;
+    font-size: medium;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a,
+  .page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a,
+  .page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a .cta-icon,
+  .page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a .cta-icon,
+  .page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a .cta-icon {
+    height: auto;
+  }
+  .page-personal-insurance #product-icons-not-sticky ul .insurance-block-li a .cta-icon img,
+  .page-commercial-insurance #product-icons-not-sticky ul .insurance-block-li a .cta-icon img,
+  .page-latest-products-packages #product-icons-not-sticky ul .insurance-block-li a .cta-icon img {
+    position: inherit;
+    margin-left: 0;
+    left: auto;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .view-title,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .view-title,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .view-title,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .view-title {
+    margin-bottom: 36px;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col {
+    width: 50% !important;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-type,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-type,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-type {
+    width: 24%;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul {
+    width: 76%;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li {
+    margin: 0;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child,
+  .page-latest-products-packages #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li:last-child {
+    border-right: 0;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-description {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-details .highlight-wrapper-v2 {
+    width: 100%;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-key-features {
+    margin-bottom: 30px;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-key-features .field-node--field-key-features {
+    width: 100%;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-key-features .field-node--field-offer-details {
+    float: none;
+    margin: 20px 0 0;
+    overflow: hidden;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-banner-landscape-image {
+    margin-bottom: 80px;
+  }
+  article.node--type-products.node--view-mode-full .node__content .back-url {
+    margin: 80px 0;
+  }
+  /*=====Insurance detail page start======*/
+  .page-node-type--products .node__header .node__title,
+  .page-node-type--similar-product .node__header .node__title {
+    padding-left: 0;
+  }
+  .page-node-type--products .node__header img,
+  .page-node-type--similar-product .node__header img {
+    display: none;
+  }
+  .page-node-type--products article .node__content .break,
+  .page-node-type--similar-product article .node__content .break {
+    display: none;
+  }
+  .page-node-type--products .back-to-insurance,
+  .page-node-type--similar-product .back-to-insurance {
+    margin-top: 46px;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item,
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item {
+    width: calc(100%/2 - 30px);
+    margin-bottom: 30px;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:last-child,
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:last-child {
+    margin-bottom: 0;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n),
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n + 1),
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n + 1) {
+    margin-right: 60px;
+  }
+  /*=====Insurance detail page end======*/
+}
+@media only screen and (max-width: 857px) {
+  #product-icons-sticky .block__content .insurance-type {
+    font-size: 17px;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul {
+    padding-left: 20px !important;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li {
+    float: left;
+    width: auto;
+    padding: 0 20px;
+  }
+  #product-icons-sticky .block__content .insurance-block-ul li.insurance-block-li:last-child {
+    border-right: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul {
+    width: 100%;
+  }
+  .page-personal-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li,
+  .page-commercial-insurance #product-icons-sticky .block__content .insurance-block-ul .insurance-block-li {
+    margin-bottom: 30px;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item,
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item {
+    width: 100%;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n),
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .page-node-type--products .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n + 1),
+  .page-node-type--similar-product .node__content .product-details .paragraph--type-additional-benefits > .field > .field__items > .field__item:nth-child(2n + 1) {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 757px) {
+  .page-personal-insurance h1.page_title,
+  .page-commercial-insurance h1.page_title,
+  .page-latest-products-packages h1.page_title,
+  .page-personal-insurance h1.node__title,
+  .page-commercial-insurance h1.node__title,
+  .page-latest-products-packages h1.node__title {
+    margin: 50px 0 20px;
+  }
+  .page-personal-insurance .l-main h1.page__title,
+  .page-commercial-insurance .l-main h1.page__title,
+  .page-latest-products-packages .l-main h1.page__title {
+    font-size: 40px;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row h2,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row h2,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row h2 {
+    font-size: 35px;
+  }
+  .page-personal-insurance #block-businessinsurancedescription,
+  .page-commercial-insurance #block-businessinsurancedescription,
+  .page-latest-products-packages #block-businessinsurancedescription,
+  .page-personal-insurance #block-protectthethings,
+  .page-commercial-insurance #block-protectthethings,
+  .page-latest-products-packages #block-protectthethings {
+    max-width: 445px;
+  }
+  .page-personal-insurance #block-msig-page-title,
+  .page-commercial-insurance #block-msig-page-title,
+  .page-latest-products-packages #block-msig-page-title {
+    margin-top: 0;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-key-features,
+  article.node--type-products.node--view-mode-full .node__content .product-description {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-banner-landscape-image {
+    margin-bottom: 55px;
+  }
+  article.node--type-products.node--view-mode-full .back-url {
+    margin: 55px 0;
+  }
+  .page-node-type--products article .node__content p,
+  .page-node-type--similar-product article .node__content p,
+  .page-node-type--products article .node__content ul,
+  .page-node-type--similar-product article .node__content ul,
+  .page-node-type--products article .node__content div,
+  .page-node-type--similar-product article .node__content div,
+  .page-node-type--products article .node__content ol,
+  .page-node-type--similar-product article .node__content ol,
+  .page-node-type--products article .node__content h3,
+  .page-node-type--similar-product article .node__content h3 {
+    max-width: 100%;
+  }
+  .page-node-type--products article .node__content .product-image,
+  .page-node-type--similar-product article .node__content .product-image {
+    float: none;
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-1 .block__title,
+  .page-latest-products-packages .block-plugin-id--views-block-latest-products-category-icon-block-2 .block__title {
+    font-size: 35px;
+  }
+  .page-personal-insurance h1.page_title,
+  .page-commercial-insurance h1.page_title,
+  .page-latest-products-packages h1.page_title,
+  .page-personal-insurance h1.node__title,
+  .page-commercial-insurance h1.node__title,
+  .page-latest-products-packages h1.node__title {
+    margin: 50px 0 20px;
+    font-size: 35px;
+  }
+  .page-personal-insurance .highlight-title,
+  .page-commercial-insurance .highlight-title,
+  .page-latest-products-packages .highlight-title {
+    font-size: 30px;
+  }
+  .page-personal-insurance .l-main,
+  .page-commercial-insurance .l-main,
+  .page-latest-products-packages .l-main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .page-personal-insurance .l-main h1.page__title,
+  .page-commercial-insurance .l-main h1.page__title,
+  .page-latest-products-packages .l-main h1.page__title {
+    font-size: 35px;
+  }
+  .page-personal-insurance .l-main #block-businessinsurancedescription h2,
+  .page-commercial-insurance .l-main #block-businessinsurancedescription h2,
+  .page-latest-products-packages .l-main #block-businessinsurancedescription h2,
+  .page-personal-insurance .l-main #block-protectthethings h2,
+  .page-commercial-insurance .l-main #block-protectthethings h2,
+  .page-latest-products-packages .l-main #block-protectthethings h2 {
+    font-size: 35px;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-field-insurance-image {
+    left: auto;
+    position: inherit;
+    float: right;
+    width: 60px;
+    margin-top: 5px;
+    top: 0;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row h2,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row h2,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row h2 {
+    margin-left: 0;
+  }
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row .views-field-body,
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row .views-field-body,
+  .page-latest-products-packages .l-main .view-insurance .view-rows .views-row .views-field-body {
+    margin-left: 0;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping {
+    margin-bottom: 55px;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+  .page-personal-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-commercial-insurance .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-latest-products-packages .view-msig-id-insurance-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-personal-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-commercial-insurance .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-latest-products-packages .view-msig-id-ces-product-list .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-personal-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-commercial-insurance .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child,
+  .page-latest-products-packages .view-latest-products .view-content .view-grouping .view-grouping-content .views-row .views-col:last-child {
+    margin-bottom: 0;
+  }
+  .page-node-type--products .product-footer-wrapper .share-btn,
+  .page-node-type--similar-product .product-footer-wrapper .share-btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .page-personal-insurance .l-main,
+  .page-commercial-insurance .l-main,
+  .page-latest-products-packages .l-main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .product-footer-wrapper a:link.msig-btn {
+    width: 100%;
+  }
+  .page-node-type--products .node__content .product-details-link-wrapper .product-details-link li,
+  .page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li {
+    display: block;
+  }
+  .page-node-type--products .node__content .product-details-link-wrapper .product-details-link li a,
+  .page-node-type--similar-product .node__content .product-details-link-wrapper .product-details-link li a {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  article.node--type-products.node--view-mode-full .node__content .product-key-features .field-node--field-offer-details {
+    margin-top: 0px;
+  }
+  article.node--type-products.node--view-mode-full .node__content .product-key-features .field-node--field-offer-details .field-name-field-plain-title .field__item {
+    width: 170px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .page-personal-insurance .l-main .view-insurance .view-rows .views-row h2 {
+    font-size: 30px;
+  }
+  .page-commercial-insurance .l-main .view-insurance .view-rows .views-row h2 {
+    font-size: 30px;
+  }
+}

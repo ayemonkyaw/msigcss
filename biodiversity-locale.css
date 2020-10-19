@@ -1,0 +1,43 @@
+.msig-custom-biodiversity .views-field-field-banner-text {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.msig-custom-biodiversity .l-highlighted .slick-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.partners-custom-layout .view-homepage-banner .view-rows .views-row .homepage-wrapper .views-field-field-banner-text .field-content {
+    max-width: unset;
+    max-width: 100%;
+    width: 100%;
+}
+
+.partners-custom-layout .node__title {
+    display: none;
+}
+
+.partners-custom-layout .views-field-field-banner-text {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.partners-custom-layout .view-homepage-banner .view-rows .views-row .homepage-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    margin-top: unset;
+}
+
+@media only screen and (max-width: 857px) {
+    .partners-custom-layout .view-rows .views-row .views-field-field-mobile-image:before {
+        display: none;
+    }
+    .partners-custom-layout .view-homepage-banner .view-rows .views-row .homepage-wrapper {
+        padding: 0;
+    }
+}

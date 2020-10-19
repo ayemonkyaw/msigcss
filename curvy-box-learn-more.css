@@ -1,0 +1,378 @@
+.sprite {
+  background: url(images/sprite.png) no-repeat;
+}
+/* Keyframes */
+/* Common Media */
+.pr-footer {
+  color: #808080;
+}
+@-webkit-keyframes home-left-arrow {
+  0%,
+  100% {
+    background-position: 30px 50%;
+  }
+  50% {
+    background-position: 25px 50%;
+  }
+}
+@-moz-keyframes home-left-arrow {
+  0%,
+  100% {
+    background-position: 30px 50%;
+  }
+  50% {
+    background-position: 25px 50%;
+  }
+}
+@-ms-keyframes home-left-arrow {
+  0%,
+  100% {
+    background-position: 30px 50%;
+  }
+  50% {
+    background-position: 25px 50%;
+  }
+}
+@-o-keyframes home-left-arrow {
+  0%,
+  100% {
+    background-position: 30px 50%;
+  }
+  50% {
+    background-position: 25px 50%;
+  }
+}
+@keyframes home-left-arrow {
+  0%,
+  100% {
+    background-position: 30px 50%;
+  }
+  50% {
+    background-position: 25px 50%;
+  }
+}
+@-webkit-keyframes home-right-arrow {
+  0%,
+  100% {
+    background-position: -105px 50%;
+  }
+  50% {
+    background-position: -110px 50%;
+  }
+}
+@-moz-keyframes home-right-arrow {
+  0%,
+  100% {
+    background-position: -105px 50%;
+  }
+  50% {
+    background-position: -110px 50%;
+  }
+}
+@-ms-keyframes home-right-arrow {
+  0%,
+  100% {
+    background-position: -105px 50%;
+  }
+  50% {
+    background-position: -110px 50%;
+  }
+}
+@-o-keyframes home-right-arrow {
+  0%,
+  100% {
+    background-position: -105px 50%;
+  }
+  50% {
+    background-position: -110px 50%;
+  }
+}
+@keyframes home-right-arrow {
+  0%,
+  100% {
+    background-position: -105px 50%;
+  }
+  50% {
+    background-position: -110px 50%;
+  }
+}
+@-webkit-keyframes left-arrow {
+  0%,
+  100% {
+    background-position: 15px 50%;
+  }
+  50% {
+    background-position: 12px 50%;
+  }
+}
+@-moz-keyframes left-arrow {
+  0%,
+  100% {
+    background-position: 15px 50%;
+  }
+  50% {
+    background-position: 12px 50%;
+  }
+}
+@-ms-keyframes left-arrow {
+  0%,
+  100% {
+    background-position: 15px 50%;
+  }
+  50% {
+    background-position: 12px 50%;
+  }
+}
+@-o-keyframes left-arrow {
+  0%,
+  100% {
+    background-position: 15px 50%;
+  }
+  50% {
+    background-position: 12px 50%;
+  }
+}
+@keyframes left-arrow {
+  0%,
+  100% {
+    background-position: 15px 50%;
+  }
+  50% {
+    background-position: 12px 50%;
+  }
+}
+@-webkit-keyframes right-arrow {
+  0%,
+  100% {
+    background-position: -52px 50%;
+  }
+  50% {
+    background-position: -49px 50%;
+  }
+}
+@-moz-keyframes right-arrow {
+  0%,
+  100% {
+    background-position: -52px 50%;
+  }
+  50% {
+    background-position: -49px 50%;
+  }
+}
+@-ms-keyframes right-arrow {
+  0%,
+  100% {
+    background-position: -52px 50%;
+  }
+  50% {
+    background-position: -49px 50%;
+  }
+}
+@-o-keyframes right-arrow {
+  0%,
+  100% {
+    background-position: -52px 50%;
+  }
+  50% {
+    background-position: -49px 50%;
+  }
+}
+@keyframes right-arrow {
+  0%,
+  100% {
+    background-position: -52px 50%;
+  }
+  50% {
+    background-position: -49px 50%;
+  }
+}
+.curvy-box-learn-more {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.curvy-box-learn-more .curvy-box-learn-more-inner {
+  min-height: 396px;
+  padding: 70px 90px 65px;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+  padding: 50px 90px 55px;
+}
+.curvy-box-learn-more .curvy-box-learn-more-icon .insurance-type-img {
+  margin: 0 auto;
+  position: relative;
+  max-width: 60px;
+}
+.curvy-box-learn-more .curvy-box-learn-more-icon .insurance-type-img img {
+  margin: 0 auto;
+}
+.curvy-box-learn-more .curvy-box-learn-more-name {
+  padding: 25px 0 10px;
+}
+.curvy-box-learn-more .curvy-box-learn-more-name .insurance-category {
+  color: #1c0761;
+  font-size: 24px;
+  line-height: 36px;
+}
+.curvy-box-learn-more .curvy-box-learn-more-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #808080;
+}
+.curvy-box-learn-more .curvy-box-learn-more-button {
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  width: 100%;
+  background: #1c0761;
+  color: #FFF;
+  font-size: 16px;
+  height: 40px;
+  padding: 8px 0;
+  display: block;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.curvy-box-learn-more:hover .curvy-box-learn-more-button {
+  bottom: 0;
+}
+@media only screen and (max-width: 1637px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 50px 40px 65px;
+    min-height: 323px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 40px 40px 40px;
+  }
+}
+@media only screen and (max-width: 1403px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    min-height: 301px;
+    padding: 60px 40px 49px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    min-height: 292px;
+    padding: 60px 40px 49px;
+  }
+}
+@media only screen and (max-width: 1137px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 30px 20px 40px;
+    min-height: 256px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 20px 20px 40px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-content p {
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 977px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 70px 40px 45px;
+    margin-right: 0;
+    min-height: 330px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 50px 40px 45px;
+  }
+}
+@media only screen and (max-width: 857px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    min-height: 275px;
+    padding: 45px 40px 40px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 35px 40px 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 30px 20px 20px;
+    margin-right: 0;
+    min-height: 275px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 20px 20px 20px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-name {
+    padding: 10px 0 10px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-name .insurance-category {
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 757px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 20px 20px 20px;
+    margin-right: 0;
+    min-height: 230px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 10px 20px 20px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-name {
+    padding: 10px 0 10px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-name .insurance-category {
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 70px 50px 65px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 50px 50px 55px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner .curvy-box-learn-more-name {
+    padding: 10px 0;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner .curvy-box-learn-more-name .insurance-category {
+    line-height: 36px;
+  }
+  .products-block .slick-slider {
+    width: 430px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 40px 30px 40px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 30px 30px 30px;
+  }
+  .products-block .slick-slider {
+    width: calc(100% - 20px);
+  }
+}
+@media only screen and (max-width: 410px) {
+  .curvy-box-learn-more .curvy-box-learn-more-inner {
+    padding: 30px 20px 40px;
+    min-height: 238px;
+  }
+  .curvy-box-learn-more .curvy-box-learn-more-inner:hover {
+    padding: 30px 20px 40px;
+  }
+}
